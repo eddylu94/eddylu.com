@@ -121,7 +121,7 @@
 #subheader_title {
     margin-bottom: 20px;
     
-    font-size: large;
+    font-size: larger;
 }
     
 #subheader_button {
@@ -151,6 +151,12 @@
     position: relative;
     
     padding: 50px;
+
+    font-size: large;
+}
+
+#container h1 {
+    color: #333333;
 }
 
 #footer {
