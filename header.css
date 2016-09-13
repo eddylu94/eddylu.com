@@ -156,12 +156,18 @@
     font-size: large;
 }
 
+#container a {
+    font-weight: bold;
+    
+    color: #333333;
+}
+
 #container h1 {
     color: #333333;
 }
 
 #footer {
-    text-align: center;
-
     margin-bottom: 20px;
+    
+    text-align: center;
 }
