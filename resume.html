@@ -11,41 +11,27 @@
                 $("#footer").load("footer.html");
             });
     </script>
+    <style>
+        #printableView {
+            opacity: 0.8;
+        }
+        #printableView:hover {
+            opacity: 1.0;
+        }
+    </style>
 </head>
 <body>
     <div id="header"></div>
-    <div id="container">
-        Hello!
-        <br>Hello!
-        <br>Hello!
-        <br>Hello!
-        <br>Hello!
-        <br>Hello!
-        <br>Hello!
-        <br>Hello!
-        <br>Hello!
-        <br>Hello!
-        <br>Hello!
-        <br>Hello!
-        <br>Hello!
-        <br>Hello!
-        <br>Hello!
-        <br>Hello!
-        <br>Hello!
-        <br>Hello!
-        <br>Hello!
-        <br>Hello!
-        <br>Hello!
-        <br>Hello!
-        <br>Hello!
-        <br>Hello!
-        <br>Hello!
-        <br>Hello!
-        <br>Hello!
-        <br>Hello!
-        <br>Hello!
-        <br>Hello!
-        <br>Hello!
+    <div id="container" style="text-align: center;">
+        <div style="display: inline-block; width: 850px;">
+            <div style="float: right;">
+                <a id="printableView" target="_blank" href="resume.pdf" style="text-decoration: none;">
+                    <img src="pdf-icon.png" style="height: 30px; vertical-align: middle;" /><span style="margin-left: 5px; font-weight: bold;">Printable View</span>
+                </a>
+            </div>
+            <br />
+            <embed src="Resume.pdf" style="width: 850px; height: 1150px; margin-top: 20px;" />
+        </div>
     </div>
     <div id="footer"></div>
 </body>
