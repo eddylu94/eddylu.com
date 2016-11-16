@@ -170,4 +170,14 @@
     margin-bottom: 20px;
     
     text-align: center;
+
+    font-size: large;
+}
+
+#footer a:link {
+    color: #333333;
+}
+
+#footer a:visited {
+    color: #333333;
 }
