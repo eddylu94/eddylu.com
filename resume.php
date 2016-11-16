@@ -5,12 +5,6 @@
     <meta charset="utf-8" />
     <title>Eddy Lu</title>
     <script src="//code.jquery.com/jquery-1.12.4.js"></script>
-    <script>
-            $(function(){
-                $("#header").load("header.html");
-                $("#footer").load("footer.html");
-            });
-    </script>
     <style>
         #printableView {
             opacity: 0.8;
@@ -21,7 +15,7 @@
     </style>
 </head>
 <body>
-    <div id="header"></div>
+    <?php include 'header.php';?>
     <div id="container" style="text-align: center;">
         <div style="display: inline-block; width: 850px;">
             <div style="float: right;">
@@ -33,6 +27,6 @@
             <embed src="Resume.pdf" style="width: 850px; height: 1150px; margin-top: 20px;" />
         </div>
     </div>
-    <div id="footer"></div>
+    <?php include 'footer.php';?>
 </body>
 </html>

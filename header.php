@@ -3,7 +3,7 @@
 <div id="header">
     <div id="header_bar">
         <div id="header_wrapper">
-            <a href="index.html">
+            <a href="index.php">
                 <div id="title">
                     <div id="title_left">Eddy&nbsp</div><div id="title_right">Lu</div>
                 </div>
@@ -11,16 +11,16 @@
             <div id="menu">
                 <div id="menu_left">
                     <ul>
-                        <li><a href="education.html">Education</a></li>
-                        <li><a href="experience.html">Experience</a></li>
-                        <li><a href="projects.html">Projects</a></li>
-                        <li><a href="interests.html">Interests</a></li>
+                        <li><a href="education.php">Education</a></li>
+                        <li><a href="experience.php">Experience</a></li>
+                        <li><a href="projects.php">Projects</a></li>
+                        <li><a href="interests.php">Interests</a></li>
                     </ul>
                 </div>
                 <div id="menu_right">
                     <ul>
-                        <li><a href="resume.html">Resume</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="resume.php">Resume</a></li>
+                        <li><a href="contact.php">Contact</a></li>
                     </ul>
                 </div>
             </div>

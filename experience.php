@@ -5,12 +5,6 @@
         <meta charset="utf-8" />
         <title>Eddy Lu</title>
         <script src="//code.jquery.com/jquery-1.12.4.js"></script>
-        <script>
-            $(function(){
-                $("#header").load("header.html");
-                $("#footer").load("footer.html");
-            });
-        </script>
         <style>
             #experienceListing {
                 margin-bottom: 50px;
@@ -50,7 +44,7 @@
         </style>
     </head>
     <body>
-        <div id="header"></div>
+        <?php include 'header.php';?>
         <div id="subheader">
             <h1>Experience</h1>
         </div>
@@ -140,6 +134,6 @@
                 </div>
             </div>
         </div>
-        <div id="footer"></div>
+        <?php include 'footer.php';?>
     </body>
 </html>

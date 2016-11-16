@@ -5,12 +5,6 @@
     <meta charset="utf-8" />
     <title>Eddy Lu</title>
     <script src="//code.jquery.com/jquery-1.12.4.js"></script>
-    <script>
-            $(function(){
-                $("#header").load("header.html");
-                $("#footer").load("footer.html");
-            });
-    </script>
     <style>
         #contactForm_button {
             height: 50px;
@@ -37,7 +31,7 @@
     </style>
 </head>
 <body>
-    <div id="header"></div>
+    <?php include 'header.php';?>
     <div id="container" style="text-align: center;">
         <h2 style="color: #333333;">Have a question or comment? Feel free to shoot me a message!</h2>
         <form action="contactForm.php" method="post" style="display: inline-block; background-color: #CCCCCC; border-radius: 5px; margin-top: 20px; padding: 20px;">
@@ -51,6 +45,6 @@
             <input id="contactForm_button" type="submit" name="submit" value="Submit" />
         </form>
     </div>
-    <div id="footer"></div>
+    <?php include 'footer.php';?>
     </body>
 </html>
