@@ -44,6 +44,29 @@
         <div id="container">
             <div style="display: table; margin: 0 auto; width: 80%;">
                 
+				<div id="projectListing">
+                    <div id="projectListingText" style="width: 40%;">
+                        <h1>CodeJam 2016 - TV Show Recommender</h1>
+                        <h3>Nov. 2016</h3>
+                        <div id="projectListingDescription">
+                            For the 2016 McGill CodeJam hackathon, the objective was to create a TV show recommendation application based on any given input.
+							For this project, Charles Liu and I created a website that provided TV recommendations after a user rated TV a list of given shows.
+                            <br />
+                            <br />Placed 2nd out of 205 students.
+                            <br />
+                            <br />A demo of the TV show recommender:
+							<br /><a href="http://codejam2016.eddylu.com/" target="_blank">codejam2016.eddylu.com/</a>
+							<br />
+							<br />The source code is also on GitHub:
+                            <a href="http://github.com/chubchubcharles/CodeJam2016" target="_blank">github.com/chubchubcharles/CodeJam2016</a>
+                            <br />
+                            <br />Languages:&ensp;HTML, CSS, Javascript, jQuery
+                            <br />Other Tags:&ensp;RequireJS
+                        </div>
+                    </div>
+                    <img id="projectListingImage" src="codejam16.png" style="width: 55%;" />
+                </div>
+
                 <div id="projectListing">
                     <div id="projectListingText" style="width: 55%;">
                         <h1>Music Player Visualizer</h1>
@@ -60,7 +83,7 @@
                     </div>
                     <img id="projectListingImage" src="visualizer.png" style="width: 40%;" />
                 </div>
-
+				
                 <div id="projectListing">
                     <div id="projectListingText" style="width: 60%;">
                         <h1>CodeJam 2015 - Bioinformatics Classifier</h1>
@@ -71,7 +94,10 @@
                             <br />
                             <br />Placed in Top 10 of 160 students.
                             <br />
-                            <br />The source code is also on GitHub:
+                            <br />A demo of the music player visualizer (music plays when page loads):
+                            <br /><a href="http://music.eddylu.com/" target="_blank">music.eddylu.com/</a>
+							<br />
+							<br />The source code is also on GitHub:
                             <br />
                             <a href="http://github.com/eddylu94/CodeJam2015/" target="_blank">http://github.com/eddylu94/CodeJam2015/</a>
                             <br />
