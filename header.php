@@ -15,13 +15,10 @@
                     <ul>
                         <li><a href="education.php">Education</a></li>
                         <li><a href="experience.php">Experience</a></li>
-                        <li><a href="projects.php">Projects</a></li>
-                        <li><a href="interests.php">Interests</a></li>
                     </ul>
                 </div>
                 <div id="menu_right">
                     <ul>
-                        <li><a href="resume.php">Resume</a></li>
                         <li><a href="contact.php">Contact</a></li>
                     </ul>
                 </div>
