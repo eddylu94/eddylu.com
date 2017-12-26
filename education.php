@@ -53,7 +53,6 @@
                         <h1>Westfield Senior High School</h1>
                         <h2>Westfield, New Jersey, 2008 - 2012</h2>
                         <h3>US High School Diploma<br /></h3>
-                        <h4>Completed Courses:</h4>
                     </div>
                 </div>
             </div>

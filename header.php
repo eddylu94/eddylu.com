@@ -15,10 +15,6 @@
                     <ul>
                         <li><a href="education.php">Education</a></li>
                         <li><a href="experience.php">Experience</a></li>
-                    </ul>
-                </div>
-                <div id="menu_right">
-                    <ul>
                         <li><a href="contact.php">Contact</a></li>
                     </ul>
                 </div>
