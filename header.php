@@ -14,6 +14,7 @@
                 <div id="menu_left">
                     <ul>
                         <li><a href="education.php">Resume</a></li>
+                        <li><a href="./notes/Home.php">Notes</a></li>
                         <li><a href="contact.php">Contact</a></li>
                     </ul>
                 </div>
