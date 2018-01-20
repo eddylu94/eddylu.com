@@ -13,8 +13,7 @@
             <div id="menu">
                 <div id="menu_left">
                     <ul>
-                        <li><a href="education.php">Education</a></li>
-                        <li><a href="experience.php">Experience</a></li>
+                        <li><a href="education.php">Resume</a></li>
                         <li><a href="contact.php">Contact</a></li>
                     </ul>
                 </div>

@@ -46,7 +46,9 @@
     <body>
         <?php include 'header.php';?>
         <div id="subheader">
-            <h1>Experience</h1>
+            <h1>Resume</h1>
+            <input id="subheader_button" type="button" onclick="location.href = 'education.php';" value="Education" />
+            <input id="subheader_button" type="button" onclick="location.href = 'experience.php';" value="Experience" />
         </div>
         <div id="container">
             <div style="display: table; margin: 0 auto; width: 80%;">
