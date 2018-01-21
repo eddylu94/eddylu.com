@@ -27,38 +27,44 @@
         </style>
     </head>
     <body>
-        <?php include 'header.php';?>
-        <div id="subheader">
-            <h1>Resume</h1>
-            <input id="subheader_button" type="button" onclick="location.href = 'education.php';" value="Education" />
-            <input id="subheader_button" type="button" onclick="location.href = 'experience.php';" value="Experience" />
-        </div>
-        <div id="container">
-            <div style="float: left; width: 50%; text-align: center;">
-                <div style="display: inline-block;">
-                    <div style="float: left; width: 110px;">
-                        <img src="mcgill-logo.png" style="height: 100px;" />
-                    </div>
-                    <div id="schoolDescription" style="float: left; margin-left: 20px; text-align: left;">
-                        <h1>McGill University</h1>
-                        <h2>Montreal, Quebec, 2012 - 2016</h2>
-                        <h3>Bachelor of Engineering,<br />Electrical and Computer Engineering</h3>
+        <div id="page_wrapper">
+            <?php include 'header.php';?>
+            <div id="body_wrapper">
+                <div id="subheader">
+                    <h1>Resume</h1>
+                    <input id="subheader_button" type="button" onclick="location.href = 'education.php';" value="Education" />
+                    <input id="subheader_button" type="button" onclick="location.href = 'experience.php';" value="Experience" />
+                </div>
+                <div id="container">
+                    <div id="schools">
+                        <div style="float: left; width: 50%; text-align: center;">
+                            <div style="display: inline-block;">
+                                <div style="float: left; width: 110px;">
+                                    <img src="mcgill-logo.png" style="height: 100px;" />
+                                </div>
+                                <div id="schoolDescription" style="float: left; margin-left: 20px; text-align: left;">
+                                    <h1>McGill University</h1>
+                                    <h2>Montreal, Quebec, 2012 - 2016</h2>
+                                    <h3>Bachelor of Engineering,<br />Electrical and Computer Engineering</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="float: right; width: 50%; text-align: center;">
+                            <div style="display: inline-block;">
+                                <div style="float: left; width: 110px;">
+                                    <img src="whs-logo.png" style="height: 100px;" />
+                                </div>
+                                <div id="schoolDescription" style="float: left; margin-left: 30px; text-align: left;">
+                                    <h1>Westfield Senior High School</h1>
+                                    <h2>Westfield, New Jersey, 2008 - 2012</h2>
+                                    <h3>US High School Diploma<br /></h3>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div style="float: right; width: 50%; text-align: center;">
-                <div style="display: inline-block;">
-                    <div style="float: left; width: 110px;">
-                        <img src="whs-logo.png" style="height: 100px;" />
-                    </div>
-                    <div id="schoolDescription" style="float: left; margin-left: 30px; text-align: left;">
-                        <h1>Westfield Senior High School</h1>
-                        <h2>Westfield, New Jersey, 2008 - 2012</h2>
-                        <h3>US High School Diploma<br /></h3>
-                    </div>
-                </div>
+                <?php include 'footer.php';?>
             </div>
         </div>
-        <?php include 'footer.php';?>
     </body>
 </html>
