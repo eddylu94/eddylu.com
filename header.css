@@ -110,6 +110,24 @@ body {
     color: #FFFFFF;
 }
 
+#header ul ul {
+    position: absolute;
+    display: none;
+    background-color: #262626;
+}
+
+#header li:hover ul {
+    display: block;
+}
+
+#header ul ul li {
+    display: block;
+}
+
+#header ul ul li a {
+    width: 100%;
+}
+
 #body_wrapper {
     display: flex;
     flex: 1;
