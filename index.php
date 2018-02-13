@@ -12,11 +12,6 @@
                 padding: 10px;
                 box-shadow: 0px 0px 10px #CCCCCC;
             }
-            #socialIcon {
-                float: left;
-                width: 50px;
-                margin-right: 15px;
-            }
         </style>
     </head>
     <body>
@@ -36,29 +31,6 @@
                         When I'm not programming, I enjoy playing soccer and basketball, and going out with friends!
                         <br /><br />
                         <i>This website was created without the use of any frameworks, templates, or bootstraps.</i>
-                        
-                        <div id="socialIcons" style="margin-top: 45px;">
-                            <a href="https://facebook.com/eddylu94" target="_blank">
-                                <img id="socialIcon" alt="Facebook" src="fb-icon_round.png"
-                                    onmouseover="this.src = 'fb-icon_round_darkened.png'" onmouseout="this.src = 'fb-icon_round.png'" />
-                            </a>
-                            <a href="https://twitter.com/eddylu94" target="_blank">
-                                <img id="socialIcon" alt="Twitter" src="tw-icon_round.png"
-                                    onmouseover="this.src = 'tw-icon_round_darkened.png'" onmouseout="this.src = 'tw-icon_round.png'" />
-                            </a>
-                            <a href="https://linkedin.com/in/lueddy" target="_blank">
-                                <img id="socialIcon" alt="LinkedIn" src="in-icon_round.png"
-                                    onmouseover="this.src = 'in-icon_round_darkened.png'" onmouseout="this.src = 'in-icon_round.png'" />
-                            </a>
-                            <a href="https://plus.google.com/+eddylu94" target="_blank">
-                                <img id="socialIcon" alt="Google+" src="gp-icon_round.png"
-                                    onmouseover="this.src = 'gp-icon_round_darkened.png'" onmouseout="this.src = 'gp-icon_round.png'" />
-                            </a>
-                            <a href="https://instagram.com/eddylu94" target="_blank">
-                                <img id="socialIcon" alt="Instagram" src="ig-icon_round.png"
-                                    onmouseover="this.src = 'ig-icon_round_darkened.png'" onmouseout="this.src = 'ig-icon_round.png'" />
-                            </a>
-                        </div>
                     </div>
                     <img id="propic" alt="Profile Picture" src="propic.jpg" />
                 </div>

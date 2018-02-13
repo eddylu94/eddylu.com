@@ -24,6 +24,23 @@
                         <li><a href="contact.php">Contact</a></li>
                     </ul>
                 </div>
+                <div id="socialIcons">
+                    <a href="https://facebook.com/eddylu94" target="_blank">
+                        <img id="socialIcon" alt="Facebook" src="fb-icon_round.png" />
+                    </a>
+                    <a href="https://twitter.com/eddylu94" target="_blank">
+                        <img id="socialIcon" alt="Twitter" src="tw-icon_round.png" />
+                    </a>
+                    <a href="https://instagram.com/eddylu94" target="_blank">
+                        <img id="socialIcon" alt="Instagram" src="ig-icon_round.png" />
+                    </a>                    
+                    <a href="https://linkedin.com/in/lueddy" target="_blank">
+                        <img id="socialIcon" alt="LinkedIn" src="in-icon_round.png" />
+                    </a>
+                    <a href="https://github.com/eddylu94" target="_blank">
+                        <img id="socialIcon" alt="GitHub" src="gh-icon_round.png" />
+                    </a>
+                </div>
             </div>
         </div>
     </div>
