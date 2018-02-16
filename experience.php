@@ -110,10 +110,6 @@
                                     Moreoever, I ran scripts through Weka on both Windows and Linux while tuning classifiers.
                                     In addition to working on my project, I attended weekly lab meeting and listened to graduate student thesis defences.
                                     On the final week of the summer, I presented my project in front of the other Reasoning and Learning Lab students.
-                                    <br /><br />
-                                    For more details about this project, read the summary at:
-                                    <br />
-                                    <a href="http://www.cs.mcgill.ca/~elu4/cadw.html" target="_blank">http://www.cs.mcgill.ca/~elu4/cadw.html</a>
                                 </div>
                             </div>
                         </div>
@@ -129,7 +125,7 @@
                                 </div>
                                 <div id="experienceListingDescription">
                                     In the summer of 2011, I assisted astrophysics doctoral candidate,
-                                    <a href="http://www.mpia-hd.mpg.de/homes/lee/" target="_blank">Khee-Gan Lee</a>, with Lyman-Alpha Forest research.
+                                    Khee-Gan Lee, with Lyman-Alpha Forest research.
                                     I learned how to program in Interactive Data Language (IDL) on Unix in order to analyze and calculate trends on absorption-emission graphs.
                                 </div>
                             </div>
