@@ -28,6 +28,10 @@ var reflow = function() {
 	var menuIcon = document.getElementById("menuIcon");
 	var headerWrapper = document.getElementById("header_wrapper");
 	var socialIcons = document.getElementById("socialIcons");
+	var propic = document.getElementById("propic");
+	var propicMobileContainer = document.getElementById("propic_mobile_container");
+	var propicMobile = document.getElementById("propic_mobile");
+	var about = document.getElementById("about");
 
 	if (mobilecheck()) {
 		// Header
@@ -44,9 +48,20 @@ var reflow = function() {
 			socialIcons.style.marginTop = "10px";
 			socialIcons.style.marginLeft = "40px";
 		}
+
+		// Index
+		if (propic && propicMobileContainer && propicMobile) {
+			propic.style.display = "none";
+			propicMobileContainer.style.display = "block";
+			propicMobile.style.display = "block";
+		}
+		if (about) {
+			about.style.width = "100%";
+		}
 	}
 	else {
 		toggleFlyout(false);
+
 		// Header
 		if (menu) {
 			menu.style.display = "block";
@@ -60,6 +75,16 @@ var reflow = function() {
 		if (socialIcons) {
 			socialIcons.style.marginTop = "0px";
 			socialIcons.style.marginLeft = "0px";
+		}
+
+		// Index
+		if (propic && propicMobileContainer && propicMobile) {
+			propic.style.display = "block";
+			propicMobileContainer.style.display = "none";
+			propicMobile.style.display = "none";
+		}
+		if (about) {
+			about.style.width = "50%";
 		}
 	}
 }

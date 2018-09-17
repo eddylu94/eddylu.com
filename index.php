@@ -12,6 +12,16 @@
                 padding: 10px;
                 box-shadow: 0px 0px 10px #CCCCCC;
             }
+            #propic_mobile_container {
+                display: flex;
+                margin-bottom: 10px;
+            }
+            #propic_mobile {
+                margin: auto;
+                width: 100%;
+                padding: 10px;
+                box-shadow: 0px 0px 10px #CCCCCC;
+            }
         </style>
     </head>
     <body>
@@ -23,9 +33,12 @@
                     <div id="subheader_title">This website was created to showcase my projects, work experience, and interests</div>
                 </div>
                 <div id="container" style="display: inline-block;">
-                    <div style="float: left; width: 50%;">
+                    <div id="propic_mobile_container">
+                        <img id="propic_mobile" alt="Profile Picture" src="propic.jpg" />
+                    </div>
+                    <div id="about" style="float: left;">
                         <h1>About Me</h1>
-                        I am currently a Software Engineer who recently graduated from McGill University.
+                        I am a Software Engineer based in Seattle, Washington.
                         <br /><br />
                         I enjoy working on different kinds of software projects from all parts of the development stack.
                         When I'm not programming, I enjoy playing soccer and basketball, and going out with friends!
