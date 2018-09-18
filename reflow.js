@@ -32,6 +32,10 @@ var reflow = function() {
 	var propicMobileContainer = document.getElementById("propic_mobile_container");
 	var propicMobile = document.getElementById("propic_mobile");
 	var about = document.getElementById("about");
+	var experienceContainer = document.getElementById("experience_container")	;
+	var experienceH1 = document.getElementsByClassName("experience_h1");
+	var experienceH3 = document.getElementsByClassName("experience_h3");
+	var experienceH3Mobile = document.getElementsByClassName("experience_h3_mobile");
 
 	if (mobilecheck()) {
 		// Header
@@ -57,6 +61,22 @@ var reflow = function() {
 		}
 		if (about) {
 			about.style.width = "100%";
+		}
+
+		// Experience
+		if (experienceContainer) {
+			experienceContainer.style.width = "100%";
+		}
+		if (experienceH1) {
+			for (var i = 0; i < experienceH1.length; i++) {
+				experienceH1[i].style.fontSize = "1.5em";
+			}
+		}
+		if (experienceH3 && experienceH3Mobile && experienceH3.length == experienceH3Mobile.length) {
+			for (var i = 0; i < experienceH3.length; i++) {
+				experienceH3[i].style.display = "none";
+				experienceH3Mobile[i].style.display = "block";
+			}
 		}
 	}
 	else {
@@ -85,6 +105,22 @@ var reflow = function() {
 		}
 		if (about) {
 			about.style.width = "50%";
+		}
+
+		// Experience
+		if (experienceContainer) {
+			experienceContainer.style.width = "80%";
+		}
+		if (experienceH1) {
+			for (var i = 0; i < experienceH1.length; i++) {
+				experienceH1[i].style.fontSize = "2em";
+			}
+		}
+		if (experienceH3 && experienceH3Mobile && experienceH3.length == experienceH3Mobile.length) {
+			for (var i = 0; i < experienceH3.length; i++) {
+				experienceH3[i].style.display = "block";
+				experienceH3Mobile[i].style.display = "none";
+			}
 		}
 	}
 }
