@@ -40,6 +40,7 @@ var reflow = function() {
 	var school = document.getElementsByClassName("school");
 	var educationH1 = document.getElementsByClassName("education_h1");
 	var educationH2 = document.getElementsByClassName("education_h2");
+	var contactForm = document.getElementById("contactForm");
 
 	if (mobilecheck()) {
 		// Header
@@ -102,6 +103,11 @@ var reflow = function() {
 			for (var i = 0; i < educationH2.length; i++) {
 				educationH2[i].style.fontSize = "1em";
 			}
+		}
+
+		// Contact
+		if (contactForm) {
+			contactForm.style.width = "100%";
 		}
 	}
 	else if (tabletcheck()) {
@@ -168,6 +174,11 @@ var reflow = function() {
 				educationH2[i].style.fontSize = "1.2em";
 			}
 		}
+
+		// Contact
+		if (contactForm) {
+			contactForm.style.width = "70%";
+		}
 	}
 	else {
 		toggleFlyout(false);
@@ -232,6 +243,11 @@ var reflow = function() {
 			for (var i = 0; i < educationH2.length; i++) {
 				educationH2[i].style.fontSize = "1.2em";
 			}
+		}
+
+		// Contact
+		if (contactForm) {
+			contactForm.style.width = "70%";
 		}
 	}
 }

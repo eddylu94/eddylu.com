@@ -11,9 +11,10 @@
 
             display: flex;
             flex-direction: column;
-            width: 50%;
+            width: 70%;
             padding: 20px;
             border: 1px solid #CCCCCC;
+            box-sizing: border-box;
         }
 
         .contactForm_textInput {
