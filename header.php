@@ -14,6 +14,13 @@
                 <li><a href="education.php">Education</a></li>
             </ul>
         </li>
+        <li>
+            <a href="projects.php">Projects</a>
+            <ul>
+                <li><a href="projects.php">Personal Projects</a></li>
+                <li><a href="schoolprojects.php">School Projects</a></li>
+            </ul>
+        </li>
         <li><a href="./notes/Home.php">Notes</a></li>
         <li><a href="contact.php">Contact</a></li>
     </ul>
@@ -54,6 +61,13 @@
                             <ul>
                                 <li><a href="experience.php">Experience</a></li>
                                 <li><a href="education.php">Education</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="projects.php">Projects</a>
+                            <ul>
+                                <li><a href="projects.php">Personal Projects</a></li>
+                                <li><a href="schoolprojects.php">School Projects</a></li>
                             </ul>
                         </li>
                         <li><a href="./notes/Home.php">Notes</a></li>
