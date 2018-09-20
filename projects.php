@@ -45,6 +45,46 @@
             <div style="display: table; margin: 0 auto; width: 80%;">
                 
                 <div id="projectListing">
+                    <div id="projectListingText" style="width: 40%;">
+                        <h1>Open-Source Mental Health Forum</h1>
+                        <h3>Jan. 2018 - Present</h3>
+                        <div id="projectListingDescription">
+                            I am currently leading the development of an online open-source mental health forum so people who are experiencing crises can seek immediate help without judgement.
+                            <br />
+                            <br />The project was later entered in the 2018 Microsoft One Week Hackathon to expand the development team and increase awareness.
+                            <br />
+                            <br />The project is currently on GitHub:
+                            <br />
+                            <a href="https://github.com/MentalHealthForum" target="_blank">github.com/MentalHealthForum</a>
+                            <br />
+                            <br />Tags:&ensp;React, MongoDB, Express, Node.js, JavaScript, HTML, CSS, Azure
+                        </div>
+                    </div>
+                    <img id="projectListingImage" src="mental_health.png" style="width: 55%;" />
+                </div>
+
+                <div id="projectListing">
+                    <div id="projectListingText" style="width: 45%;">
+                        <h1>Bouncing DVD Logo</h1>
+                        <h3>Aug. 2018</h3>
+                        <div id="projectListingDescription">
+                            This is my greatest contribution to mankind.
+                            <br />
+                            <br />I recreated the bouncing DVD logo from the TV show, <a href="https://www.nbc.com/the-office" target="_blank">The Office (U.S.)</a>:
+                            <br />
+                            <a href="https://www.youtube.com/watch?v=QOtuX0jL85Y" target="_blank">https://www.youtube.com/watch?v=QOtuX0jL85Y</a>
+                            <br />
+                            <br />This masterpiece is on GitHub:
+                            <br />
+                            <a href="https://github.com/eddylu94/BouncingDvdLogo" target="_blank">github.com/eddylu94/BouncingDvdLogo</a>
+                            <br />
+                            <br />Tags:&ensp;Vue.js, JavaScript
+                        </div>
+                    </div>
+                    <img id="projectListingImage" src="bouncing_dvd_logo.gif" style="width: 50%;" />
+                </div>
+
+                <div id="projectListing">
                     <div id="projectListingText" style="width: 45%;">
                         <h1>Data Structures and Algorithms Website</h1>
                         <h3>Sept. 2015 - Present</h3>
@@ -55,29 +95,10 @@
                             <br />
                             <a href="http://eddylu.com/notes" target="_blank">eddylu.com/notes</a>
                             <br />
-                            <br />Languages:&ensp;HTML, CSS 
+                            <br />Tags:&ensp;HTML, CSS 
                         </div>
                     </div>
                     <img id="projectListingImage" src="notesSite.png" style="width: 50%;" />
-                </div>
-
-                <div id="projectListing">
-                    <div id="projectListingText" style="width: 45%;">
-                        <h1>Web Application for Analyzing the Stock Market through Social Media</h1>
-                        <h3>June 2015 - Mar. 2017</h3>
-                        <div id="projectListingDescription">
-                            I previously worked on developing a browser application that searched for patterns in social media keywords during significant
-                            changes in the U.S. stock market. I wrote Python scripts to parse Yahoo! Finance historical stock prices
-                            and graphs for companies in Dow Jones Industrial as well as retrieve statuses from Twitter through its REST API.
-                            <br />
-                            <br />The objective was to determine whether there was a correlation between significant changes in the U.S. stock market
-                            and phrases that were posted on social media. The project was eventually abandoned as many APIs constantly changed and some became deprecated.
-                            <br />
-                            <br />Languages:&ensp;Python, HTML, CSS, JavaScript, jQuery
-                            <br />Other Tags:&ensp;Twitter REST API, Yahoo! Finance API
-                        </div>
-                    </div>
-                    <img id="projectListingImage" src="financeSite.png" style="width: 50%;" />
                 </div>
 
 				<div id="projectListing">
@@ -91,8 +112,7 @@
 							<br />The source code can be found on GitHub:
                             <a href="http://github.com/chubchubcharles/CodeJam2016" target="_blank">github.com/chubchubcharles/CodeJam2016</a>
                             <br />
-                            <br />Languages:&ensp;HTML, CSS, Javascript, jQuery
-                            <br />Other Tags:&ensp;RequireJS
+                            <br />Tags:&ensp;HTML, CSS, Javascript, jQuery, RequireJS
                         </div>
                     </div>
                     <img id="projectListingImage" src="codejam16.png" style="width: 55%;" />
@@ -109,7 +129,7 @@
                             <br />A demo of the music player visualizer (music plays when page loads):
                             <br /><a href="http://eddylu.com/music" target="_blank">eddylu.com/music</a>
                             <br />
-                            <br />Languages:&ensp;Javascript, HTML5, CSS3
+                            <br />Tags:&ensp;Javascript, HTML5, CSS3
                         </div>
                     </div>
                     <img id="projectListingImage" src="visualizer.png" style="width: 40%;" />
@@ -127,28 +147,10 @@
                             <br />
                             <a href="http://github.com/eddylu94/CodeJam2015/" target="_blank">http://github.com/eddylu94/CodeJam2015/</a>
                             <br />
-                            <br />Languages:&ensp;Java
-                            <br />Other Tags:&ensp;IntelliJ IDEA
+                            <br />Tags:&ensp;Java
                         </div>
                     </div>
                     <img id="projectListingImage" src="codejam15.png" style="width: 35%;" />
-                </div>
-
-                <div id="projectListing">
-                    <div id="projectListingText" style="width: 60%;">
-                        <h1>Android Phone Modem Communication Interface</h1>
-                        <h3>June 2015 - Aug. 2015 </h3>
-                        <div id="projectListingDescription">
-                            From the experience that I gained from my internship at Alcatel-Lucent,
-                            I created a GUI using Python that allows users to communicate and control the modems of Android devices.
-                            <br />
-                            <br />The interface communicates between the computer and mobile phone modem through serial ports
-                            <br />
-                            <br />Languages:&ensp;Python
-                            <br />Other Tags:&ensp;TkInter  
-                        </div>
-                    </div>
-                    <img id="projectListingImage" src="comGUI.png" style="width: 35%;" />
                 </div>
 
                 <div id="projectListing">
@@ -161,8 +163,7 @@
                             <br />The entire game was created from scratch except for the chess piece icons which were retrieved from:
                             <br /><a target="_blank" href="https://openclipart.org/detail/24125/chess-symbols-set">https://openclipart.org/detail/24125/chess-symbols-set</a>
                             <br />
-                            <br />Languages:&ensp;C++
-                            <br />Other Tags:&ensp;Qt, Visual Studio  
+                            <br />Tags:&ensp;C++, Qt, Visual Studio  
                         </div>
                     </div>
                     <img id="projectListingImage" src="chessGame.png" style="width: 35%;" />
@@ -174,10 +175,8 @@
                         <h3>June 2015</h3>
                         <div id="projectListingDescription">
                             Using Java Swing, I created the classic Concentration game.
-                            The game can be downloaded game <a href="/games/Concentration.php"><b>HERE</b></a>.
                             <br />
-                            <br />Languages:&ensp;Java
-                            <br />Other Tags:&ensp;Swing, Eclipse
+                            <br />Tags:&ensp;Java, Swing
                         </div>
                     </div>
                     <img id="projectListingImage" src="concentrationGame.png" style="width: 35%;" />
@@ -192,8 +191,7 @@
                             During this period, I learned how to solder different components including microchip, H-bridge, and infrared sensors onto breadboards.
                             Furthermore, I programmed a microchip in C on MPLAB IDE in order to allow robot to navigate automatically.
                             <br />
-                            <br />Languages:&ensp;C
-                            <br />Other Tags:&ensp;MPLAB
+                            <br />Tags:&ensp;C, MPLAB
                         </div>
                     </div>
                     <img id="projectListingImage" src="ecsessRobot.jpg" style="width: 50%;" />
