@@ -31,6 +31,22 @@
             #projectListingImage {
                 float: right;
             }
+
+            .project_tags_container {
+                margin-top: 5px;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+            }
+
+            .project_tag {
+                background-color: #585858;
+                color: #FFCC00;
+                padding: 5px 8px 5px 8px;
+                border-radius: 3px;
+                margin-right: 12px;
+                margin-bottom: 8px;
+            }
         </style>
     </head>
     <body>
@@ -57,7 +73,17 @@
                             <br />
                             <a href="https://github.com/MentalHealthForum" target="_blank">github.com/MentalHealthForum</a>
                             <br />
-                            <br />Tags:&ensp;React, MongoDB, Express, Node.js, JavaScript, HTML, CSS, Azure
+                            <br />
+                            <div class="project_tags_container">
+                                <div class="project_tag">React</div>
+                                <div class="project_tag">MongoDB</div>
+                                <div class="project_tag">Express</div>
+                                <div class="project_tag">Node.js</div>
+                                <div class="project_tag">JavaScript</div>
+                                <div class="project_tag">HTML</div>
+                                <div class="project_tag">CSS</div>
+                                <div class="project_tag">Azure</div>
+                            </div>
                         </div>
                     </div>
                     <img id="projectListingImage" src="mental_health.png" style="width: 55%;" />
@@ -78,7 +104,11 @@
                             <br />
                             <a href="https://github.com/eddylu94/BouncingDvdLogo" target="_blank">github.com/eddylu94/BouncingDvdLogo</a>
                             <br />
-                            <br />Tags:&ensp;Vue.js, JavaScript
+                            <br />
+                            <div class="project_tags_container">
+                                <div class="project_tag">Vue.js</div>
+                                <div class="project_tag">JavaScript</div>
+                            </div>
                         </div>
                     </div>
                     <img id="projectListingImage" src="bouncing_dvd_logo.gif" style="width: 50%;" />
@@ -95,7 +125,11 @@
                             <br />
                             <a href="http://eddylu.com/notes" target="_blank">eddylu.com/notes</a>
                             <br />
-                            <br />Tags:&ensp;HTML, CSS 
+                            <br />
+                            <div class="project_tags_container">
+                                <div class="project_tag">HTML</div>
+                                <div class="project_tag">CSS</div>
+                            </div>
                         </div>
                     </div>
                     <img id="projectListingImage" src="notesSite.png" style="width: 50%;" />
@@ -112,7 +146,14 @@
 							<br />The source code can be found on GitHub:
                             <a href="http://github.com/chubchubcharles/CodeJam2016" target="_blank">github.com/chubchubcharles/CodeJam2016</a>
                             <br />
-                            <br />Tags:&ensp;HTML, CSS, Javascript, jQuery, RequireJS
+                            <br />
+                            <div class="project_tags_container">
+                                <div class="project_tag">Javascript</div>
+                                <div class="project_tag">jQuery</div>
+                                <div class="project_tag">RequireJS</div>
+                                <div class="project_tag">HTML</div>
+                                <div class="project_tag">CSS</div>
+                            </div>
                         </div>
                     </div>
                     <img id="projectListingImage" src="codejam16.png" style="width: 55%;" />
@@ -129,7 +170,12 @@
                             <br />A demo of the music player visualizer (music plays when page loads):
                             <br /><a href="http://eddylu.com/music" target="_blank">eddylu.com/music</a>
                             <br />
-                            <br />Tags:&ensp;Javascript, HTML5, CSS3
+                            <br />
+                            <div class="project_tags_container">
+                                <div class="project_tag">Javascript</div>
+                                <div class="project_tag">HTML5</div>
+                                <div class="project_tag">CSS3</div>
+                            </div>
                         </div>
                     </div>
                     <img id="projectListingImage" src="visualizer.png" style="width: 40%;" />
@@ -147,7 +193,10 @@
                             <br />
                             <a href="http://github.com/eddylu94/CodeJam2015/" target="_blank">http://github.com/eddylu94/CodeJam2015/</a>
                             <br />
-                            <br />Tags:&ensp;Java
+                            <br />
+                            <div class="project_tags_container">
+                                <div class="project_tag">Java</div>
+                            </div>
                         </div>
                     </div>
                     <img id="projectListingImage" src="codejam15.png" style="width: 35%;" />
@@ -163,7 +212,11 @@
                             <br />The entire game was created from scratch except for the chess piece icons which were retrieved from:
                             <br /><a target="_blank" href="https://openclipart.org/detail/24125/chess-symbols-set">https://openclipart.org/detail/24125/chess-symbols-set</a>
                             <br />
-                            <br />Tags:&ensp;C++, Qt, Visual Studio  
+                            <br />
+                            <div class="project_tags_container">
+                                <div class="project_tag">C++</div>
+                                <div class="project_tag">Qt</div>
+                            </div>
                         </div>
                     </div>
                     <img id="projectListingImage" src="chessGame.png" style="width: 35%;" />
@@ -176,7 +229,11 @@
                         <div id="projectListingDescription">
                             Using Java Swing, I created the classic Concentration game.
                             <br />
-                            <br />Tags:&ensp;Java, Swing
+                            <br />
+                            <div class="project_tags_container">
+                                <div class="project_tag">Java</div>
+                                <div class="project_tag">Swing</div>
+                            </div>
                         </div>
                     </div>
                     <img id="projectListingImage" src="concentrationGame.png" style="width: 35%;" />
@@ -191,7 +248,11 @@
                             During this period, I learned how to solder different components including microchip, H-bridge, and infrared sensors onto breadboards.
                             Furthermore, I programmed a microchip in C on MPLAB IDE in order to allow robot to navigate automatically.
                             <br />
-                            <br />Tags:&ensp;C, MPLAB
+                            <br />
+                            <div class="project_tags_container">
+                                <div class="project_tag">C</div>
+                                <div class="project_tag">MPLAB</div>
+                            </div>
                         </div>
                     </div>
                     <img id="projectListingImage" src="ecsessRobot.jpg" style="width: 50%;" />

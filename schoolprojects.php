@@ -31,6 +31,22 @@
         #projectListingImage {
             float: right;
         }
+
+        .project_tags_container {
+            margin-top: 5px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
+        .project_tag {
+            background-color: #585858;
+            color: #FFCC00;
+            padding: 5px 8px 5px 8px;
+            border-radius: 3px;
+            margin-right: 12px;
+            margin-bottom: 8px;
+        }
     </style>
 </head>
 <body>
@@ -52,8 +68,12 @@
                         Programmed ARM Cortex M processors in Assembly and embedded C to track the navigation of moving bodies by analyzing accelerometer
                         and gyroscope data using the Viterbi algorithm hidden Markov model
                         <br />
-                        <br />Languages:&ensp;Embedded C, Assembly
-                        <br />Other Tags:&ensp;Keil
+                        <br />
+                        <div class="project_tags_container">
+                            <div class="project_tag">Embedded C</div>
+                            <div class="project_tag">Assembly</div>
+                            <div class="project_tag">Keil</div>
+                        </div>
                     </div>
                 </div>
                 <img id="projectListingImage" src="microprocessors.png" style="width: 40%;" />
@@ -68,8 +88,11 @@
                         During this process, I created multiple-level logic schematics using Altera Quartus logic design software.
                         Furthermore, I executed numerous component timing simulations and internal logic signal analysis tests.
                         <br />
-                        <br />Languages:&ensp;VHDL
-                        <br />Other Tags:&ensp;Altera Quartus
+                        <br />
+                        <div class="project_tags_container">
+                            <div class="project_tag">VHDL</div>
+                            <div class="project_tag">Altera Quartus</div>
+                        </div>
                     </div>
                 </div>
                 <img id="projectListingImage" src="dsdSchematic.jpg" style="width: 55%;" />
@@ -86,8 +109,11 @@
                         The robot was programmed in Java using leJOS NXT. Odometry, navigation, and localization algorithms were implemented
                         in order for the robot to determine its initial position and orientation as well as calculate the shortest path to its destination.
                         <br />
-                        <br />Languages:&ensp;Java
-                        <br />Other Tags:&ensp;leJos NXT, Eclipse
+                        <br />
+                        <div class="project_tags_container">
+                            <div class="project_tag">Java</div>
+                            <div class="project_tag">leJos NXT</div>
+                        </div>
                     </div>
                 </div>
                 <img id="projectListingImage" src="robot.jpg" style="width: 35%;" />
@@ -103,8 +129,10 @@
                         In addition, I also documented software requirements specification and software architecture based on IEEE standards.
                         It was also my role to comment the code using Javadoc.
                         <br />
-                        <br />Languages:&ensp;Java
-                        <br />Other Tags:&ensp;Eclipse
+                        <br />
+                        <div class="project_tags_container">
+                            <div class="project_tag">Java</div>                            
+                        </div>
                     </div>
                 </div>
                 <img id="projectListingImage" src="magibomb.png" style="width: 35%;" />
