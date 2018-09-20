@@ -49,6 +49,8 @@
             <div id="body_wrapper">
                 <div id="subheader">
                     <h1>Experience</h1>
+                    <input id="subheader_button" type="button" onclick="location.href = 'education.php';" value="Education" />
+                    <input id="subheader_button" type="button" onclick="location.href = 'experience.php';" value="Experience" />
                 </div>
                 <div id="container">
                     <div id="experience_container" style="display: table; margin: 0 auto; width: 80%;">
