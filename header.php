@@ -2,6 +2,11 @@
 
 <?php include 'statRecorder.php';?>
 
+<script>
+    if (location.protocol != 'https:') {
+        location.href = 'https:' + window.location.href.substring(window.location.protocol.length);
+    }
+</script>
 <script src="reflow.js"></script>
 
 <div id="menu_flyout_overlay" onclick="toggleFlyout()"></div>
