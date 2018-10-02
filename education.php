@@ -38,11 +38,11 @@
                 <div id="container">
                     <div id="schools" style="display: flex;">
                         <div class="school" style="text-align: center;">
-                            <div>
+                            <div style="display: flex; justify-content: center;">
                                 <div class="education_logo" style="float: left; width: 20%; max-width: 150px">
                                     <img src="mcgill-logo.png" style="width: 100%;" />
                                 </div>
-                                <div class="schoolDescription" style="float: left; margin-left: 5%; text-align: left; width: 70%;">
+                                <div class="schoolDescription" style="float: left; margin-left: 5%; text-align: left;">
                                     <h1 class="education_h1">McGill University</h1>
                                     <h2 class="education_h2">Montreal, Quebec, 2012 - 2016</h2>
                                     <h3>Bachelor of Engineering,<br />Electrical and Computer Engineering</h3>
@@ -98,11 +98,11 @@
                             </div>
                         </div>
                         <div class="school" style="text-align: center;">
-                            <div>
+                            <div style="display: flex; justify-content: center;">
                                 <div class="education_logo" style="float: left; width: 20%; max-width: 150px">
                                     <img src="whs-logo.png" style="width: 100%;" />
                                 </div>
-                                <div class="schoolDescription" style="float: left; margin-left: 5%; text-align: left; width: 70%;">
+                                <div class="schoolDescription" style="float: left; margin-left: 5%; text-align: left;">
                                     <h1 class="education_h1">Westfield Senior High School</h1>
                                     <h2 class="education_h2">Westfield, New Jersey, 2008 - 2012</h2>
                                     <h3>US High School Diploma<br /></h3>
