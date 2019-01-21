@@ -79,13 +79,13 @@ protected void onCreate(Bundle savedInstanceState) {
 
                 <h2>Shaping the image into a circle</h2>
 
-                <p>One useful tool in the native Android SDK is the RoundedBitmapDrawable class that contains a method dedicated to forming rounded drawables. However, before we can use this functionality, we must first crop our image into a square; otherwise we will eventually form an ellipse.</p>
+                <p>One useful tool in the native Android SDK is the <span style="font-weight: bold;">RoundedBitmapDrawable</span> class that contains a method dedicated to forming rounded drawables. However, before we can use this functionality, we must first crop our image into a square; otherwise we will eventually form an ellipse.</p>
 
                 <img class="blogImage" src="blog20181228_circular_image.png" />
                 <span class="caption">
 Image cropped into a circle</span>
 
-                <p>The Android Bitmap class contains a createBitmap() method which allows us to crop an existing bitmap while defining the exact pixel in which we wish to begin cropping in both the x and y-directions, as well as the desired dimensions of the final shape. Since this method requires a bitmap as an imput, we must, unfortunately, convert the existing Drawable image into a bitmap, before re-converting the image back into a Drawable for the step of rounding the edges. One must be aware that the image that we wish to crop may be a rectangle in which the width is greater than the height or vice-versa. Thus, we must account for these two scenarios when determining our starting pixels for cropping the images.</p>
+                <p>The Android Bitmap class contains a <span style="font-weight: bold;">createBitmap()</span> method which allows us to crop an existing bitmap while defining the exact pixel in which we wish to begin cropping in both the x and y-directions, as well as the desired dimensions of the final shape. Since this method requires a bitmap as an imput, we must, unfortunately, convert the existing Drawable image into a bitmap, before re-converting the image back into a Drawable for the step of rounding the edges. One must be aware that the image that we wish to crop may be a rectangle in which the width is greater than the height or vice-versa. Thus, we must account for these two scenarios when determining our starting pixels for cropping the images.</p>
 
 <pre class="codeSnippet">
 int width = bmp.getWidth();
@@ -104,7 +104,7 @@ bmp = Bitmap.createBitmap(bmp, firstPixelX, firstPixelY, bmp.getHeight(), bmp.ge
 
                 <h2>Adding the border</h2>
 
-                <p>Surprisingly, Android does not naturally incorporate any native implementation for appending borders to images. The current acceptable method of creating a border is actually by rendering the image within a container shape with a given padding that will act as the border width.</p>
+                <p>Surprisingly, Android does not naturally incorporate any native implementation for appending borders to images. The <a target="_blank" href="https://stackoverflow.com/questions/3496269/how-do-i-put-a-border-around-an-android-textview">current acceptable method of creating a border is actually by rendering the image within a container shape with a given padding that will act as the border width</a>.</p>
 
                 <img class="blogImage" src="blog20181228_border.png" />
                 <span class="caption">The image is placed on top of a circle of slightly greater size</span>
@@ -136,7 +136,7 @@ bmp = Bitmap.createBitmap(bmp, firstPixelX, firstPixelY, bmp.getHeight(), bmp.ge
 
                 <h2>Adding the shadow</h2>
 
-                <p>If adding the border was not complicated enough, then adding the shadow will be an even more exciting experience. Interestingly, Android natively includes an elevation attribute that forms a natural shadow behind components. However, this shadow is not customizable… After searching around the internet, it seems that a common implementation that allows for customization involves placing the image on top (in the z-direction) of another shape of equal size with a gradient.</p>
+                <p>If adding the border was not complicated enough, then adding the shadow will be an even more exciting experience. Interestingly, Android natively includes an elevation attribute that forms a natural shadow behind components. However, this shadow is not customizable… After searching around the internet, it seems that a <a target="_blank" href="https://stackoverflow.com/questions/21211870/android-view-shadow">common implementation that allows for customization involves placing the image on top (in the z-direction) of another shape of equal size with a gradient</a>.</p>
 
                 <img class="blogImage" src="blog20181228_shadow.png" />
                 <span class="caption">The profile picture and border are placed on top of a misaligned gradient that acts as a shadow</span>
@@ -311,7 +311,7 @@ public class CreateCircularProfilePicture extends Activity {
 
                 <p>In React Native, shadows are implemented via dedicated style attributes for shadow offsets, colours, and opacities. However, the shadow attributes are only available to certain components such as the View component. Thus, we have to wrap the image component in a view component before using these styles.</p>
 
-                <p>There is a known issue in which the style shadow attributes are not successfully applied for certain Android devices. A current workaround for this issue involves using the elevation style attribute for container View component. However, similar to using the elevation attribute in native Android development, developers will not be able to customize the shadows.</p>
+                <p>There is a <a target="_blank" href="https://stackoverflow.com/questions/44908580/react-native-shadow-not-appearing/44908751">known issue in which the style shadow attributes are not successfully applied for certain Android devices</a>. A current workaround for this issue involves using the elevation style attribute for container View component. However, similar to using the elevation attribute in native Android development, developers will not be able to customize the shadows.</p>
 
 <pre class="codeSnippet">
 &lt;View
