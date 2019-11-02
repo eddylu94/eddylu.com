@@ -62,16 +62,16 @@
                 
                 <div id="projectListing">
                     <div id="projectListingText" style="width: 40%;">
-                        <h1>Open-Source Mental Health Forum</h1>
+                        <h1>Open-Source Mental Health Platform</h1>
                         <h3>Jan. 2018 - Present</h3>
                         <div id="projectListingDescription">
-                            I am currently leading the development of an online open-source mental health forum so people who are experiencing crises can seek immediate help without judgement.
+                            I am currently leading the development of an open-source mental health platform where people who are experiencing crises can seek immediate help without judgement.
                             <br />
-                            <br />The project was later entered in the 2018 Microsoft One Week Hackathon to expand the development team and increase awareness.
+                            <br />The project has also been developed during the 2018 and 2019 Microsoft One Week hackathons.
                             <br />
                             <br />The project is currently on GitHub:
                             <br />
-                            <a href="https://github.com/MentalHealthForum" target="_blank">github.com/MentalHealthForum</a>
+                            <a href="https://github.com/Microsoft/MentalHealthPlatform" target="_blank">github.com/Microsoft/MentalHealthPlatform</a>
                             <br />
                             <br />
                             <div class="project_tags_container">
@@ -112,27 +112,6 @@
                         </div>
                     </div>
                     <img id="projectListingImage" src="bouncing_dvd_logo.gif" style="width: 50%;" />
-                </div>
-
-                <div id="projectListing">
-                    <div id="projectListingText" style="width: 45%;">
-                        <h1>Data Structures and Algorithms Website</h1>
-                        <h3>Sept. 2015 - Present</h3>
-                        <div id="projectListingDescription">
-                            Created website to store source code for implementations of common data structures and algorithms so that friends can refer to them when needed.
-                            <br />
-                            <br />The website is currently located at:
-                            <br />
-                            <a href="http://eddylu.com/notes" target="_blank">eddylu.com/notes</a>
-                            <br />
-                            <br />
-                            <div class="project_tags_container">
-                                <div class="project_tag">HTML</div>
-                                <div class="project_tag">CSS</div>
-                            </div>
-                        </div>
-                    </div>
-                    <img id="projectListingImage" src="notesSite.png" style="width: 50%;" />
                 </div>
 
 				<div id="projectListing">

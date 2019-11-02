@@ -56,19 +56,40 @@
                     <div id="experience_container" style="display: table; margin: 0 auto; width: 80%;">
                         <div id="experienceListing">
                             <div id="experienceListing_left">
+                                <img src="linkedin-logo.png" style="width: 100%; max-width: 150px;" />
+                            </div>
+                            <div id="experienceListing_right">
+                                <div id="experienceListingHeader">
+                                    <h1 class="experience_h1">Software Engineer</h1>
+                                    <h2>LinkedIn</h2>
+                                    <h3 class="experience_h3">September 2019 - Present | Sunnyvale, California</h3>
+                                    <div class="experience_h3_mobile">
+                                        <h3>September 2019 - Present</h3>
+                                        <h3>Sunnyvale, California</h3>
+                                    </div>
+                                </div>
+                                <div id="experienceListingDescription">
+                                    LinkedIn Jobs
+                                </div>
+                            </div>
+                        </div>
+                        <div id="experienceListing">
+                            <div id="experienceListing_left">
                                 <img src="microsoft-logo.png" style="width: 100%; max-width: 150px;" />
                             </div>
                             <div id="experienceListing_right">
                                 <div id="experienceListingHeader">
                                     <h1 class="experience_h1">Software Engineer</h1>
                                     <h2>Microsoft</h2>
-                                    <h3 class="experience_h3">July 2016 - Present | Seattle, Washington</h3>
+                                    <h3 class="experience_h3">July 2016 - September 2019 | Redmond, Washington</h3>
                                     <div class="experience_h3_mobile">
-                                        <h3>July 2016 - Present</h3>
-                                        <h3>Seattle, Washington</h3>
+                                        <h3>July 2016 - September 2019</h3>
+                                        <h3>Redmond, Washington</h3>
                                     </div>
                                 </div>
                                 <div id="experienceListingDescription">
+                                    Microsoft Dynamics 365
+                                    <br />Microsoft PowerApps
                                 </div>
                             </div>
                         </div>
@@ -143,7 +164,7 @@
                                 </div>
                                 <div id="experienceListingDescription">
                                     In the summer of 2011, I assisted astrophysics doctoral candidate,
-                                    Khee-Gan Lee, with Lyman-Alpha Forest research.
+                                    <a href="https://www.linkedin.com/in/khee-gan-lee-93b108163/" target="_blank">Khee-Gan Lee</a>, with Lyman-Alpha Forest research.
                                     I learned how to program in Interactive Data Language (IDL) on Unix in order to analyze and calculate trends on absorption-emission graphs.
                                 </div>
                             </div>

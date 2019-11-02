@@ -38,10 +38,10 @@
                     </div>
                     <div id="about" style="float: left;">
                         <h1>About Me</h1>
-                        I am a Software Engineer based in Seattle, Washington.
+                        I am a Software Engineer based in San Francisco, California.
                         <br /><br />
-                        I enjoy working on different kinds of software projects from all parts of the development stack.
-                        When I'm not programming, I enjoy playing soccer and basketball, and going out with friends!
+                        I enjoy working on different software projects during my free time.
+                        When I'm not programming, I enjoy playing soccer and basketball as well as snowboarding and hiking.
                         <br /><br />
                         <i>This website was created without the use of any frameworks, templates, or bootstraps.</i>
                     </div>

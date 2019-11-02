@@ -52,18 +52,6 @@
             <div style="display: table; margin: 0 auto; width: 80%;">
                 
                 <div class="post">
-                    <a href="blog20181228.php">
-                        <div class="imgContainer">
-                            <img src="blog20181228_example.png" />
-                        </div>
-                        <div style="padding: 18px">
-                            <div style="font-size: x-large; color: #333333;">Circular profile pictures in Android are a pain…</div>
-                            <div style="font-size: large; color: #686868;">Friday, December 28, 2018</div>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="post">
                     <a href="blog20190117.php">
                         <div class="imgContainer">
                             <img src="20190117_tabindex.png" />
@@ -71,6 +59,18 @@
                         <div style="padding: 18px">
                             <div style="font-size: x-large; color: #333333;">The Tab Order vs. z-Order Paradox</div>
                             <div style="font-size: large; color: #686868;">Thursday, January 17, 2019</div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="post">
+                    <a href="blog20181228.php">
+                        <div class="imgContainer">
+                            <img src="blog20181228_example.png" />
+                        </div>
+                        <div style="padding: 18px">
+                            <div style="font-size: x-large; color: #333333;">Circular profile pictures in Android are a pain…</div>
+                            <div style="font-size: large; color: #686868;">Friday, December 28, 2018</div>
                         </div>
                     </a>
                 </div>
