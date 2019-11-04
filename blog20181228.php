@@ -9,7 +9,8 @@
             .codeSnippet {
                 background-color: rgba(0,0,0,0.05);
                 padding: 22px;
-                font-family: "monospace";
+                font-family: Consolas;
+                border-radius: 10px;
             }
 
             .blogImage {

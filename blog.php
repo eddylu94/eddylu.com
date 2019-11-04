@@ -27,6 +27,7 @@
                 display: flex;
                 flex-direction: column;
                 flex: 1;
+                justify-content: center;
             }
 
             .post img {
@@ -52,6 +53,18 @@
             <div style="display: table; margin: 0 auto; width: 80%;">
                 
                 <div class="post">
+                    <a href="blog20191103.php">
+                        <div class="imgContainer">
+                            <img src="tc39.png" />
+                        </div>
+                        <div style="padding: 18px">
+                            <div style="font-size: x-large; color: #333333;">Upcoming Optional Chaining and Null Coalescing in JS/TS</div>
+                            <div style="font-size: large; color: #686868;">Thursday, November 3, 2019</div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="post">
                     <a href="blog20190117.php">
                         <div class="imgContainer">
                             <img src="20190117_tabindex.png" />
@@ -62,7 +75,7 @@
                         </div>
                     </a>
                 </div>
-                
+
                 <div class="post">
                     <a href="blog20181228.php">
                         <div class="imgContainer">
