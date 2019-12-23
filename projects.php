@@ -6,9 +6,18 @@
         <title>Eddy Lu</title>
         <script src="//code.jquery.com/jquery-1.12.4.js"></script>
         <style>
+            body {
+                background-color: #E8E8E8;
+            }
+
             #projectListing {
                 margin-bottom: 100px;
                 overflow: auto;
+                background-color: #FFFFFF;
+                padding: 30px;
+                box-shadow: 0 0 10px #CCCCCC;
+                box-sizing: border-box;
+                border-radius: 5px;
             }
 
             #projectListingText {
@@ -41,7 +50,7 @@
 
             .project_tag {
                 background-color: #585858;
-                color: #FFCC00;
+                color: #FFFFFF;
                 padding: 5px 8px 5px 8px;
                 border-radius: 3px;
                 margin-right: 12px;
