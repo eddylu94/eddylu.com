@@ -69,7 +69,7 @@
                                     </div>
                                 </div>
                                 <div id="experienceListingDescription">
-                                    LinkedIn Jobs
+                                    LinkedIn.com
                                 </div>
                             </div>
                         </div>

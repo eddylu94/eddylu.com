@@ -3,6 +3,19 @@
 <html lang="en">
     <head>
         <meta charset="utf-8" />
+				<meta property="og:title" content="eddylu.com" />
+				<meta property="og:description" content="Eddy Lu" />
+				<meta property="og:image" content="https://eddylu.com/propic.jpg" />
+				<meta property="og:url" content="https://eddylu.com" />
+				<meta property="og:type" content="website" />
+				<meta property="og:site_name" content="eddylu.com" />
+				<meta name="twitter:card" content="summary_large_image" />
+				<meta name="twitter:title" content="eddylu.com" />
+				<meta name="twitter:description" content="Eddy Lu" />
+				<meta name="twitter:image" content="https://eddylu.com/propic.jpg" />
+				<meta name="twitter:image:alt" content="eddylu.com" />
+				<meta name="twitter:card" content="summary" />
+
         <title>Eddy Lu</title>
         <script src="//code.jquery.com/jquery-1.12.4.js"></script>
         <style>
