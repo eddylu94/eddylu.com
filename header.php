@@ -1,4 +1,7 @@
 <link rel="stylesheet" type="text/css" href="header.css">
+<link rel="stylesheet" type="text/css" href="header-S.css">
+<link rel="stylesheet" type="text/css" href="header-M.css">
+<link rel="stylesheet" type="text/css" href="header-L.css">
 
 <?php include 'statRecorder.php';?>
 

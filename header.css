@@ -289,3 +289,7 @@ body {
 #footer a:visited {
     color: #333333;
 }
+
+#schools {
+	justify-content: space-around;
+}

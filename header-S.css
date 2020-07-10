@@ -1,0 +1,70 @@
+﻿@media only screen and (max-width: 900px) {
+	#menu {
+		display: none;
+	}
+
+	#menuIcon {
+		display: block;
+	}
+
+	#header_wrapper {
+		display: flex;
+	}
+
+	#socialIcons {
+		margin-top: 10px;
+		margin-left: 40px;
+	}
+
+	#propic {
+		display: none;	
+	}
+
+	#propic_mobile_container {
+		display: block;
+	}
+
+	#propic_mobile {
+		display: block;
+	}
+
+	#about {
+		width: 100%;
+	}
+
+	#experience_container {
+		width: 100%;
+	}
+
+	#experience_h1 {
+		font-size: 1.5em;
+	}
+
+	#experience_h3 {
+		display: none;
+	}
+
+	#experience_h3_mobile {
+		display: block;
+	}
+
+	#schools {
+		flex-direction: column;
+	}
+
+	#school {
+		width: 100%;
+	}
+
+	#education_h1 {
+		font-size: 1.5em;
+	}
+
+	#education_h2 {
+		font-size: 1em;
+	}
+
+	#contactForm {
+		width: 100%
+	}
+}
