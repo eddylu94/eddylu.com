@@ -24,17 +24,23 @@
                 margin: 0 auto;
                 font-style: italic;
                 margin-top: 8px;
-            }
+						}
+						
+						.blog-story {
+							margin: 0 auto;
+							width: 100%;
+							max-width: 800px;
+						}
         </style>
     </head>
     <body>
         <?php include 'header.php';?>
         <div id="container">
-            <div style="display: table; margin: 0 auto; width: 50%;">
+            <div class="blog-story">
                 <div style="font-weight: bold; font-size: 48px;">The Tab Order vs. z-Order Paradox</div>
                 <div style="font-style: italic; margin-top: 22px;">Thursday, January 17, 2019</div>
             </div>
-            <div style="display: table; margin: 0 auto; width: 50%; line-height: 1.50; margin-top: 50px">
+            <div class="blog-story" style="line-height: 1.50; margin-top: 50px">
 
                <img class="blogImage" style="max-height: 300px;" src="20190117_tabindex.png" />
 

@@ -6,14 +6,15 @@
         <title>Eddy Lu</title>
         <script src="//code.jquery.com/jquery-1.12.4.js"></script>
         <style>
-            .post {
-                width: 50%;
-                box-shadow: 0px 0px 20px #A8A8A8;
-                display: table;
-                margin: 0 auto;
-                height: 350px;
-                opacity: 1.0;
-            }
+						.post {
+							width: 100%;
+							max-width: 800px;
+							box-shadow: 0px 0px 20px #A8A8A8;
+							display: table;
+							margin: 0 auto;
+							height: 350px;
+							opacity: 1.0;
+						}
 
             .post:hover {
                 opacity: 0.7;
@@ -40,7 +41,13 @@
                 display: flex;
                 flex-direction: column;
                 height: 100%;
-            }
+						}
+						
+						.blogs-container {
+							display: table;
+							margin: 0 auto;
+							width: 100%;						
+						}
         </style>
     </head>
     <body>
@@ -50,8 +57,7 @@
             <div id="subheader_title">Random thoughts about technology</div>
         </div>
         <div id="container">
-            <div style="display: table; margin: 0 auto; width: 80%;">
-                
+            <div class="blogs-container">
                 <div class="post">
                     <a href="blog20191103.php">
                         <div class="imgContainer">

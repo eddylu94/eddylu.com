@@ -24,17 +24,23 @@
                 margin: 0 auto;
                 font-style: italic;
                 margin-top: 8px;
-            }
+						}
+						
+						.blog-story {
+							margin: 0 auto;
+							width: 100%;
+							max-width: 800px;
+						}
         </style>
     </head>
     <body>
         <?php include 'header.php';?>
         <div id="container">
-            <div style="display: table; margin: 0 auto; width: 50%;">
+            <div class="blog-story">
                 <div style="font-weight: bold; font-size: 48px;">Circular profile pictures in Android are a pain…</div>
                 <div style="font-style: italic; margin-top: 22px;">Friday, December 28, 2018</div>
             </div>
-            <div style="display: table; margin: 0 auto; width: 50%; line-height: 1.50; margin-top: 50px">
+            <div class="blog-story" style="line-height: 1.50; margin-top: 50px">
 
                 <img class="blogImage" src="blog20181228_example.png" />
                 <span class="caption">Circular profile pictures are used on virtually every social platform, including Facebook</span>
