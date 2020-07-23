@@ -5,15 +5,41 @@
 
 	#menuIcon {
 		display: block;
+		height: 35px;
+	}
+
+	h1 {
+		font-size: 24px;
 	}
 
 	#header_wrapper {
 		display: flex;
+		margin: 0 20px;
+	}
+
+	#title_left {
+		font-size: 24px;
+	}
+
+	#title_right {
+		font-size: 24px;
 	}
 
 	#socialIcons {
 		margin-top: 10px;
 		margin-left: 40px;
+	}
+
+	#container {
+		padding: 20px;
+	}
+
+	#subheader {
+		padding: 10px 20px;
+	}
+
+	#subheader_title {
+		font-size: 18px;
 	}
 
 	#propic {
@@ -26,6 +52,7 @@
 
 	#propic_mobile {
 		display: block;
+		box-sizing: border-box;
 	}
 
 	#about {

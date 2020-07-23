@@ -5,15 +5,41 @@
 
 	#menuIcon {
 		display: none;
+		height: 45px;
+	}
+
+	h1 {
+		font-size: 32px;
 	}
 
 	#header_wrapper {
 		display: block;
+		margin: 0 40px;
+	}
+
+	#title_left {
+		font-size: 32px;
+	}
+
+	#title_right {
+		font-size: 32px;
 	}
 
 	#socialIcons {
 		margin-top: 0;
 		margin-left: 0;
+	}
+
+	#container {
+		padding: 50px;
+	}
+
+	#subheader {
+		padding: 20px 50px 35px 50px;
+	}
+
+	#subheader_title {
+		font-size: 20px;
 	}
 
 	#propic {
