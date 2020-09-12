@@ -242,7 +242,12 @@ body {
     background-color: #585858;
     color: #D9D9D9;
 
-    cursor: pointer;
+		cursor: pointer;
+		
+		border: none;
+		-webkit-appearance: none;
+		-moz-appearance: none;
+		appearance: none;
 }
 
 #subheader_button:hover {
@@ -272,7 +277,7 @@ body {
 }
 
 #footer {
-    margin-bottom: 20px;
+		padding-bottom: 20px;
     
     text-align: center;
 
@@ -289,4 +294,12 @@ body {
 
 #schools {
 	justify-content: space-around;
+}
+
+.projects_container {
+	margin: 0 auto;
+}
+
+.project_image_small {
+	margin: 20px 0;
 }

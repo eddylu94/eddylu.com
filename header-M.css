@@ -93,4 +93,30 @@
 	#contactForm {
 		width: 70%
 	}
+
+	.projects_container {
+		width: 100%;
+	}
+
+	.project_listing {
+		padding: 20px;
+		margin-bottom: 30px;
+	}
+
+	.project_description {
+		width: 100%;
+	}
+
+	.project_image_small {
+		display: block;
+		max-width: 100%;
+	}
+
+	.project_image_large {
+		display: none;
+	}
+
+	.project_link {
+		word-break: break-all;
+	}
 }

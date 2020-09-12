@@ -11,10 +11,8 @@
             }
 
             #projectListing {
-                margin-bottom: 100px;
                 overflow: auto;
                 background-color: #FFFFFF;
-                padding: 30px;
                 box-shadow: 0 0 10px #CCCCCC;
                 box-sizing: border-box;
                 border-radius: 5px;
@@ -67,12 +65,15 @@
             <input id="subheader_button" type="button" onclick="location.href = 'schoolprojects.php';" value="School Projects" />
         </div>
         <div id="container">
-            <div style="display: table; margin: 0 auto; width: 80%;">
+            <div class="projects_container">
                 
-                <div id="projectListing">
-                    <div id="projectListingText" style="width: 40%;">
+                <div id="projectListing" class="project_listing">
+									<div class="project_description" id="projectListingText">
                         <h1>Open-Source Mental Health Platform</h1>
-                        <h3>Jan. 2018 - Present</h3>
+												<h3>Jan. 2018 - Present</h3>
+												
+												<img class="project_image_small" src="mental_health.png" />
+
                         <div id="projectListingDescription">
                             I am currently leading the development of an open-source mental health platform where people who are experiencing crises can seek immediate help without judgement.
                             <br />
@@ -80,7 +81,7 @@
                             <br />
                             <br />The project is currently on GitHub:
                             <br />
-                            <a href="https://github.com/Microsoft/MentalHealthPlatform" target="_blank">github.com/Microsoft/MentalHealthPlatform</a>
+                            <a href="https://github.com/Microsoft/MentalHealthPlatform" class="project_link" target="_blank">github.com/Microsoft/MentalHealthPlatform</a>
                             <br />
                             <br />
                             <div class="project_tags_container">
@@ -95,23 +96,26 @@
                             </div>
                         </div>
                     </div>
-                    <img id="projectListingImage" src="mental_health.png" style="width: 55%;" />
+										<img class="project_image_large" id="projectListingImage" src="mental_health.png" style="width: 50%;" />
                 </div>
 
-                <div id="projectListing">
-                    <div id="projectListingText" style="width: 45%;">
+                <div id="projectListing" class="project_listing">
+                    <div class="project_description" id="projectListingText">
                         <h1>Bouncing DVD Logo</h1>
-                        <h3>Aug. 2018</h3>
+												<h3>Aug. 2018</h3>
+												
+												<img class="project_image_small" src="bouncing_dvd_logo.gif" />
+
                         <div id="projectListingDescription">
                             This is my greatest contribution to mankind.
                             <br />
-                            <br />I recreated the bouncing DVD logo from the TV show, <a href="https://www.nbc.com/the-office" target="_blank">The Office (U.S.)</a>:
+                            <br />I recreated the bouncing DVD logo from the TV show, <a href="https://www.nbc.com/the-office" class="project_link" target="_blank">The Office (U.S.)</a>:
                             <br />
-                            <a href="https://www.youtube.com/watch?v=QOtuX0jL85Y" target="_blank">https://www.youtube.com/watch?v=QOtuX0jL85Y</a>
+                            <a href="https://www.youtube.com/watch?v=QOtuX0jL85Y" class="project_link" target="_blank">https://www.youtube.com/watch?v=QOtuX0jL85Y</a>
                             <br />
                             <br />This masterpiece is on GitHub:
                             <br />
-                            <a href="https://github.com/eddylu94/BouncingDvdLogo" target="_blank">github.com/eddylu94/BouncingDvdLogo</a>
+                            <a href="https://github.com/eddylu94/BouncingDvdLogo" class="project_link" target="_blank">github.com/eddylu94/BouncingDvdLogo</a>
                             <br />
                             <br />
                             <div class="project_tags_container">
@@ -120,19 +124,22 @@
                             </div>
                         </div>
                     </div>
-                    <img id="projectListingImage" src="bouncing_dvd_logo.gif" style="width: 50%;" />
+                    <img class="project_image_large" id="projectListingImage" src="bouncing_dvd_logo.gif" style="width: 50%;" />
                 </div>
 
-				<div id="projectListing">
-                    <div id="projectListingText" style="width: 40%;">
+								<div id="projectListing" class="project_listing">
+										<div class="project_description" id="projectListingText">
                         <h1>CodeJam 2016 - TV Show Recommender</h1>
-                        <h3>Nov. 2016</h3>
+												<h3>Nov. 2016</h3>
+												
+												<img class="project_image_small" src="codejam16.png" />
+												
                         <div id="projectListingDescription">
                             For the 2016 McGill CodeJam hackathon, the objective was to create a TV show recommendation application based on any given input.
 							For this project, Charles Liu and I created a website that provided TV recommendations after a user rated TV a list of given shows.
 							<br />
 							<br />The source code can be found on GitHub:
-                            <a href="http://github.com/chubchubcharles/CodeJam2016" target="_blank">github.com/chubchubcharles/CodeJam2016</a>
+                            <a href="http://github.com/chubchubcharles/CodeJam2016" class="project_link" target="_blank">github.com/chubchubcharles/CodeJam2016</a>
                             <br />
                             <br />
                             <div class="project_tags_container">
@@ -144,19 +151,22 @@
                             </div>
                         </div>
                     </div>
-                    <img id="projectListingImage" src="codejam16.png" style="width: 55%;" />
+										<img class="project_image_large" id="projectListingImage" src="codejam16.png" style="width: 50%;" />
                 </div>
 
-                <div id="projectListing">
-                    <div id="projectListingText" style="width: 55%;">
+                <div id="projectListing" class="project_listing">
+										<div class="project_description" id="projectListingText">
                         <h1>Music Player Visualizer</h1>
-                        <h3>Dec. 2015 - Jan. 2016</h3>
+												<h3>Dec. 2015 - Jan. 2016</h3>
+												
+												<img class="project_image_small" src="visualizer.png" />
+
                         <div id="projectListingDescription">
                             I created music player visualizations for .mp3 audio data using Javascript, HTML5, CSS3 based on the
                             visualizations of <a target="_blank" href="https://www.youtube.com/user/AllTrapNation">Trap Nation</a>.
                             <br />
                             <br />A demo of the music player visualizer (music plays when page loads):
-                            <br /><a href="http://eddylu.com/music" target="_blank">eddylu.com/music</a>
+                            <br /><a href="http://eddylu.com/music" class="project_link" target="_blank">eddylu.com/music</a>
                             <br />
                             <br />
                             <div class="project_tags_container">
@@ -166,20 +176,23 @@
                             </div>
                         </div>
                     </div>
-                    <img id="projectListingImage" src="visualizer.png" style="width: 40%;" />
+										<img class="project_image_large" id="projectListingImage" src="visualizer.png" style="width: 50%;" />
                 </div>
 				
-                <div id="projectListing">
-                    <div id="projectListingText" style="width: 60%;">
+                <div id="projectListing" class="project_listing">
+										<div class="project_description" id="projectListingText">
                         <h1>CodeJam 2015 - Bioinformatics Classifier</h1>
-                        <h3>Nov. 2015</h3>
+												<h3>Nov. 2015</h3>
+												
+												<img class="project_image_small" src="codejam15.png" />
+
                         <div id="projectListingDescription">
                             For the 2015 McGill CodeJam hackathon, the objective was to implement a classifier that analyzed patient data to predict diagnoses.
                             For this project, I implemented decision trees that were capable of predicting the diagnoses at an accuracy of 50 to 75 %.
 							<br />
 							<br />The source code can be found on GitHub:
                             <br />
-                            <a href="http://github.com/eddylu94/CodeJam2015/" target="_blank">http://github.com/eddylu94/CodeJam2015/</a>
+                            <a href="http://github.com/eddylu94/CodeJam2015/" class="project_link" target="_blank">http://github.com/eddylu94/CodeJam2015/</a>
                             <br />
                             <br />
                             <div class="project_tags_container">
@@ -187,18 +200,21 @@
                             </div>
                         </div>
                     </div>
-                    <img id="projectListingImage" src="codejam15.png" style="width: 35%;" />
+										<img class="project_image_large" id="projectListingImage" src="codejam15.png" style="width: 50%;" />
                 </div>
 
-                <div id="projectListing">
-                    <div id="projectListingText" style="width: 60%;">
+                <div id="projectListing" class="project_listing">
+										<div class="project_description" id="projectListingText">
                         <h1>Chess Game</h1>
-                        <h3>June 2015 - Aug. 2015</h3>
+												<h3>June 2015 - Aug. 2015</h3>
+												
+												<img class="project_image_small" src="chessGame.png" />
+
                         <div id="projectListingDescription">
                             I created the classic chess game in C++ using Qt.
                             <br />
                             <br />The entire game was created from scratch except for the chess piece icons which were retrieved from:
-                            <br /><a target="_blank" href="https://openclipart.org/detail/24125/chess-symbols-set">https://openclipart.org/detail/24125/chess-symbols-set</a>
+                            <br /><a target="_blank" class="project_link" href="https://openclipart.org/detail/24125/chess-symbols-set">https://openclipart.org/detail/24125/chess-symbols-set</a>
                             <br />
                             <br />
                             <div class="project_tags_container">
@@ -207,13 +223,16 @@
                             </div>
                         </div>
                     </div>
-                    <img id="projectListingImage" src="chessGame.png" style="width: 35%;" />
+										<img class="project_image_large" id="projectListingImage" src="chessGame.png" style="width: 50%;" />
                 </div>
 
-                <div id="projectListing">
-                    <div id="projectListingText" style="width: 60%;">
+                <div id="projectListing" class="project_listing">
+										<div class="project_description" id="projectListingText">
                         <h1>Concentration Game</h1>
-                        <h3>June 2015</h3>
+												<h3>June 2015</h3>
+												
+												<img class="project_image_small" src="concentrationGame.png" />
+
                         <div id="projectListingDescription">
                             Using Java Swing, I created the classic Concentration game.
                             <br />
@@ -224,13 +243,16 @@
                             </div>
                         </div>
                     </div>
-                    <img id="projectListingImage" src="concentrationGame.png" style="width: 35%;" />
+										<img class="project_image_large" id="projectListingImage" src="concentrationGame.png" style="width: 50%;" />
                 </div>
 
-                <div id="projectListing">
-                    <div id="projectListingText" style="width: 45%;">
+                <div id="projectListing" class="project_listing">
+										<div class="project_description" id="projectListingText">
                         <h1>ECSESS Robotics</h1>
-                        <h3>Jan. 2014 - Apr. 2014</h3>
+												<h3>Jan. 2014 - Apr. 2014</h3>
+												
+												<img class="project_image_small" src="ecsessRobot.jpg" />
+
                         <div id="projectListingDescription">
                             For four months, I worked in a team of three electrical engineering students to build a robot that navigates on an obstacle course.
                             During this period, I learned how to solder different components including microchip, H-bridge, and infrared sensors onto breadboards.
@@ -243,7 +265,7 @@
                             </div>
                         </div>
                     </div>
-                    <img id="projectListingImage" src="ecsessRobot.jpg" style="width: 50%;" />
+										<img class="project_image_large" id="projectListingImage" src="ecsessRobot.jpg" style="width: 50%;" />
                 </div>
 
             </div>
