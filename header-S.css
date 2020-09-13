@@ -72,12 +72,17 @@
 		font-size: 1.5em;
 	}
 
-	#experience_h3 {
+	.experience_h2 {
+		font-size: 1.1em;	
+	}
+
+	.experience_h3 {
 		display: none;
 	}
 
-	#experience_h3_mobile {
+	.experience_h3_mobile {
 		display: block;
+		font-size: 0.85em;
 	}
 
 	#schools {
@@ -124,5 +129,22 @@
 
 	.project_link {
 		word-break: break-all;
+	}
+
+	.experiences_container {
+		width: 100%;
+	}
+
+	#experienceListing_left {
+		display: none;
+	}
+
+	#experienceListing_right {
+		width: 100%;
+		margin: 0;
+	}
+
+	.experience_header_text {
+		margin-left: 15px;
 	}
 }

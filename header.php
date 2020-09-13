@@ -33,7 +33,6 @@
                 <li><a href="education.php">Education</a></li>
             </ul>
         </li>
-        <li><a href="contact.php">Contact</a></li>
     </ul>
 
     <div id="socialIcons">
@@ -83,7 +82,6 @@
                                 <li><a href="education.php">Education</a></li>
                             </ul>
                         </li>
-                        <li><a href="contact.php">Contact</a></li>
                     </ul>
                 </div>
                 <div id="socialIcons">

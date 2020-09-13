@@ -12,16 +12,8 @@
             }
 
             #experienceListing_left {
-                float: left;
                 width: 20%;
                 text-align: right;
-            }
-
-            #experienceListing_right {
-                float: left;
-                width: 70%;
-                margin: 0px 0px 0px 5%;
-                overflow: hidden;
             }
 
             #experienceListingDescription {
@@ -53,20 +45,25 @@
                     <input id="subheader_button" type="button" onclick="location.href = 'experience.php';" value="Experience" />
                 </div>
                 <div id="container">
-                    <div id="experience_container" style="display: table; margin: 0 auto; width: 80%;">
+                    <div class="experiences_container" id="experience_container">
                         <div id="experienceListing">
                             <div id="experienceListing_left">
                                 <img src="linkedin-logo.png" style="width: 100%; max-width: 150px;" />
                             </div>
                             <div id="experienceListing_right">
                                 <div id="experienceListingHeader">
-                                    <h1 class="experience_h1">Software Engineer</h1>
-                                    <h2>LinkedIn</h2>
-                                    <h3 class="experience_h3">September 2019 - Present | Sunnyvale, California</h3>
-                                    <div class="experience_h3_mobile">
-                                        <h3>September 2019 - Present</h3>
-                                        <h3>Sunnyvale, California</h3>
-                                    </div>
+																		<div class="experience_header">
+																			<img src="linkedin-logo.png" class="experience_logo_small" style="width: 70px; height: 70px;" />
+																			<div class="experience_header_text">
+																				<h1 class="experience_h1">Software Engineer</h1>
+																				<h2 class="experience_h2">LinkedIn</h2>
+																				<h3 class="experience_h3">September 2019 - Present | Sunnyvale, California</h3>
+																				<div class="experience_h3_mobile">
+																						<h3>September 2019 - Present</h3>
+																						<h3>Sunnyvale, California</h3>
+																				</div>
+																			</div>
+																		</div>
                                 </div>
                                 <div id="experienceListingDescription">
                                     LinkedIn.com
@@ -79,13 +76,18 @@
                             </div>
                             <div id="experienceListing_right">
                                 <div id="experienceListingHeader">
-                                    <h1 class="experience_h1">Software Engineer</h1>
-                                    <h2>Microsoft</h2>
-                                    <h3 class="experience_h3">July 2016 - September 2019 | Redmond, Washington</h3>
-                                    <div class="experience_h3_mobile">
-                                        <h3>July 2016 - September 2019</h3>
-                                        <h3>Redmond, Washington</h3>
-                                    </div>
+																		<div class="experience_header">
+																			<img src="microsoft-logo.png" class="experience_logo_small" style="width: 70px; height: 70px;" />
+																			<div class="experience_header_text">
+																				<h1 class="experience_h1">Software Engineer</h1>
+																				<h2 class="experience_h2">Microsoft</h2>
+																				<h3 class="experience_h3">July 2016 - September 2019 | Redmond, Washington</h3>
+																				<div class="experience_h3_mobile">
+																						<h3>July 2016 - September 2019</h3>
+																						<h3>Redmond, Washington</h3>
+																				</div>
+																			</div>
+																		</div>
                                 </div>
                                 <div id="experienceListingDescription">
                                     Microsoft Dynamics 365
@@ -99,13 +101,18 @@
                             </div>
                             <div id="experienceListing_right">
                                 <div id="experienceListingHeader">
-                                    <h1 class="experience_h1">Software Development Intern</h1>
-                                    <h2>Alcatel-Lucent</h2>
-                                    <h3 class="experience_h3">May 2015 - Aug. 2015 | Ottawa, Ontario</h3>
-                                    <div class="experience_h3_mobile">
-                                        <h3>May 2015 - Aug. 2015</h3>
-                                        <h3>Ottawa, Ontario</h3>
-                                    </div>
+																		<div class="experience_header">
+																			<img src="alu-logo.png" class="experience_logo_small" style="width: 70px; height: 70px;" />
+																			<div class="experience_header_text">
+																				<h1 class="experience_h1">Software Development Intern</h1>
+																				<h2 class="experience_h2">Alcatel-Lucent</h2>
+																				<h3 class="experience_h3">May 2015 - Aug. 2015 | Ottawa, Ontario</h3>
+																				<div class="experience_h3_mobile">
+																						<h3>May 2015 - Aug. 2015</h3>
+																						<h3>Ottawa, Ontario</h3>
+																				</div>
+																			</div>
+																		</div>
                                     <div id="experienceListingDescription">
                                         Development of 4G LTE automation testing software tools for testers in Chicago and Beijing:
                                         <ul style="margin: 10px 0px 0px 0px;">
@@ -124,13 +131,18 @@
                             </div>
                             <div id="experienceListing_right">
                                 <div id="experienceListingHeader">
-                                    <h1 class="experience_h1">Undergraduate Researcher </h1>
-                                    <h2>Reasoning and Learning Lab, McGill University </h2>
-                                    <h3 class="experience_h3">May 2014 - August 2014 | Montreal, Quebec</h3>
-                                    <div class="experience_h3_mobile">
-                                        <h3>May 2014 - August 2014</h3>
-                                        <h3>Montreal, Quebec</h3>
-                                    </div>
+																		<div class="experience_header">
+																			<img src="mcgill-logo.png" class="experience_logo_small" style="width: 70px; height: 70px;" />
+																			<div class="experience_header_text">
+																				<h1 class="experience_h1">Undergraduate Researcher</h1>
+																				<h2 class="experience_h2">Reasoning and Learning Lab, McGill University</h2>
+																				<h3 class="experience_h3">May 2014 - August 2014 | Montreal, Quebec</h3>
+																				<div class="experience_h3_mobile">
+																						<h3>May 2014 - August 2014</h3>
+																						<h3>Montreal, Quebec</h3>
+																				</div>
+																			</div>
+																		</div>
                                 </div>
                                 <div id="experienceListingDescription">
                                     In the summer of 2014, I worked on a project about the Classification of Accelerometer Data under the supervision
@@ -154,13 +166,18 @@
                             </div>
                             <div id="experienceListing_right">
                                 <div id="experienceListingHeader">
-                                    <h1 class="experience_h1">Research Assistant</h1>
-                                    <h2>Peyton Hall, Princeton University</h2>
-                                    <h3 class="experience_h3">July 2011 - Aug. 2011 | Princeton, New Jersey</h3>
-                                    <div class="experience_h3_mobile">
-                                        <h3>July 2011 - Aug. 2011</h3>
-                                        <h3>Princeton, New Jersey</h3>
-                                    </div>
+																		<div class="experience_header">
+																			<img src="princeton-logo.png" class="experience_logo_small" style="width: 70px; height: 70px;" />
+																			<div class="experience_header_text">
+																				<h1 class="experience_h1">Research Assistant</h1>
+																				<h2 class="experience_h2">Peyton Hall, Princeton University</h2>
+																				<h3 class="experience_h3">July 2011 - Aug. 2011 | Princeton, New Jersey</h3>
+																				<div class="experience_h3_mobile">
+																						<h3>July 2011 - Aug. 2011</h3>
+																						<h3>Princeton, New Jersey</h3>
+																				</div>
+																			</div>
+																		</div>
                                 </div>
                                 <div id="experienceListingDescription">
                                     In the summer of 2011, I assisted astrophysics doctoral candidate,

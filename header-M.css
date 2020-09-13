@@ -66,11 +66,15 @@
 		font-size: 2em;
 	}
 
-	#experience_h3 {
+	.experience_h2 {
+		font-size: 2em;	
+	}
+
+	.experience_h3 {
 		display: block;
 	}
 
-	#experience_h3_mobile {
+	.experience_h3_mobile {
 		display: none;
 	}
 
@@ -118,5 +122,22 @@
 
 	.project_link {
 		word-break: break-all;
+	}
+
+	.experiences_container {
+		width: 80%;
+	}
+
+	#experienceListing_right {
+		width: 70%;
+		margin: 0px 0px 0px 5%;
+	}
+
+	.experience_logo_small {
+		display: none;
+	}
+
+	.experience_header_text {
+		margin-left: 0;
 	}
 }

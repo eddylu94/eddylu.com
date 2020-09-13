@@ -303,3 +303,23 @@ body {
 .project_image_small {
 	margin: 20px 0;
 }
+
+.experiences_container {
+	display: table;
+	margin: 0 auto;
+}
+
+.experience_header {
+	display: flex;
+	flex-direction: row;
+}
+
+#experienceListing {
+	display: flex;
+	flex-direction: row;
+}
+
+#experienceListing_right {
+	float: left;
+	overflow: hidden;
+}
