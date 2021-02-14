@@ -58,6 +58,18 @@
         </div>
         <div id="container">
             <div class="blogs-container">
+								<div class="post">
+										<a href="blog20210214.php">
+												<div class="imgContainer">
+														<img src="blog20210214_map.png" />
+												</div>
+												<div style="padding: 18px">
+														<div style="font-size: x-large; color: #333333;">Whether to relocate during the pandemic</div>
+														<div style="font-size: large; color: #686868;">Sunday, February 14, 2021</div>
+												</div>
+										</a>
+								</div>
+
                 <div class="post">
                     <a href="blog20191103.php">
                         <div class="imgContainer">
@@ -85,7 +97,7 @@
                 <div class="post">
                     <a href="blog20181228.php">
                         <div class="imgContainer">
-                            <img src="blog20181228_example.png" />
+                            <img src="blog20181228_border.png" style="margin: 0 10px;" />
                         </div>
                         <div style="padding: 18px">
                             <div style="font-size: x-large; color: #333333;">Circular profile pictures in Android are a pain…</div>
