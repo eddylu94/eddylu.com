@@ -23,6 +23,7 @@
             #classCode {
                 font-weight: bold;
                 padding-right: 20px;
+								min-width: 100px;
             }
         </style>
     </head>

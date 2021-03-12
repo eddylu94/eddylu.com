@@ -105,4 +105,3 @@
         </div>
     </div>
 </div>
-<div id="header_placeholder"></div>
