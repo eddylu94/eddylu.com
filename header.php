@@ -18,7 +18,17 @@
 <div id="menu_flyout">
     <ul>
         <li><a href="index.php">Blog</a></li>
-        <li><a href="./notes/Home.php">Notes</a></li>
+        <li>
+					<a href="./notes/Home.php">Notes</a>
+					<ul>
+							<li><a href="./notes/DataStructures.php">Data Structures</a></li>
+							<li><a href="./notes/Algorithms.php">Algorithms</a></li>
+							<li><a href="./notes/OOP.php">OOP</a></li>
+							<li><a href="./notes/Practice.php">Practice Problems</a></li>
+							<li><a href="./notes/ProjectEuler.php">Project Euler</a></li>
+							<li><a href="./notes/LeetCode.php">LeetCode</a></li>
+					</ul>
+				</li>
 				<li><a href="about.php">About</a></li>
     </ul>
 
@@ -45,7 +55,17 @@
                 <div id="menu_left">
                     <ul>
                         <li><a href="index.php">Blog</a></li>
-                        <li><a href="./notes/Home.php">Notes</a></li>
+                        <li>
+													<a href="./notes/Home.php">Notes</a>
+													<ul>
+															<li><a href="./notes/DataStructures.php">Data Structures</a></li>
+															<li><a href="./notes/Algorithms.php">Algorithms</a></li>
+															<li><a href="./notes/OOP.php">OOP</a></li>
+															<li><a href="./notes/Practice.php">Practice Problems</a></li>
+															<li><a href="./notes/ProjectEuler.php">Project Euler</a></li>
+															<li><a href="./notes/LeetCode.php">LeetCode</a></li>
+													</ul>
+												</li>
                         <li><a href="about.php">About</a></li>
                     </ul>
                 </div>

@@ -29,6 +29,8 @@
                 flex-direction: column;
                 flex: 1;
                 justify-content: center;
+								max-height: 300px;
+								overflow-y: hidden;
             }
 
             .post img {
