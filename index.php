@@ -3,65 +3,113 @@
 <html lang="en">
     <head>
         <meta charset="utf-8" />
-				<meta property="og:title" content="eddylu.com" />
-				<meta property="og:description" content="Eddy Lu" />
-				<meta property="og:image" content="https://eddylu.com/propic.jpg" />
-				<meta property="og:url" content="https://eddylu.com" />
-				<meta property="og:type" content="website" />
-				<meta property="og:site_name" content="eddylu.com" />
-				<meta name="twitter:card" content="summary_large_image" />
-				<meta name="twitter:title" content="eddylu.com" />
-				<meta name="twitter:description" content="Eddy Lu" />
-				<meta name="twitter:image" content="https://eddylu.com/propic.jpg" />
-				<meta name="twitter:image:alt" content="eddylu.com" />
-				<meta name="twitter:card" content="summary" />
-
         <title>Eddy Lu</title>
         <script src="//code.jquery.com/jquery-1.12.4.js"></script>
         <style>
-            #propic {
-                float: right;
-                width: 45%;
-                padding: 10px;
-                box-shadow: 0px 0px 10px #CCCCCC;
+						.post {
+							width: 100%;
+							max-width: 800px;
+							box-shadow: 0px 0px 20px #A8A8A8;
+							display: table;
+							margin: 0 auto;
+							height: 350px;
+							opacity: 1.0;
+						}
+
+            .post:hover {
+                opacity: 0.7;
             }
-            #propic_mobile_container {
+
+            .post:not(:first-child) {
+                margin-top: 30px;
+            }
+
+            .imgContainer {
                 display: flex;
-                margin-bottom: 10px;
+                flex-direction: column;
+                flex: 1;
+                justify-content: center;
             }
-            #propic_mobile {
-                margin: auto;
-                width: 100%;
-                padding: 10px;
-                box-shadow: 0px 0px 10px #CCCCCC;
+
+            .post img {
+                max-width: 100%;
+                margin-bottom: 12px;
             }
+
+            .post a {
+                text-decoration: none;
+                display: flex;
+                flex-direction: column;
+                height: 100%;
+						}
+						
+						.blogs-container {
+							display: table;
+							margin: 0 auto;
+							width: 100%;						
+						}
         </style>
     </head>
     <body>
-        <div id="page_wrapper">
-            <?php include 'header.php';?>
-            <div id="body_wrapper">
-                <div id="subheader">
-                    <h1>Hello! I'm Eddy</h1>
-                    <div id="subheader_title">This website was created to showcase my projects, work experience, and interests</div>
-                </div>
-                <div id="container" style="display: inline-block;">
-                    <div id="propic_mobile_container">
-                        <img id="propic_mobile" alt="Profile Picture" src="propic.jpg" />
-                    </div>
-                    <div id="about" style="float: left;">
-                        <h1>About Me</h1>
-                        I am a Software Engineer based in San Francisco, California.
-                        <br /><br />
-                        I enjoy working on different software projects during my free time.
-                        When I'm not programming, I enjoy playing soccer and basketball as well as snowboarding and hiking.
-                        <br /><br />
-                        <i>This website was created without the use of any frameworks, templates, or bootstraps.</i>
-                    </div>
-                    <img id="propic" alt="Profile Picture" src="propic.jpg" />
-                </div>
-                <?php include 'footer.php';?>
-            </div>    
-        </div>    
+        <?php include 'header.php';?>
+				<div id="body_wrapper">
+					<div id="subheader">
+							<h1>Blog</h1>
+							<div id="subheader_title">Random thoughts about technology</div>
+					</div>
+					<div id="container">
+							<div class="blogs-container">
+									<div class="post">
+											<a href="blog20210214.php">
+													<div class="imgContainer">
+															<img src="blog20210214_map.png" />
+													</div>
+													<div style="padding: 18px">
+															<div style="font-size: x-large; color: #333333;">Whether to relocate during the pandemic</div>
+															<div style="font-size: large; color: #686868;">Sunday, February 14, 2021</div>
+													</div>
+											</a>
+									</div>
+
+									<div class="post">
+											<a href="blog20191103.php">
+													<div class="imgContainer">
+															<img src="tc39.png" />
+													</div>
+													<div style="padding: 18px">
+															<div style="font-size: x-large; color: #333333;">Upcoming Optional Chaining and Null Coalescing in JS/TS</div>
+															<div style="font-size: large; color: #686868;">Thursday, November 3, 2019</div>
+													</div>
+											</a>
+									</div>
+									
+									<div class="post">
+											<a href="blog20190117.php">
+													<div class="imgContainer">
+															<img src="20190117_tabindex.png" />
+													</div>
+													<div style="padding: 18px">
+															<div style="font-size: x-large; color: #333333;">The Tab Order vs. z-Order Paradox</div>
+															<div style="font-size: large; color: #686868;">Thursday, January 17, 2019</div>
+													</div>
+											</a>
+									</div>
+
+									<div class="post">
+											<a href="blog20181228.php">
+													<div class="imgContainer">
+															<img src="blog20181228_border.png" style="margin: 0 10px;" />
+													</div>
+													<div style="padding: 18px">
+															<div style="font-size: x-large; color: #333333;">Circular profile pictures in Android are a pain…</div>
+															<div style="font-size: large; color: #686868;">Friday, December 28, 2018</div>
+													</div>
+											</a>
+									</div>
+
+							</div>
+					</div>               
+					<?php include 'footer.php';?>
+				</div>
     </body>
 </html>
