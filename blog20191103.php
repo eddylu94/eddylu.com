@@ -61,7 +61,7 @@ if (a) {
 
 <span class="caption">Example 1 - Using an IF statement to check for null values</span>
 
-                <p>In the above example, one attempts to assign <span style="font-weight: bold;">myVariable</span> the value <span style="font-weight: bold;">b</span>, which is an attribute of <span style="font-weight: bold;">a</span>. However, if <span style="font-weight: bold;">a</span> does not "exist", such as being null or undefined, then an error would occur when attempting to obtain the attribute <span style="font-weight: bold;">b</span>. Thus, the developer first uses an IF condition to check whether or not <span style="font-weight: bold;">a</span> is a <a href="https://developer.mozilla.org/en-US/docs/Glossary/Truthy">truthy</a> value (anything that is not <a href="https://developer.mozilla.org/en-US/docs/Glossary/Falsy">falsy</a>) before attempting to obtain the attribute <span style="font-weight: bold;">b</span>.</p>
+                <p>In the above example, one attempts to assign <span style="font-weight: bold;">myVariable</span> the value <span style="font-weight: bold;">b</span>, which is an attribute of <span style="font-weight: bold;">a</span>. However, if <span style="font-weight: bold;">a</span> does not "exist", such as being null or undefined, then an error would occur when attempting to obtain the attribute <span style="font-weight: bold;">b</span>. Thus, the developer first uses an IF condition to check whether or not <span style="font-weight: bold;">a</span> is a <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Glossary/Truthy">truthy</a> value (anything that is not <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Glossary/Falsy">falsy</a>) before attempting to obtain the attribute <span style="font-weight: bold;">b</span>.</p>
  
                     <p>In JavaScript (and TypeScript), developers can significantly simplify the implementations of null checks by using AND operators:</p>
 
@@ -100,7 +100,7 @@ const myVariable = methodAOutcome && methodAOutcome.b;
 
                 <p>In this revised example, the outcome of the executed <span style="font-weight: bold;">methodA</span> is stored in a variable <span style="font-weight: bold;">methodAOutcome</span>; thus <span style="font-weight: bold;">methodA</span> only needs to be executed once.</p>
 
-                <p>Due to the complications of lengthy chained variables and re-executed method calls, as well as other related issues, <a href="https://www.ecma-international.org/memento/tc39-rf-tg.htm">Ecma TC39</a> has begun experimenting with optional chaining.</p>
+                <p>Due to the complications of lengthy chained variables and re-executed method calls, as well as other related issues, <a target="_blank" href="https://www.ecma-international.org/memento/tc39-rf-tg.htm">Ecma TC39</a> has begun experimenting with optional chaining.</p>
 
                 <p>Developers will hopefully soon be able to deep dive into variable properties by simply using a delimiter comprised of a question mark and period:</p>
 
@@ -114,13 +114,13 @@ const myVariable = a?.b?.c?.d?.e;
 
                 <h2>Current Status</h2>
 
-                <p>As of November 3, 2019, optional chaining is an <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining">experimental technology</a> for JavaScript:</p>
+                <p>As of November 3, 2019, optional chaining is an <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining">experimental technology</a> for JavaScript:</p>
 
                 <img class="blogImage" src="optional_chaining_compatibility.png" />
 
-                <p>TC39 has classified optional chaining as a Stage 3 feature, meaning that "further refinement will require feedback from implementations and users", as stated in the <a href="https://tc39.es/process-document/">TC39 process document</a>.</p>
+                <p>TC39 has classified optional chaining as a Stage 3 feature, meaning that "further refinement will require feedback from implementations and users", as stated in the <a target="_blank" href="https://tc39.es/process-document/">TC39 process document</a>.</p>
 
-                <p>TypeScript on the other hand, is in the process of introducing optional chaining as a feature as part of its upcoming TypeScript 3.7 release; the feature is currently available in TypeScript 3.7 beta. The final release for TypeScript 3.7 is <a href="https://github.com/microsoft/TypeScript/issues/33352">scheduled for November 5th</a>!</p>
+                <p>TypeScript on the other hand, is in the process of introducing optional chaining as a feature as part of its upcoming TypeScript 3.7 release; the feature is currently available in TypeScript 3.7 beta. The final release for TypeScript 3.7 is <a target="_blank" href="https://github.com/microsoft/TypeScript/issues/33352">scheduled for November 5th</a>!</p>
 
                 <h1>What is Null Coalescing?</h1>
 
@@ -199,27 +199,27 @@ const myVariable = a ?? b;
 
                 <h1>Conclusion</h1>
 
-                <p>Overall, the introduction of optional chaining and null coalescing for JavaScript and TypeScript is truly exciting as it will resolve issues regarding code readability, prevent redundant calls, and significantly simplify software logic. The introduction of the two features in TypeScript 3.7 also demonstrates the dominance of the open-source language as it continues to evolve and expand to over <a href="https://github.com/microsoft/TypeScript">1.6 million users</a>.</p>
+                <p>Overall, the introduction of optional chaining and null coalescing for JavaScript and TypeScript is truly exciting as it will resolve issues regarding code readability, prevent redundant calls, and significantly simplify software logic. The introduction of the two features in TypeScript 3.7 also demonstrates the dominance of the open-source language as it continues to evolve and expand to over <a target="_blank" href="https://github.com/microsoft/TypeScript">1.6 million users</a>.</p>
 
                 <h1>Relevant Links</h1>
 
                 <p>TC39 Proposal for Optional Chaining (on GitHub):
-                <br /><a href="https://github.com/tc39/proposal-optional-chaining">https://github.com/tc39/proposal-optional-chaining</a></p>
+                <br /><a target="_blank" href="https://github.com/tc39/proposal-optional-chaining">https://github.com/tc39/proposal-optional-chaining</a></p>
 
                 <p>TypeScript Proposal for Optional Chaining (on GitHub):
-                <br /><a href="https://github.com/microsoft/TypeScript/issues/16">https://github.com/microsoft/TypeScript/issues/16</a></p>
+                <br /><a target="_blank" href="https://github.com/microsoft/TypeScript/issues/16">https://github.com/microsoft/TypeScript/issues/16</a></p>
 
                 <p>Mozilla Web Docs for Optional Chaining:
-                <br /><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining</a></p>
+                <br /><a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining</a></p>
 
                 <p>TC39 Proposal for Optional Chaining (on GitHub):
-                <br /><a href="https://github.com/tc39/proposal-nullish-coalescing">https://github.com/tc39/proposal-nullish-coalescing</a></p>
+                <br /><a target="_blank" href="https://github.com/tc39/proposal-nullish-coalescing">https://github.com/tc39/proposal-nullish-coalescing</a></p>
 
                 <p>TypeScript Proposal for Null Coalescing (on GitHub):
-                <br /><a href="https://github.com/microsoft/TypeScript/issues/26578">https://github.com/microsoft/TypeScript/issues/26578</a></p>
+                <br /><a target="_blank" href="https://github.com/microsoft/TypeScript/issues/26578">https://github.com/microsoft/TypeScript/issues/26578</a></p>
 
                 <p>Roadmap for TypeScript 3.7 (on GitHub):
-                <br /><a href="https://github.com/microsoft/TypeScript/issues/33352">https://github.com/microsoft/TypeScript/issues/33352</a></p>
+                <br /><a target="_blank" href="https://github.com/microsoft/TypeScript/issues/33352">https://github.com/microsoft/TypeScript/issues/33352</a></p>
 
             </div>
         </div>               

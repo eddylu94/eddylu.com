@@ -117,7 +117,7 @@
 
 								<p>Safety is no longer limited to factors such as crime rates, but also dependent on how the location has adapted to the pandemic. For example, do people wear masks?</p>
 
-								<p><a href="https://en.wikipedia.org/wiki/Statistics_of_the_COVID-19_pandemic_in_the_United_States">Statistics of the COVID-19 pandemic in the United States</a> as of February 13, 2021:<p>
+								<p><a target="_blank" href="https://en.wikipedia.org/wiki/Statistics_of_the_COVID-19_pandemic_in_the_United_States">Statistics of the COVID-19 pandemic in the United States</a> as of February 13, 2021:<p>
 
 
 								<table id="stats">
@@ -175,7 +175,7 @@
 
 								<p>People in expensive areas, such as San Francisco and New York City, may wish to seek cheaper places to live.</p>
 
-								<p>Most affordable cities (according to <a href="https://www.rockethomes.com/blog/home-buying/7-most-affordable-big-cities">Rocket Homes</a>):</p>
+								<p>Most affordable cities (according to <a target="_blank" href="https://www.rockethomes.com/blog/home-buying/7-most-affordable-big-cities">Rocket Homes</a>):</p>
 
 								<p style="font-weight: bold;">1. Memphis, Tennessee</p>
 
@@ -225,24 +225,24 @@
 
 								<h2>Are housing prices expected to rise in the destination?</h2>
 
-								<p>Some metropolitan areas are projected to increase in housing price more than others. Furthermore, the recent SF/NYC exoduses may yield to major housing price increases in cities such as Austin, TX. Elon Musk recently <a href="https://www.cnn.com/2020/12/09/tech/elon-musk-texas/index.html">moved to Texas</a> and even <a href="https://www.businessinsider.in/thelife/news/elon-musk-predicts-austin-texas-will-be-the-biggest-boom-town-that-america-has-seen-in-50-years/articleshow/80871526.cms">predicts that Austin, TX will become the biggest “boomtown” in the United States for the upcoming years</a>.</p>
+								<p>Some metropolitan areas are projected to increase in housing price more than others. Furthermore, the recent SF/NYC exoduses may yield to major housing price increases in cities such as Austin, TX. Elon Musk recently <a target="_blank" href="https://www.cnn.com/2020/12/09/tech/elon-musk-texas/index.html">moved to Texas</a> and even <a target="_blank" href="https://www.businessinsider.in/thelife/news/elon-musk-predicts-austin-texas-will-be-the-biggest-boom-town-that-america-has-seen-in-50-years/articleshow/80871526.cms">predicts that Austin, TX will become the biggest “boomtown” in the United States for the upcoming years</a>.</p>
 
                 <h1>Relevant Links</h1>
 
 								<p>Red states and blue states - Wikipedia:
-                <br /><a href="https://en.wikipedia.org/wiki/Red_states_and_blue_states">https://en.wikipedia.org/wiki/Red_states_and_blue_states</a></p>
+                <br /><a target="_blank" href="https://en.wikipedia.org/wiki/Red_states_and_blue_states">https://en.wikipedia.org/wiki/Red_states_and_blue_states</a></p>
 								
 								<p>Statistics of the COVID-19 pandemic in the United States - Wikipedia:
-                <br /><a href="https://en.wikipedia.org/wiki/Statistics_of_the_COVID-19_pandemic_in_the_United_States">https://en.wikipedia.org/wiki/Statistics_of_the_COVID-19_pandemic_in_the_United_States</a></p>
+                <br /><a target="_blank" href="https://en.wikipedia.org/wiki/Statistics_of_the_COVID-19_pandemic_in_the_United_States">https://en.wikipedia.org/wiki/Statistics_of_the_COVID-19_pandemic_in_the_United_States</a></p>
 
 								<p>The 7 Most Affordable Big Cities In The US And What They Really Cost:
-                <br /><a href="https://www.rockethomes.com/blog/home-buying/7-most-affordable-big-cities">https://www.rockethomes.com/blog/home-buying/7-most-affordable-big-cities</a></p>
+                <br /><a target="_blank" href="https://www.rockethomes.com/blog/home-buying/7-most-affordable-big-cities">https://www.rockethomes.com/blog/home-buying/7-most-affordable-big-cities</a></p>
 
 								<p>Elon Musk says he has moved to Texas because of Starship and Tesla Gigafactory - CNN:
-                <br /><a href="https://www.cnn.com/2020/12/09/tech/elon-musk-texas/index.html">https://www.cnn.com/2020/12/09/tech/elon-musk-texas/index.html</a></p>
+                <br /><a target="_blank" href="https://www.cnn.com/2020/12/09/tech/elon-musk-texas/index.html">https://www.cnn.com/2020/12/09/tech/elon-musk-texas/index.html</a></p>
 
 								<p>Elon Musk predicts Austin, Texas, will be 'the biggest boomtown that America has seen in 50 years' | Business Insider India:
-                <br /><a href="https://www.businessinsider.in/thelife/news/elon-musk-predicts-austin-texas-will-be-the-biggest-boom-town-that-america-has-seen-in-50-years/articleshow/80871526.cms">https://www.businessinsider.in/thelife/news/elon-musk-predicts-austin-texas-will-be-the-biggest-boom-town-that-america-has-seen-in-50-years/articleshow/80871526.cms</a></p>
+                <br /><a target="_blank" href="https://www.businessinsider.in/thelife/news/elon-musk-predicts-austin-texas-will-be-the-biggest-boom-town-that-america-has-seen-in-50-years/articleshow/80871526.cms">https://www.businessinsider.in/thelife/news/elon-musk-predicts-austin-texas-will-be-the-biggest-boom-town-that-america-has-seen-in-50-years/articleshow/80871526.cms</a></p>
 
             </div>
         </div>               

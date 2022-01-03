@@ -62,6 +62,18 @@
 					<div id="container">
 							<div class="blogs-container">
 									<div class="post">
+											<a href="blog20220102.php">
+													<div class="imgContainer">
+															<img src="blog20220102_banner.png" />
+													</div>
+													<div style="padding: 18px">
+															<div style="font-size: x-large; color: #333333;">Common syntactical differences between React and React Native</div>
+															<div style="font-size: large; color: #686868;">Sunday, January 2, 2022</div>
+													</div>
+											</a>
+									</div>
+
+									<div class="post">
 											<a href="blog20210214.php">
 													<div class="imgContainer">
 															<img src="blog20210214_map.png" />
@@ -103,7 +115,7 @@
 															<img src="blog20181228_border.png" style="margin: 0 10px;" />
 													</div>
 													<div style="padding: 18px">
-															<div style="font-size: x-large; color: #333333;">Circular profile pictures in Android are a pain…</div>
+															<div style="font-size: x-large; color: #333333;">Circular profile pictures in Android vs. React Native</div>
 															<div style="font-size: large; color: #686868;">Friday, December 28, 2018</div>
 													</div>
 											</a>

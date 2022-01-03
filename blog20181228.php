@@ -37,7 +37,7 @@
         <?php include 'header.php';?>
         <div id="container">
             <div class="blog-story">
-                <div style="font-weight: bold; font-size: 48px;">Circular profile pictures in Android are a pain…</div>
+                <div style="font-weight: bold; font-size: 48px;">Circular profile pictures in Android vs. React Native</div>
                 <div style="font-style: italic; margin-top: 22px;">Friday, December 28, 2018</div>
             </div>
             <div class="blog-story" style="line-height: 1.50; margin-top: 50px">
