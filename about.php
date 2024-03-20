@@ -54,7 +54,7 @@
                         I enjoy working on different software projects during my free time.
                         When I'm not programming, I enjoy playing soccer and basketball as well as snowboarding and hiking.
                         <br /><br />
-                        <i>This website was created without the use of any frameworks, templates, or bootstraps.</i>
+                        <i>This website was originally created without the use of any frameworks/templates/bootstraps when I was learning HTML/CSS; I have kept it this way eversince.</i>
                     </div>
                     <img id="propic" alt="Profile Picture" src="propic.jpg" />
                 </div>
