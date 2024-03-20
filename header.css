@@ -271,6 +271,9 @@ body {
     clear: both;
 
     font-size: large;
+
+		max-width: 1600px;
+		align-self: center;
 }
 
 #container a {
