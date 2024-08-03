@@ -1,1 +1,1 @@
-<?php include 'projects.php'; ?>
+<?php include 'blog.php'; ?>
