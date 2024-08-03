@@ -62,6 +62,18 @@
 					<div id="container">
 							<div class="blogs-container">
 									<div class="post">
+											<a href="blog20230415.php">
+													<div class="imgContainer">
+															<img src="blog20230415_banner.png" />
+													</div>
+													<div style="padding: 18px">
+															<div style="font-size: x-large; color: #333333;">Effects of timezones for last minute crypto tax harvesting</div>
+															<div style="font-size: large; color: #686868;">Saturday, April 15, 2023</div>
+													</div>
+											</a>
+									</div>
+
+									<div class="post">
 											<a href="blog20220102.php">
 													<div class="imgContainer">
 															<img src="blog20220102_banner.png" />
