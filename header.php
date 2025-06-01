@@ -29,6 +29,13 @@
 							<li><a href="./notes/LeetCode.php">LeetCode</a></li>
 					</ul>
 				</li>
+				<li>
+					<a href="projects.php">Projects</a>
+					<ul>
+						<li><a href="projects.php">Personal Projects</a></li>
+						<li><a href="schoolprojects.php">School Projects</a></li>
+					</ul>
+				</li>
 				<li><a href="about.php">About</a></li>
     </ul>
 
@@ -66,7 +73,14 @@
 															<li><a href="./notes/LeetCode.php">LeetCode</a></li>
 													</ul>
 												</li>
-                        <li><a href="about.php">About</a></li>
+												<li>
+													<a href="projects.php">Projects</a>
+													<ul>
+														<li><a href="projects.php">Personal Projects</a></li>
+														<li><a href="schoolprojects.php">School Projects</a></li>
+													</ul>
+												</li>
+												<li><a href="about.php">About</a></li>
                     </ul>
                 </div>
                 <div id="socialIcons">
