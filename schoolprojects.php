@@ -146,9 +146,7 @@
 
 												<div id="projectListingDescription">
 														For my 2014 Winter semester Software Engineering class, ECSE 321, I worked in a team of six software engineering students to develop the classic Bomberman game in Java.
-														During this time, I documented sequence, activity, and state UML diagrams for the overall game system.
-														In addition, I also documented software requirements specification and software architecture based on IEEE standards.
-														It was also my role to comment the code using Javadoc.
+														During this time, I documented sequence, activity, and state UML diagrams for the overall game system as well as software requirements specification and software architecture based on IEEE standards.
 														<br />
 														<br />
 														<div class="project_tags_container">
