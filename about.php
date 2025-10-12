@@ -43,7 +43,6 @@
             <div id="body_wrapper">
                 <div id="subheader">
                     <h1>Hello! I'm Eddy</h1>
-                    <div id="subheader_title">I am a Software Engineer based in San Francisco, California</div>
                 </div>
                 <div id="container" style="display: inline-block;">
                     <div id="propic_mobile_container">
@@ -51,11 +50,11 @@
                     </div>
                     <div id="about" style="float: left;">
                         <h1>About Me</h1>
-                        I enjoy working on different software projects during my free time.
-                        When I'm not programming, I enjoy playing soccer and basketball as well as snowboarding and hiking.
+                        I am a Software Engineer based in the San Francisco Bay Area.
                         <br /><br />
-                        <i>This website was originally created without the use of any frameworks/templates/bootstraps when I was learning HTML/CSS; I have kept it this way eversince.</i>
-                    </div>
+                        I enjoy working on different software projects during my free time.
+                        When I'm not programming, I enjoy playing soccer and basketball and snowboarding.
+                     </div>
                     <img id="propic" alt="Profile Picture" src="propic.jpg" />
                 </div>
                 <?php include 'footer.php';?>
