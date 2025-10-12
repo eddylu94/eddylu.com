@@ -1,143 +1,143 @@
 ﻿@media only screen and (min-width: 900px) {
-	#menu {
-		display: block;
-	}
+  #menu {
+    display: block;
+  }
 
-	#menuIcon {
-		display: none;
-		height: 45px;
-	}
+  #menuIcon {
+    display: none;
+    height: 45px;
+  }
 
-	h1 {
-		font-size: 32px;
-	}
+  h1 {
+    font-size: 32px;
+  }
 
-	#header_wrapper {
-		display: block;
-		margin: 0 40px;
-	}
+  #header_wrapper {
+    display: block;
+    margin: 0 40px;
+  }
 
-	#title_left {
-		font-size: 32px;
-	}
+  #title_left {
+    font-size: 32px;
+  }
 
-	#title_right {
-		font-size: 32px;
-	}
+  #title_right {
+    font-size: 32px;
+  }
 
-	#socialIcons {
-		margin-top: 0;
-		margin-left: 0;
-	}
+  #socialIcons {
+    margin-top: 0;
+    margin-left: 0;
+  }
 
-	#container {
-		padding: 50px;
-	}
+  #container {
+    padding: 50px;
+  }
 
-	#subheader {
-		padding: 20px 50px 35px 50px;
-	}
+  #subheader {
+    padding: 20px 50px 35px 50px;
+  }
 
-	#subheader_title {
-		font-size: 20px;
-	}
+  #subheader_title {
+    font-size: 20px;
+  }
 
-	#propic {
-		display: block;	
-	}
+  #propic {
+    display: block;	
+  }
 
-	#propic_mobile_container {
-		display: none;
-	}
+  #propic_mobile_container {
+    display: none;
+  }
 
-	#propic_mobile {
-		display: none;
-	}
+  #propic_mobile {
+    display: none;
+  }
 
-	#about {
-		width: 50%;
-	}
+  #about {
+    width: 50%;
+  }
 
-	#experience_container {
-		width: 80%;
-	}
+  #experience_container {
+    width: 80%;
+  }
 
-	#experience_h1 {
-		font-size: 2em;
-	}
+  #experience_h1 {
+    font-size: 2em;
+  }
 
-	.experience_h2 {
-		font-size: 2em;	
-	}
+  .experience_h2 {
+    font-size: 2em;	
+  }
 
-	.experience_h3 {
-		display: block;
-	}
+  .experience_h3 {
+    display: block;
+  }
 
-	.experience_h3_mobile {
-		display: none;
-	}
+  .experience_h3_mobile {
+    display: none;
+  }
 
-	#schools {
-		flex-direction: column;
-	}
+  #schools {
+    flex-direction: column;
+  }
 
-	#school {
-		width: 100%;
-	}
+  #school {
+    width: 100%;
+  }
 
-	#education_h1 {
-		font-size: 2em;
-	}
+  #education_h1 {
+    font-size: 2em;
+  }
 
-	#education_h2 {
-		font-size: 1.2em;
-	}
+  #education_h2 {
+    font-size: 1.2em;
+  }
 
-	#contactForm {
-		width: 70%
-	}
+  #contactForm {
+    width: 70%
+  }
 
-	.projects_container {
-		width: 100%;
-	}
+  .projects_container {
+    width: 100%;
+  }
 
-	.project_listing {
-		padding: 20px;
-		margin-bottom: 20px;
-	}
+  .project_listing {
+    padding: 20px;
+    margin-bottom: 20px;
+  }
 
-	.project_description {
-		width: 100%;
-	}
+  .project_description {
+    width: 100%;
+  }
 
-	.project_image_small {
-		display: block;
-		max-width: 100%;
-	}
+  .project_image_small {
+    display: block;
+    max-width: 100%;
+  }
 
-	.project_image_large {
-		display: none;
-	}
+  .project_image_large {
+    display: none;
+  }
 
-	.project_link {
-		word-break: break-all;
-	}
+  .project_link {
+    word-break: break-all;
+  }
 
-	.experiences_container {
-		width: 80%;
-	}
+  .experiences_container {
+    width: 80%;
+  }
 
-	#experienceListing_right {
-		width: 70%;
-		margin: 0px 0px 0px 5%;
-	}
+  #experienceListing_right {
+    width: 70%;
+    margin: 0px 0px 0px 5%;
+  }
 
-	.experience_logo_small {
-		display: none;
-	}
+  .experience_logo_small {
+    display: none;
+  }
 
-	.experience_header_text {
-		margin-left: 0;
-	}
+  .experience_header_text {
+    margin-left: 0;
+  }
 }

@@ -1,150 +1,150 @@
 ﻿@media only screen and (max-width: 900px) {
-	#menu {
-		display: none;
-	}
+  #menu {
+    display: none;
+  }
 
-	#menuIcon {
-		display: block;
-		height: 35px;
-	}
+  #menuIcon {
+    display: block;
+    height: 35px;
+  }
 
-	h1 {
-		font-size: 24px;
-	}
+  h1 {
+    font-size: 24px;
+  }
 
-	#header_wrapper {
-		display: flex;
-		margin: 0 20px;
-	}
+  #header_wrapper {
+    display: flex;
+    margin: 0 20px;
+  }
 
-	#title_left {
-		font-size: 24px;
-	}
+  #title_left {
+    font-size: 24px;
+  }
 
-	#title_right {
-		font-size: 24px;
-	}
+  #title_right {
+    font-size: 24px;
+  }
 
-	#menu_flyout ul {
-		margin-left: 0;
-		padding-left: 20px;
-	}
+  #menu_flyout ul {
+    margin-left: 0;
+    padding-left: 20px;
+  }
 
-	#socialIcons {
-		margin-top: 10px;
-		margin-left: 20px;
-	}
+  #socialIcons {
+    margin-top: 10px;
+    margin-left: 20px;
+  }
 
-	#container {
-		padding: 20px;
-	}
+  #container {
+    padding: 20px;
+  }
 
-	#subheader {
-		padding: 20px;
-	}
+  #subheader {
+    padding: 20px;
+  }
 
-	#subheader_title {
-		font-size: 18px;
-	}
+  #subheader_title {
+    font-size: 18px;
+  }
 
-	#propic {
-		display: none;	
-	}
+  #propic {
+    display: none;	
+  }
 
-	#propic_mobile_container {
-		display: block;
-	}
+  #propic_mobile_container {
+    display: block;
+  }
 
-	#propic_mobile {
-		display: block;
-		box-sizing: border-box;
-	}
+  #propic_mobile {
+    display: block;
+    box-sizing: border-box;
+  }
 
-	#about {
-		width: 100%;
-	}
+  #about {
+    width: 100%;
+  }
 
-	#experience_container {
-		width: 100%;
-	}
+  #experience_container {
+    width: 100%;
+  }
 
-	#experience_h1 {
-		font-size: 1.5em;
-	}
+  #experience_h1 {
+    font-size: 1.5em;
+  }
 
-	.experience_h2 {
-		font-size: 1.1em;	
-	}
+  .experience_h2 {
+    font-size: 1.1em;	
+  }
 
-	.experience_h3 {
-		display: none;
-	}
+  .experience_h3 {
+    display: none;
+  }
 
-	.experience_h3_mobile {
-		display: block;
-		font-size: 0.85em;
-	}
+  .experience_h3_mobile {
+    display: block;
+    font-size: 0.85em;
+  }
 
-	#schools {
-		flex-direction: column;
-	}
+  #schools {
+    flex-direction: column;
+  }
 
-	#school {
-		width: 100%;
-	}
+  #school {
+    width: 100%;
+  }
 
-	#education_h1 {
-		font-size: 1.5em;
-	}
+  #education_h1 {
+    font-size: 1.5em;
+  }
 
-	#education_h2 {
-		font-size: 1em;
-	}
+  #education_h2 {
+    font-size: 1em;
+  }
 
-	#contactForm {
-		width: 100%
-	}
+  #contactForm {
+    width: 100%
+  }
 
-	.projects_container {
-		width: 100%;
-	}
+  .projects_container {
+    width: 100%;
+  }
 
-	.project_listing {
-		padding: 20px;
-		margin-bottom: 20px;
-	}
+  .project_listing {
+    padding: 20px;
+    margin-bottom: 20px;
+  }
 
-	.project_description {
-		width: 100%;
-	}
+  .project_description {
+    width: 100%;
+  }
 
-	.project_image_small {
-		display: block;
-		max-width: 100%;
-	}
+  .project_image_small {
+    display: block;
+    max-width: 100%;
+  }
 
-	.project_image_large {
-		display: none;
-	}
+  .project_image_large {
+    display: none;
+  }
 
-	.project_link {
-		word-break: break-all;
-	}
+  .project_link {
+    word-break: break-all;
+  }
 
-	.experiences_container {
-		width: 100%;
-	}
+  .experiences_container {
+    width: 100%;
+  }
 
-	#experienceListing_left {
-		display: none;
-	}
+  #experienceListing_left {
+    display: none;
+  }
 
-	#experienceListing_right {
-		width: 100%;
-		margin: 0;
-	}
+  #experienceListing_right {
+    width: 100%;
+    margin: 0;
+  }
 
-	.experience_header_text {
-		margin-left: 15px;
-	}
+  .experience_header_text {
+    margin-left: 15px;
+  }
 }
