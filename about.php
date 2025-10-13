@@ -18,24 +18,7 @@
 
     <title>Eddy Lu</title>
     <script src="//code.jquery.com/jquery-1.12.4.js"></script>
-    <style>
-      #propic {
-        float: right;
-        width: 45%;
-        padding: 10px;
-        box-shadow: 0px 0px 10px #CCCCCC;
-      }
-      #propic_mobile_container {
-        display: flex;
-        margin-bottom: 10px;
-      }
-      #propic_mobile {
-        margin: auto;
-        width: 100%;
-        padding: 10px;
-        box-shadow: 0px 0px 10px #CCCCCC;
-      }
-    </style>
+    <link rel="stylesheet" type="text/css" href="/assets/css/about.css">
   </head>
   <body>
     <div id="page_wrapper">

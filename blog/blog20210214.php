@@ -5,56 +5,7 @@
     <meta charset="utf-8" />
     <title>Eddy Lu</title>
     <script src="//code.jquery.com/jquery-1.12.4.js"></script>
-    <style>
-      .codeSnippet {
-        background-color: rgba(0,0,0,0.05);
-        padding: 22px;
-        font-family: Consolas;
-        border-radius: 10px;
-      }
-
-      .blogImage {
-        display: table;
-        margin: 0 auto;
-        max-width: 100%;
-      }
-
-      .caption {
-        display: table;
-        margin: 0 auto;
-        font-style: italic;
-        margin-top: 8px;
-      }
-						
-      .blog-story {
-        margin: 0 auto;
-        width: 100%;
-        max-width: 800px;
-      }
-
-      #stats {
-        font-family: Arial, Helvetica, sans-serif;
-        border-collapse: collapse;
-        width: 100%;
-      }
-
-      #stats td, #stats th {
-        border: 1px solid #ddd;
-        padding: 8px;
-      }
-
-      #stats tr:nth-child(even){background-color: #f2f2f2;}
-
-      #stats tr:hover {background-color: #ddd;}
-
-      #stats th {
-        padding-top: 12px;
-        padding-bottom: 12px;
-        text-align: left;
-        background-color: #666666;
-        color: white;
-      }
-    </style>
+    <link rel="stylesheet" type="text/css" href="/assets/css/blog-post.css">
   </head>
   <body>
     <?php include $_SERVER['DOCUMENT_ROOT'] . '/assets/includes/header.php'; ?>

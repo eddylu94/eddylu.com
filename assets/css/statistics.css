@@ -1,0 +1,15 @@
+#stats th {
+  border: 0px;
+  border-collapse: collapse;
+  background-color: #333333;
+  color: white;
+}
+
+#stats td {
+  border: 0px;
+  border-collapse: collapse;
+}
+
+#stats tr:nth-child(even) {
+  background-color: #eee;
+}

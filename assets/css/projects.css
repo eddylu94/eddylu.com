@@ -1,0 +1,49 @@
+body {
+  background-color: #E8E8E8;
+}
+
+#projectListing {
+  overflow: auto;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 10px #CCCCCC;
+  box-sizing: border-box;
+  border-radius: 12px;
+}
+
+#projectListingText {
+  float: left;
+}
+
+#projectListingDescription {
+  margin-top: 20px;
+}
+
+#projectListingText h1 {
+  margin: 0px 0px 2px 0px;
+}
+
+#projectListingText h3 {
+  margin: 0px;
+  font-weight: 100;
+}
+
+#projectListingImage {
+  float: right;
+}
+
+.project_tags_container {
+  margin-top: 5px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.project_tag {
+  background-color: #ddd;
+  color: #333;
+  font-weight: 500;
+  padding: 5px 8px 5px 8px;
+  border-radius: 3px;
+  margin-right: 12px;
+  margin-bottom: 8px;
+}

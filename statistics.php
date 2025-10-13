@@ -5,21 +5,7 @@
     <meta charset="utf-8" />
     <title>Eddy Lu</title>
     <script src="//code.jquery.com/jquery-1.12.4.js"></script>
-    <style>
-      #stats th {
-        border: 0px;
-        border-collapse: collapse;
-        background-color: #333333;
-        color: white;
-      }
-      #stats td {
-        border: 0px;
-        border-collapse: collapse;
-      }
-      #stats tr:nth-child(even) {
-        background-color: #eee;
-      }
-    </style>
+    <link rel="stylesheet" type="text/css" href="/assets/css/statistics.css">
   </head>
   <body>
     <div id="page_wrapper">
