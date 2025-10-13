@@ -34,7 +34,7 @@
     </style>
   </head>
   <body>
-    <?php include 'header.php'; ?>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/assets/includes/header.php'; ?>
     <div id="container">
       <div class="blog-story">
         <div style="font-weight: bold; font-size: 48px;">Upcoming Optional Chaining and Null Coalescing in JS/TS</div>
@@ -42,7 +42,7 @@
       </div>
       <div class="blog-story" style="line-height: 1.50; margin-top: 50px">
 
-        <img class="blogImage" src="tc39.png" />
+        <img class="blogImage" src="/assets/images/blog/20191103/tc39.png" />
 
         <p>Earlier this year, a friend from work told me that TypeScript should soon be introducing two important features: <span style="font-weight: bold;">Optional Chaining</span> and <span style="font-weight: bold;">Null Coalescing</span>. This got me pretty excited as these two features would solve some common issues that I have encountered during web development.</p>
         
@@ -116,7 +116,7 @@ const myVariable = a?.b?.c?.d?.e;
 
         <p>As of November 3, 2019, optional chaining is an <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining">experimental technology</a> for JavaScript:</p>
 
-        <img class="blogImage" src="optional_chaining_compatibility.png" />
+        <img class="blogImage" src="/assets/images/blog/20191103/optional_chaining_compatibility.png" />
 
         <p>TC39 has classified optional chaining as a Stage 3 feature, meaning that "further refinement will require feedback from implementations and users", as stated in the <a target="_blank" href="https://tc39.es/process-document/">TC39 process document</a>.</p>
 
@@ -223,6 +223,6 @@ const myVariable = a ?? b;
 
       </div>
     </div>               
-    <?php include 'footer.php'; ?>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/assets/includes/footer.php'; ?>
   </body>
 </html>

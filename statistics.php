@@ -23,7 +23,7 @@
   </head>
   <body>
     <div id="page_wrapper">
-      <?php include 'header.php'; ?>
+      <?php include $_SERVER['DOCUMENT_ROOT'] . '/assets/includes/header.php'; ?>
       <div id="body_wrapper">
         <div id="container">
           Statistics of the last 20 views on this website:
@@ -34,20 +34,20 @@
               <th>IP Address</th>
               <th>Page Visited</th>
             </tr>
-            <?php include 'statTableRetriever.php'; ?>
+            <?php include $_SERVER['DOCUMENT_ROOT'] . '/assets/includes/stats/statTableRetriever.php'; ?>
           </table>
           <br />
           <span style="font-style: italic;">*IP Address not displayed for privacy</span>
           <br /><br />
           Total number of views from different IP Addresses since December 17, 2014:
           <br />
-          <?php include 'statViewsRetriever.php'; ?>
+          <?php include $_SERVER['DOCUMENT_ROOT'] . '/assets/includes/stats/statViewsRetriever.php'; ?>
           <br /><br />
           Total number of views since December 17, 2014:
           <br />
-          <?php include 'statDistinctViewsRetriever.php'; ?>
+          <?php include $_SERVER['DOCUMENT_ROOT'] . '/assets/includes/stats/statDistinctViewsRetriever.php'; ?>
         </div>
-        <?php include 'footer.php'; ?>
+        <?php include $_SERVER['DOCUMENT_ROOT'] . '/assets/includes/footer.php'; ?>
       </div>
     </div>
   </body>

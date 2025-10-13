@@ -34,7 +34,7 @@
     </style>
   </head>
   <body>
-    <?php include 'header.php'; ?>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/assets/includes/header.php'; ?>
     <div id="container">
       <div class="blog-story">
         <div style="font-weight: bold; font-size: 48px;">The Tab Order vs. z-Order Paradox</div>
@@ -42,7 +42,7 @@
       </div>
       <div class="blog-story" style="line-height: 1.50; margin-top: 50px">
 
-        <img class="blogImage" style="max-height: 300px;" src="20190117_tabindex.png" />
+        <img class="blogImage" style="max-height: 300px;" src="/assets/images/blog/20190117/20190117_tabindex.png" />
 
         <p>In web development, tabindexes and z-indexes are used for completely different purposes; however, these two attributes can still conflict each other in special scenarios.</p>
         
@@ -65,7 +65,7 @@
 
         <p>We would have the following behaviour:</p>
 
-        <img class="blogImage" style="max-height: 300px;" src="20190117_tabindex.png" />
+        <img class="blogImage" style="max-height: 300px;" src="/assets/images/blog/20190117/20190117_tabindex.png" />
         <span class="caption">Focusable elements are outlined with dark borders, tab order is indicated by the numbered circles</span>
 
         <p>In this scenario, the divs with tabindexes defined: A, B, D, E; are focusable (such as by mouse click) as shown with thick borders in the diagram. However, if the user simply navigates through the divs by pressing the tab key on their keyboard, then only the divs with tabindexes of at least zero, A and D, will be focused in the order in which they are written.</p>
@@ -80,7 +80,7 @@
 
         <p>This example would yield to a keyboard navigation order of the following:</p>
 
-        <img class="blogImage" style="max-height: 300px;" src="20190117_tabindex2.png" />
+        <img class="blogImage" style="max-height: 300px;" src="/assets/images/blog/20190117/20190117_tabindex2.png" />
         <span class="caption">Tab order is indicated by the numbered circles</span>
 
         <p>In this case, the div with the smallest tabindex, B, would be reached first. Then, the div with the second smallest tabindex, A, would be reached; followed by the div with the next smallest tabindex, C.</p>
@@ -99,7 +99,7 @@
 
         <p>Then the tab order will follow that of the DOM element order where B follows A, and C follows B:</p>
 
-        <img class="blogImage" style="max-height: 300px;" src="20190117_tabindex3.png" />
+        <img class="blogImage" style="max-height: 300px;" src="/assets/images/blog/20190117/20190117_tabindex3.png" />
         
         <p style="font-style: italic">Conclusion: To define tab orders for elements, simply order the elements in the DOM using the same order while using tab indexes of '0' for these elements.</p>
 
@@ -116,13 +116,13 @@
 
         <p>We can force one div to appear on top of another by using different z-indexes:</p>
 
-        <img class="blogImage" style="max-height: 300px;" src="20190117_zindex.png" />
+        <img class="blogImage" style="max-height: 300px;" src="/assets/images/blog/20190117/20190117_zindex.png" />
         
         <p>In this case, div A has a greater z-index than div B; thus A appears on top of B.</p>
 
         <p>Although z-indexes have been supported by all common web browsers for years, they are still very dangerous to use when an application becomes too complex. Eventually, every time a new component is assigned a new z-index, the developer has to deal with ensuring that every other component rendered on the same page will not be affected. Otherwise, the developer will basically destroy their page with incorrect orders of components, similar to how one can completely cause chaos when dragging one item in a Microsoft Word document.</p>
 
-        <img class="blogImage" style="max-height: 300px;" src="20190117_meme.jpg" />
+        <img class="blogImage" style="max-height: 300px;" src="/assets/images/blog/20190117/20190117_meme.jpg" />
         <span class="caption">I think everyone can relate to this…</span>
 
         <p>Therefore, it is best to avoid using z-indexes of possible.</p>
@@ -145,7 +145,7 @@
 &lt;div style="background-color: blue; margin: 10px 0 0 10px;" class="block"&gt;B&lt;/div&gt;
         </pre>
 
-        <img class="blogImage" style="max-height: 300px;" src="20190117_zindex2.png" />
+        <img class="blogImage" style="max-height: 300px;" src="/assets/images/blog/20190117/20190117_zindex2.png" />
 
         <p style="font-style: italic">Conclusion: To place elements on top of one-another in the z-direction, define these elements in the DOM so that components defined later are rendered on top of those that are defined earlier.</p>
 
@@ -157,12 +157,12 @@
 
         <p>To better demonstrate this conflict, take a look at a common use case:</p>
 
-        <img class="blogImage" style="max-height: 300px;" src="20190117_map_example.png" />
+        <img class="blogImage" style="max-height: 300px;" src="/assets/images/blog/20190117/20190117_map_example.png" />
         <span class="caption">Google Maps (mobile app)</span>
 
         <p>Today, it seems that map applications are following a theme where the search bar is rendered as a component that floats on top of the map.</p>
 
-        <img class="blogImage" style="max-height: 300px;" src="20190117_conflict.png" />
+        <img class="blogImage" style="max-height: 300px;" src="/assets/images/blog/20190117/20190117_conflict.png" />
         
         <p>In this simplified diagram, the red block A represents the search bar, and the blue block B represents the underlying map.</p>
 
@@ -175,7 +175,7 @@
 
         <p>However, for this common scenario, the tab order usually involves focusing on the text input component before the map component (along with its inner contents). With our z-order solution, we are defining the search header component after the map component; this would mean that tab-order would begin with the map component before the search header component:</p>
 
-        <img class="blogImage" style="max-height: 300px;" src="20190117_conflict2.png" />
+        <img class="blogImage" style="max-height: 300px;" src="/assets/images/blog/20190117/20190117_conflict2.png" />
 
         <p>Thus we experience this paradox where the tab-order conflicts with the z-order.</p>
 
@@ -227,7 +227,7 @@
 
         <p>And thus, we would have our desired tab and z-order:</p>
 
-        <img class="blogImage" style="max-height: 300px;" src="20190117_conflict3.png" />
+        <img class="blogImage" style="max-height: 300px;" src="/assets/images/blog/20190117/20190117_conflict3.png" />
 
         <p>In addition, this solution can theoretically be applied for scenarios with a multitude of components with conflicting tab and z-orders. Thus, if you are a CSS master, then, using some parent-child relationships and elaborate combinations of relative and absolute positioned components, you should be able to arrange any number of components in the desired tab and z-orders.</p>
 
@@ -237,6 +237,6 @@
 
       </div>
     </div>               
-    <?php include 'footer.php'; ?>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/assets/includes/footer.php'; ?>
   </body>
 </html>

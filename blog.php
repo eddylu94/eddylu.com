@@ -53,7 +53,7 @@
     </style>
   </head>
   <body>
-    <?php include 'header.php'; ?>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/assets/includes/header.php'; ?>
     <div id="body_wrapper">
       <div id="subheader">
         <h1>Blog</h1>
@@ -62,9 +62,9 @@
       <div id="container">
         <div class="blogs-container">
           <div class="post">
-            <a href="blog20230415.php">
+            <a href="/blog/blog20230415.php">
               <div class="imgContainer">
-                <img src="blog20230415_banner.png" />
+                <img src="/assets/images/blog/20230415/blog20230415_banner.png" />
               </div>
               <div style="padding: 18px">
                 <div style="font-size: x-large; color: #333333;">Effects of timezones for last minute crypto tax harvesting</div>
@@ -74,9 +74,9 @@
           </div>
 
           <div class="post">
-            <a href="blog20220102.php">
+            <a href="/blog/blog20220102.php">
               <div class="imgContainer">
-                <img src="blog20220102_banner.png" />
+                <img src="/assets/images/blog/20220102/blog20220102_banner.png" />
               </div>
               <div style="padding: 18px">
                 <div style="font-size: x-large; color: #333333;">Common syntactical differences between React and React Native</div>
@@ -86,9 +86,9 @@
           </div>
 
           <div class="post">
-            <a href="blog20210214.php">
+            <a href="/blog/blog20210214.php">
               <div class="imgContainer">
-                <img src="blog20210214_map.png" />
+                <img src="/assets/images/blog/20210214/blog20210214_map.png" />
               </div>
               <div style="padding: 18px">
                 <div style="font-size: x-large; color: #333333;">Whether to relocate during the pandemic</div>
@@ -98,9 +98,9 @@
           </div>
 
           <div class="post">
-            <a href="blog20191103.php">
+            <a href="/blog/blog20191103.php">
               <div class="imgContainer">
-                <img src="tc39.png" />
+                <img src="/assets/images/blog/20191103/tc39.png" />
               </div>
               <div style="padding: 18px">
                 <div style="font-size: x-large; color: #333333;">Upcoming Optional Chaining and Null Coalescing in JS/TS</div>
@@ -110,9 +110,9 @@
           </div>
           
           <div class="post">
-            <a href="blog20190117.php">
+            <a href="/blog/blog20190117.php">
               <div class="imgContainer">
-                <img src="20190117_tabindex.png" />
+                <img src="/assets/images/blog/20190117/20190117_tabindex.png" />
               </div>
               <div style="padding: 18px">
                 <div style="font-size: x-large; color: #333333;">The Tab Order vs. z-Order Paradox</div>
@@ -122,9 +122,9 @@
           </div>
 
           <div class="post">
-            <a href="blog20181228.php">
+            <a href="/blog/blog20181228.php">
               <div class="imgContainer">
-                <img src="blog20181228_border.png" style="margin: 0 10px;" />
+                <img src="/assets/images/blog/20181228/blog20181228_border.png" style="margin: 0 10px;" />
               </div>
               <div style="padding: 18px">
                 <div style="font-size: x-large; color: #333333;">Circular profile pictures in Android vs. React Native</div>
@@ -135,7 +135,7 @@
 
         </div>
       </div>
-      <?php include 'footer.php'; ?>
+      <?php include $_SERVER['DOCUMENT_ROOT'] . '/assets/includes/footer.php'; ?>
     </div>
   </body>
 </html>

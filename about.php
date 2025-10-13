@@ -5,14 +5,14 @@
     <meta charset="utf-8" />
     <meta property="og:title" content="eddylu.com" />
     <meta property="og:description" content="Eddy Lu" />
-    <meta property="og:image" content="https://eddylu.com/propic.jpg" />
+    <meta property="og:image" content="https://eddylu.com/assets/images/propic.jpg" />
     <meta property="og:url" content="https://eddylu.com" />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="eddylu.com" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="eddylu.com" />
     <meta name="twitter:description" content="Eddy Lu" />
-    <meta name="twitter:image" content="https://eddylu.com/propic.jpg" />
+    <meta name="twitter:image" content="https://eddylu.com/assets/images/propic.jpg" />
     <meta name="twitter:image:alt" content="eddylu.com" />
     <meta name="twitter:card" content="summary" />
 
@@ -39,14 +39,14 @@
   </head>
   <body>
     <div id="page_wrapper">
-      <?php include 'header.php'; ?>
+      <?php include $_SERVER['DOCUMENT_ROOT'] . '/assets/includes/header.php'; ?>
       <div id="body_wrapper">
         <div id="subheader">
           <h1>Hello! I'm Eddy</h1>
         </div>
         <div id="container" style="display: inline-block;">
           <div id="propic_mobile_container">
-            <img id="propic_mobile" alt="Profile Picture" src="propic.jpg" />
+            <img id="propic_mobile" alt="Profile Picture" src="/assets/images/propic.jpg" />
           </div>
           <div id="about" style="float: left;">
             <h1>About Me</h1>
@@ -55,9 +55,9 @@
             I enjoy working on different software projects during my free time.
             When I'm not programming, I enjoy playing soccer and basketball and snowboarding.
           </div>
-          <img id="propic" alt="Profile Picture" src="propic.jpg" />
+          <img id="propic" alt="Profile Picture" src="/assets/images/propic.jpg" />
         </div>
-        <?php include 'footer.php'; ?>
+        <?php include $_SERVER['DOCUMENT_ROOT'] . '/assets/includes/footer.php'; ?>
       </div>
     </div>
   </body>

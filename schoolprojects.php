@@ -58,13 +58,13 @@
     </style>
   </head>
   <body>
-    <?php include 'header.php'; ?>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/assets/includes/header.php'; ?>
     <div id="body_wrapper">
       <div id="subheader">
         <h1>Projects</h1>
         <div id="subheader_title">Some of my personal projects and Electrical Engineering projects at McGill</div>
-        <input id="subheader_button" type="button" onclick="location.href = 'projects.php';" value="Personal Projects" />
-        <input id="subheader_button" type="button" onclick="location.href = 'schoolprojects.php';" value="School Projects" />
+        <input id="subheader_button" type="button" onclick="location.href = '/projects.php';" value="Personal Projects" />
+        <input id="subheader_button" type="button" onclick="location.href = '/schoolprojects.php';" value="School Projects" />
       </div>
       <div id="container">
         <div class="projects_container">
@@ -74,7 +74,7 @@
               <h1>Embedded Systems Indoor Positioning System</h1>
               <h3>Sept. 2015 - Dec. 2015</h3>
               
-              <img class="project_image_small" src="microprocessors.png" />
+              <img class="project_image_small" src="/assets/images/projects/microprocessors.png" />
 
               <div id="projectListingDescription">
                 Programmed ARM Cortex M processors in Assembly and embedded C to track the navigation of moving bodies by analyzing accelerometer
@@ -88,7 +88,7 @@
                 </div>
               </div>
             </div>
-            <img class="project_image_large" id="projectListingImage" src="microprocessors.png" style="width: 50%;" />
+            <img class="project_image_large" id="projectListingImage" src="/assets/images/projects/microprocessors.png" style="width: 50%;" />
           </div>
 
           <div id="projectListing" class="project_listing">
@@ -96,7 +96,7 @@
               <h1>Digital System Design FPGA Music Box</h1>
               <h3>Jan. 2015 - Apr. 2015</h3>
               
-              <img class="project_image_small" src="dsdSchematic.jpg" />
+              <img class="project_image_small" src="/assets/images/projects/dsdSchematic.jpg" />
 
               <div id="projectListingDescription">
                 For my Digital System Design project, I programmed Altera FPGA board in VHDL to play musical pieces and display information using LEDs.
@@ -110,7 +110,7 @@
                 </div>
               </div>
             </div>
-            <img class="project_image_large" id="projectListingImage" src="dsdSchematic.jpg" style="width: 50%;" />
+            <img class="project_image_large" id="projectListingImage" src="/assets/images/projects/dsdSchematic.jpg" style="width: 50%;" />
           </div>
 
           <div id="projectListing" class="project_listing">
@@ -118,7 +118,7 @@
               <h1>NXT Robot</h1>
               <h3>Sept. 2014 - Dec. 2014</h3>
               
-              <img class="project_image_small" src="robot.jpg" />
+              <img class="project_image_small" src="/assets/images/projects/robot.jpg" />
 
               <div id="projectListingDescription">
                 In my Design Principles and Methods class, ECSE 211, I worked on building an autonomous robot along with six electrical, computer,
@@ -134,7 +134,7 @@
                 </div>
               </div>
             </div>
-            <img class="project_image_large" id="projectListingImage" src="robot.jpg" style="width: 50%;" />
+            <img class="project_image_large" id="projectListingImage" src="/assets/images/projects/robot.jpg" style="width: 50%;" />
           </div>
 
           <div id="projectListing" class="project_listing">
@@ -142,7 +142,7 @@
               <h1>Bomberman Project Game</h1>
               <h3>Jan. 2014 - Apr. 2014</h3>
               
-              <img class="project_image_small" src="magibomb.png" />
+              <img class="project_image_small" src="/assets/images/projects/magibomb.png" />
 
               <div id="projectListingDescription">
                 For my 2014 Winter semester Software Engineering class, ECSE 321, I worked in a team of six software engineering students to develop the classic Bomberman game in Java.
@@ -154,7 +154,7 @@
                 </div>
               </div>
             </div>
-            <img class="project_image_large" id="projectListingImage" src="magibomb.png" style="width: 50%;" />
+            <img class="project_image_large" id="projectListingImage" src="/assets/images/projects/magibomb.png" style="width: 50%;" />
           </div>
 
           <div id="projectListing" class="project_listing">
@@ -162,7 +162,7 @@
               <h1>ECSESS Robotics</h1>
               <h3>Jan. 2014 - Apr. 2014</h3>
               
-              <img class="project_image_small" src="ecsessRobot.jpg" />
+              <img class="project_image_small" src="/assets/images/projects/ecsessRobot.jpg" />
 
               <div id="projectListingDescription">
                 For four months, I worked in a team of three electrical engineering students to build a robot that navigates on an obstacle course.
@@ -176,12 +176,12 @@
                 </div>
               </div>
             </div>
-            <img class="project_image_large" id="projectListingImage" src="ecsessRobot.jpg" style="width: 50%;" />
+            <img class="project_image_large" id="projectListingImage" src="/assets/images/projects/ecsessRobot.jpg" style="width: 50%;" />
           </div>
 
         </div>
       </div>
-      <?php include 'footer.php'; ?>
+      <?php include $_SERVER['DOCUMENT_ROOT'] . '/assets/includes/footer.php'; ?>
     </div>
   </body>
 </html>

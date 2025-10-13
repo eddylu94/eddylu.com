@@ -70,7 +70,7 @@
   </head>
   <body>
     <div id="page_wrapper">
-      <?php include 'header.php'; ?>
+      <?php include $_SERVER['DOCUMENT_ROOT'] . '/assets/includes/header.php'; ?>
       <div id="body_wrapper">
         <div id="container" style="text-align: center;">
           <h2 style="color: #333333;">Have a question or comment? Feel free to shoot me a message!</h2>
@@ -82,7 +82,7 @@
             <input id="contactForm_button" type="submit" name="submit" value="Submit" />
           </form>
         </div>
-        <?php include 'footer.php'; ?>
+        <?php include $_SERVER['DOCUMENT_ROOT'] . '/assets/includes/footer.php'; ?>
       </div>
     </div>
   </body>

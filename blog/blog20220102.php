@@ -62,7 +62,7 @@
     </style>
   </head>
   <body>
-    <?php include 'header.php'; ?>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/assets/includes/header.php'; ?>
     <div id="container">
       <div class="blog-story">
         <div style="font-weight: bold; font-size: 48px;">Common syntactical differences between React and React Native</div>
@@ -70,7 +70,7 @@
       </div>
       <div class="blog-story" style="line-height: 1.50; margin-top: 50px">
 
-        <img class="blogImage" src="blog20220102_banner.png" />
+        <img class="blogImage" src="/assets/images/blog/20220102/blog20220102_banner.png" />
 
         <p>When working on side projects, I find myself often converting React web applications into React Native mobile applications.</p>
 								
@@ -89,7 +89,7 @@
         <p>However, one should note that there are also disadvantages for this approach.
           For example, as per the Lean Startup principal, startup app projects should be as simple as possible; developers should seek user feedback and iterate constantly off of the simple prototype.</p>
           
-          <img class="blogImage" style="max-height: 300px;" src="blog20220102_lean_startup.png" />
+          <img class="blogImage" style="max-height: 300px;" src="/assets/images/blog/20220102/blog20220102_lean_startup.png" />
           <span class="caption">Cycle defined in the <a target="_blank" href="http://theleanstartup.com/principles">Lean Startup</a></span>
           
           <p>Implementing a web app prior to converting to mobile can be time consuming; at some point, developers need to decide whether they should continue to maintain the web application or discontinue the web app development.</p>
@@ -108,10 +108,10 @@
 
         <p>In React, button content/text is centered by default; in React Native, the content is naturally aligned in the top-left of the <a target="_blank" href="https://reactnative.dev/docs/button">Button</a> component.</p>
 
-        <img class="blogImage" style="max-height: 300px;" src="blog20220102_button_1.png" />
+        <img class="blogImage" style="max-height: 300px;" src="/assets/images/blog/20220102/blog20220102_button_1.png" />
         <span class="caption">Button without alignment explicitly defined for React</span>
 
-        <img class="blogImage" style="max-height: 300px;" src="blog20220102_button_2.png" />
+        <img class="blogImage" style="max-height: 300px;" src="/assets/images/blog/20220102/blog20220102_button_2.png" />
         <span class="caption">Button without alignment explicitly defined for React Native</span>
 
         <p>Button-type components in React Native, such as <a target="_blank" href="https://reactnative.dev/docs/touchablehighlight">TouchableHighlight</a>, can only contain one child component.</p>
@@ -284,6 +284,6 @@ paddingLeft: 2
         <br /><a target="_blank" href="https://reactnative.dev/docs/view">https://reactnative.dev/docs/view</a></p>
       </div>
     </div>               
-    <?php include 'footer.php'; ?>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/assets/includes/footer.php'; ?>
   </body>
 </html>

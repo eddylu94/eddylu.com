@@ -34,7 +34,7 @@
     </style>
   </head>
   <body>
-    <?php include 'header.php'; ?>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/assets/includes/header.php'; ?>
     <div id="container">
       <div class="blog-story">
         <div style="font-weight: bold; font-size: 48px;">Circular profile pictures in Android vs. React Native</div>
@@ -42,7 +42,7 @@
       </div>
       <div class="blog-story" style="line-height: 1.50; margin-top: 50px">
 
-        <img class="blogImage" src="blog20181228_example.png" />
+        <img class="blogImage" src="/assets/images/blog/20181228/blog20181228_example.png" />
         <span class="caption">Circular profile pictures are used on virtually every social platform, including Facebook</span>
 
         <p>While working on a personal mobile application project, I wanted to render a profile picture. There has been a wide-spread trend where profile pictures are rendered as circles instead of the classic rectangle. In UX design, circular profile pictures have been proven to be easier for the human eye to visually process. Thus, circular profile pictures are implemented virtually on every modern social web/mobile platform.</p>
@@ -53,7 +53,7 @@
 
         <p>Thus, I have decided to demonstrate and compare my personal implementations of these circular profile pictures via native Android code and React native.</p>
 
-        <img class="blogImage" src="blog20181228_android_and_react_native.png" />
+        <img class="blogImage" src="/assets/images/blog/20181228/blog20181228_android_and_react_native.png" />
 
         <h1>NATIVE ANDROID</h1>
 
@@ -71,7 +71,7 @@
 
         <p>At this point, if we add an image source, the profile picture will simply render as a rectangle:</p>
 
-        <img class="blogImage" style="max-height: 300px;" src="blog20181228_mister_meeseeks_cropped.jpg" />
+        <img class="blogImage" style="max-height: 300px;" src="/assets/images/blog/20181228/blog20181228_mister_meeseeks_cropped.jpg" />
         <span class="caption">My profile picture before editing</span>
 
         <p>If we wish to programmatically edit this newly defined view, then we need to define a Drawable in a Java class that is linked to the Image View using the view's ID.</p>
@@ -88,7 +88,7 @@ protected void onCreate(Bundle savedInstanceState) {
 
         <p>One useful tool in the native Android SDK is the <span style="font-weight: bold;">RoundedBitmapDrawable</span> class that contains a method dedicated to forming rounded drawables. However, before we can use this functionality, we must first crop our image into a square; otherwise we will eventually form an ellipse.</p>
 
-        <img class="blogImage" src="blog20181228_circular_image.png" />
+        <img class="blogImage" src="/assets/images/blog/20181228/blog20181228_circular_image.png" />
         <span class="caption">
 Image cropped into a circle</span>
 
@@ -113,7 +113,7 @@ bmp = Bitmap.createBitmap(bmp, firstPixelX, firstPixelY, bmp.getHeight(), bmp.ge
 
         <p>Surprisingly, Android does not naturally incorporate any native implementation for appending borders to images. The <a target="_blank" href="https://stackoverflow.com/questions/3496269/how-do-i-put-a-border-around-an-android-textview">current acceptable method of creating a border is actually by rendering the image within a container shape with a given padding that will act as the border width</a>.</p>
 
-        <img class="blogImage" src="blog20181228_border.png" />
+        <img class="blogImage" src="/assets/images/blog/20181228/blog20181228_border.png" />
         <span class="caption">The image is placed on top of a circle of slightly greater size</span>
 
         <p>Container shape that will act as the border:</p>
@@ -145,7 +145,7 @@ bmp = Bitmap.createBitmap(bmp, firstPixelX, firstPixelY, bmp.getHeight(), bmp.ge
 
         <p>If adding the border was not complicated enough, then adding the shadow will be an even more exciting experience. Interestingly, Android natively includes an elevation attribute that forms a natural shadow behind components. However, this shadow is not customizable… After searching around the internet, it seems that a <a target="_blank" href="https://stackoverflow.com/questions/21211870/android-view-shadow">common implementation that allows for customization involves placing the image on top (in the z-direction) of another shape of equal size with a gradient</a>.</p>
 
-        <img class="blogImage" src="blog20181228_shadow.png" />
+        <img class="blogImage" src="/assets/images/blog/20181228/blog20181228_shadow.png" />
         <span class="caption">The profile picture and border are placed on top of a misaligned gradient that acts as a shadow</span>
 
         <pre class="codeSnippet">
@@ -165,7 +165,7 @@ bmp = Bitmap.createBitmap(bmp, firstPixelX, firstPixelY, bmp.getHeight(), bmp.ge
 
         <p>In order for the user to see the shadow behind the image, we have to intentionally misalign the underlying gradient shape; this misalignment acts as our shadow offset. We will also have to define our image after the definition of the gradient shape in our layout file. This is due to the fact that the latest defined components are rendered on top (in the z-dimension). This allows the developer to avoid using the z-index attribute, which is very dangerous when many components are rendered in the application at once.</p>
 
-        <img class="blogImage" src="blog20181228_finished.png" />
+        <img class="blogImage" src="/assets/images/blog/20181228/blog20181228_finished.png" />
         <span class="caption">The finished product</span>
 
         <h2>Complete Source-Code</h2>
@@ -377,7 +377,7 @@ export default class CircularProfilePicture extends React.Component {
 }
         </pre>
 
-        <img class="blogImage" style="max-height: 500px;" src="blog20181228_flat_earth.png" />
+        <img class="blogImage" style="max-height: 500px;" src="/assets/images/blog/20181228/blog20181228_flat_earth.png" />
         <span class="caption">An interesting benefit of using circles to display profile pictures…</span>
         
         <h1>Conclusion</h1>
@@ -386,6 +386,6 @@ export default class CircularProfilePicture extends React.Component {
 
       </div>
     </div>               
-    <?php include 'footer.php'; ?>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/assets/includes/footer.php'; ?>
   </body>
 </html>

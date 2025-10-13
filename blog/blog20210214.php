@@ -57,7 +57,7 @@
     </style>
   </head>
   <body>
-    <?php include 'header.php'; ?>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/assets/includes/header.php'; ?>
     <div id="container">
       <div class="blog-story">
         <div style="font-weight: bold; font-size: 48px;">Whether to relocate during the pandemic</div>
@@ -65,7 +65,7 @@
       </div>
       <div class="blog-story" style="line-height: 1.50; margin-top: 50px">
 
-        <img class="blogImage" src="blog20210214_map.png" />
+        <img class="blogImage" src="/assets/images/blog/20210214/blog20210214_map.png" />
 
         <p>During the first few months of the pandemic, when everyone started realizing that the work from home system would last longer than simply a few weeks, I jotted some notes to help my friends and I determine whether it was worth temporarily relocating to a new city.</p>
 
@@ -105,7 +105,7 @@
 
         <p>With recent movements, including Black Lives Matter, politics are very important. Does it matter whether the region is predominantly a Trump or Biden supported territory?</p>
 
-        <img class="blogImage" src="blog20210214_red_blue_states.png" />
+        <img class="blogImage" src="/assets/images/blog/20210214/blog20210214_red_blue_states.png" />
 
         <span class="caption">Red states and blue states - Wikipedia</span>
 
@@ -246,6 +246,6 @@
 
             </div>
         </div>               
-        <?php include 'footer.php';?>
+        <?php include $_SERVER['DOCUMENT_ROOT'] . '/assets/includes/footer.php';?>
     </body>
 </html>
