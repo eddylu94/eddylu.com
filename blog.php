@@ -17,6 +17,18 @@
       <div id="container">
         <div class="blogs-container">
           <div class="post">
+            <a href="/blog/blog20251012.php">
+              <div class="imgContainer">
+                <img src="/assets/images/blog/20251012/blog20251012_elc.png" />
+              </div>
+              <div style="padding: 18px">
+                <div style="font-size: x-large; color: #333333;">Key Insights from the ELC Conference 2025</div>
+                <div style="font-size: large; color: #686868;">Sunday, October 12, 2025</div>
+              </div>
+            </a>
+          </div>
+
+          <div class="post">
             <a href="/blog/blog20230415.php">
               <div class="imgContainer">
                 <img src="/assets/images/blog/20230415/blog20230415_banner.png" />
