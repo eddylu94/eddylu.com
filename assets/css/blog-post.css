@@ -51,3 +51,72 @@ em {
   font-weight: bold;
   font-style: normal;
 }
+
+/* Mobile responsiveness fixes */
+.blog-story {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.blog-story a {
+  word-break: break-all;
+}
+
+.codeSnippet {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: pre-wrap;
+}
+
+@media (max-width: 768px) {
+  .blog-story {
+    padding: 0 15px;
+    max-width: calc(100vw - 30px);
+    overflow-x: hidden;
+    margin: 0 auto;
+    width: calc(100vw - 30px);
+  }
+  
+  /* Ensure the container itself doesn't overflow */
+  #container {
+    overflow-x: hidden;
+    max-width: 100vw;
+  }
+  
+  .blog-story h1 {
+    font-size: 36px !important;
+  }
+  
+  .blog-story h2 {
+    font-size: 24px !important;
+  }
+  
+  .blog-story div[style*="font-size: 48px"] {
+    font-size: 36px !important;
+  }
+  
+  .codeSnippet {
+    font-size: 14px;
+    padding: 15px;
+    max-width: 100%;
+    overflow-x: auto;
+  }
+  
+  .blogImage {
+    max-width: 100% !important;
+    height: auto !important;
+    width: auto !important;
+  }
+  
+  /* Ensure all images within blog story are responsive */
+  .blog-story img {
+    max-width: 100% !important;
+    height: auto !important;
+  }
+  
+  /* Handle any wide content within blog story only */
+  .blog-story * {
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+}
