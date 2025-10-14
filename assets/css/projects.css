@@ -8,10 +8,13 @@ body {
   box-shadow: 0 0 10px #CCCCCC;
   box-sizing: border-box;
   border-radius: 12px;
+  display: flex;
+  min-height: 200px;
 }
 
 #projectListingText {
-  float: left;
+  flex: 1;
+  padding: 20px;
 }
 
 #projectListingDescription {
@@ -28,7 +31,23 @@ body {
 }
 
 #projectListingImage {
-  float: right;
+  flex: 0 0 auto;
+  padding: 20px;
+  max-width: 50%;
+}
+
+/* Large desktop view - vertically center content */
+@media (min-width: 1200px) {
+  #projectListing {
+    align-items: center;
+  }
+  
+  #projectListingImage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+  }
 }
 
 .project_tags_container {
@@ -46,4 +65,14 @@ body {
   border-radius: 3px;
   margin-right: 12px;
   margin-bottom: 8px;
+}
+
+.project_link {
+  color: #0066cc;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.project_link:hover {
+  text-decoration: underline;
 }

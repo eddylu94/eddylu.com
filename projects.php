@@ -21,7 +21,56 @@
 
           <div id="projectListing" class="project_listing">
             <div class="project_description" id="projectListingText">
-              <h1>CodeJam 2016 - TV Show Recommender</h1>
+              <h1>PlanShare.io</h1>
+              <h3>Mar. 2020 - May. 2020</h3>
+              
+              <img class="project_image_small" src="/assets/images/projects/planshare.png" />
+
+              <div id="projectListingDescription">
+                Developed a website where users can find people to share subscriptions, group orders, and referrals; written in React, TypeScript, MongoDB, Express, Node.js
+                <br />
+                <br />
+                <a href="https://planshare.io" class="project_link" target="_blank">https://planshare.io</a>
+                <br />
+                <br />
+                <strong>Front end:</strong><br />
+                • React, TypeScript<br />
+                • Material UI for slider, radio, checkbox controls
+                <br />
+                <br />
+                <strong>Back end:</strong><br />
+                • Node, Express, TypeScript, Mongo
+                <br />
+                <br />
+                <strong>Instant messaging:</strong><br />
+                • Socket.IO
+                <br />
+                <br />
+                <strong>Graphics:</strong><br />
+                • Gimp, PowerPoint for creating icons, banners<br />
+                • Material Design for icons
+                <br />
+                <br />
+                <strong>Notifications:</strong><br />
+                • Node for scheduled emails
+                <br />
+                <br />
+                <div class="project_tags_container">
+                  <div class="project_tag">React</div>
+                  <div class="project_tag">TypeScript</div>
+                  <div class="project_tag">MongoDB</div>
+                  <div class="project_tag">Express</div>
+                  <div class="project_tag">Node.js</div>
+                  <div class="project_tag">Socket.io</div>
+                </div>
+              </div>
+            </div>
+            <img class="project_image_large" id="projectListingImage" src="/assets/images/projects/planshare.png" style="width: 50%;" />
+          </div>
+
+          <div id="projectListing" class="project_listing">
+            <div class="project_description" id="projectListingText">
+              <h1>TV Show Recommender</h1>
               <h3>Nov. 2016</h3>
               
               <img class="project_image_small" src="/assets/images/projects/codejam16.png" />
