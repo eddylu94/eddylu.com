@@ -35,6 +35,8 @@
             <br /><br />
             Outside of work, I enjoy building side projects and exploring new technologies.
             I also enjoy playing soccer and basketball, and going snowboarding.
+            <br /><br />
+            <i class="sub-text">This website is built with static HTML, CSS, JavaScript, PHP, and MySQL, as this was the stack supported by the free web hosting service I used during university.</i>
           </div>
 
           <div class="section-spacing">
