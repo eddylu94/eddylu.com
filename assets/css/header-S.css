@@ -106,12 +106,13 @@
   }
 
   .project_listing {
-    padding: 20px;
+    padding: 10px;
     margin-bottom: 20px;
   }
 
   .project_description {
     width: 100%;
+    padding: 10px !important;
   }
 
   .project_image_small {
