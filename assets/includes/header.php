@@ -73,7 +73,7 @@
               </ul>
             </li>
             <li>
-              <a href="/notes/Home.php">Comp Sci</a>
+              <a href="/notes/Home.php">CS Notes</a>
               <ul>
                 <li><a href="/notes/DataStructures.php">Data Structures</a></li>
                 <li><a href="/notes/Algorithms.php">Algorithms</a></li>
@@ -84,14 +84,17 @@
               </ul>
             </li>
             <li>
-              <a href="https://www.notion.so/Random-Notes-b91efbf129b64a83b12c893211b4ef8c" target='_blank'>Random</a>
+              <a href="https://www.notion.so/Random-Notes-b91efbf129b64a83b12c893211b4ef8c" target='_blank'>Notion</a>
             </li>
-            <li><a href="/about.php">About</a></li>
+            <li><a href="/about.php">CV</a></li>
           </ul>
         </div>
         <div id="socialIcons">
           <a href="https://github.com/eddylu94" target="_blank">
             <img id="socialIcon" alt="GitHub" src="/assets/images/icons/gh-icon_round.png" />
+          </a>
+          <a href="https://x.com/eddylu88" target="_blank">
+            <img id="socialIcon" alt="X" src="/assets/images/icons/tw-icon_round.png" />
           </a>
           <a href="https://linkedin.com/in/lueddy" target="_blank">
             <img id="socialIcon" alt="LinkedIn" src="/assets/images/icons/in-icon_round.png" />
