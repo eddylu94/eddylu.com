@@ -1,15 +1,70 @@
+#stats {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  border-collapse: collapse;
+  table-layout: fixed;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
 #stats th {
   border: 0px;
   border-collapse: collapse;
   background-color: #333333;
   color: white;
+  padding: 8px;
+  text-align: left;
 }
 
 #stats td {
   border: 0px;
   border-collapse: collapse;
+  padding: 8px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  max-width: 0;
 }
 
 #stats tr:nth-child(even) {
   background-color: #eee;
+}
+
+/* Mobile responsive adjustments */
+@media (max-width: 768px) {
+  #stats {
+    font-size: 12px;
+  }
+  
+  #stats th,
+  #stats td {
+    padding: 4px 2px;
+  }
+  
+  /* Make the Page Visited column take more space on mobile */
+  #stats td:nth-child(3) {
+    word-break: break-all;
+    max-width: 60%;
+  }
+  
+  /* Make Date column smaller on mobile */
+  #stats td:nth-child(1) {
+    max-width: 20%;
+  }
+  
+  /* Make IP Address column smaller on mobile */
+  #stats td:nth-child(2) {
+    max-width: 20%;
+  }
+}
+
+@media (max-width: 480px) {
+  #stats {
+    font-size: 10px;
+  }
+  
+  #stats th,
+  #stats td {
+    padding: 2px 1px;
+  }
 }
