@@ -28,17 +28,19 @@
           <h1>Hello ! I'm Eddy</h1>
         </div>
         <div id="container">
-          <h2>About Me</h2>
-          
-          I am a Software Engineer based in the San Francisco Bay Area.
-          <br /><br />
-          Outside of work, I enjoy building side projects and exploring new technologies.
-          I also enjoy playing soccer and basketball, and going snowboarding.
-          <br /><br />
+          <div class="section-spacing">
+            <h2>About Me</h2>
+            
+            I am a Software Engineer based in the San Francisco Bay Area.
+            <br /><br />
+            Outside of work, I enjoy building side projects and exploring new technologies.
+            I also enjoy playing soccer and basketball, and going snowboarding.
+          </div>
 
-          <h2>Work Experience</h2>
-      
-          <div class="cv-entries-container">
+          <div class="section-spacing">
+            <h2>Work Experience</h2>
+        
+            <div class="cv-entries-container">
             <div class="cv-entry">
               <div class="cv-company-logo">
                 <img src="/assets/images/logos/parafin-logo.png" alt="Parafin Logo" class="company-logo" />
@@ -110,11 +112,13 @@
                 <p class="cv-location">Kanata, Ontario</p>
               </div>
             </div>
+            </div>
           </div>
 
-          <h2>Education</h2>
+          <div class="section-spacing">
+            <h2>Education</h2>
 
-          <div class="cv-entries-container">
+            <div class="cv-entries-container">
             <div class="cv-entry">
               <div class="cv-company-logo">
                 <img src="/assets/images/logos/mcgill-logo.png" alt="McGill Logo" class="company-logo" />
@@ -125,6 +129,7 @@
                 <p class="cv-major">Electrical Engineering</p>
                 <p class="cv-location">Montreal, Quebec</p>
               </div>
+            </div>
             </div>
           </div>
         </div>

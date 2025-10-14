@@ -6,6 +6,10 @@
   max-width: 1000px !important;
 }
 
+.section-spacing {
+  margin-bottom: 30px;
+}
+
 /* Two-column layout for CV cards on wider screens */
 @media (min-width: 768px) {
   .cv-entries-container {
