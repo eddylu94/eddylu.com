@@ -18,28 +18,10 @@
 <div id="menu_flyout">
   <ul>
     <li><a href="/blog.php">Blog</a></li>
-    <li>
-      <a href="/projects.php">Projects</a>
-      <ul>
-        <li><a href="/projects.php">Personal Projects</a></li>
-        <li><a href="/schoolprojects.php">School Projects</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="/notes/Home.php">CompSci Notes</a>
-      <ul>
-        <li><a href="/notes/DataStructures.php">Data Structures</a></li>
-        <li><a href="/notes/Algorithms.php">Algorithms</a></li>
-        <li><a href="/notes/OOP.php">OOP</a></li>
-        <li><a href="/notes/Practice.php">Practice Problems</a></li>
-        <li><a href="/notes/ProjectEuler.php">Project Euler</a></li>
-        <li><a href="/notes/LeetCode.php">LeetCode</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="https://www.notion.so/Random-Notes-b91efbf129b64a83b12c893211b4ef8c" target='_blank'>Misc Notes</a>
-    </li>
-    <li><a href="/about.php">About</a></li>
+    <li><a href="/projects.php">Projects</a></li>
+    <li><a href="/notes/Home.php">CS Notes</a></li>
+    <li><a href="https://www.notion.so/Random-Notes-b91efbf129b64a83b12c893211b4ef8c" target='_blank'>Notion</a></li>
+    <li><a href="/about.php">CV</a></li>
   </ul>
 
   <div id="socialIcons">
