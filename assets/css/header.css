@@ -165,14 +165,14 @@ body {
 }
 
 #header li a:hover {
-  background-color: #1A1A1A;
+  background-color: #111111;
   color: #FFFFFF;
 }
 
 #header ul ul {
   position: absolute;
   display: none;
-  background-color: #262626;
+  background-color: #1a1a1a;
 }
 
 #header li:hover ul {
