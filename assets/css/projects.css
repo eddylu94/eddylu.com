@@ -7,7 +7,7 @@ body {
   background-color: #FFFFFF;
   box-shadow: 0 0 10px #CCCCCC;
   box-sizing: border-box;
-  border-radius: 12px;
+  border-radius: 10px;
   display: flex;
   min-height: 200px;
 }
