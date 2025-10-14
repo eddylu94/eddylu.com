@@ -1,18 +1,181 @@
-#propic {
-  float: right;
-  width: 45%;
-  padding: 10px;
-  box-shadow: 0px 0px 10px #CCCCCC;
+#subheader {
+  padding: 20px 50px 35px 50px;
 }
 
-#propic_mobile_container {
+#container {
+  max-width: 1000px !important;
+}
+
+/* Two-column layout for CV cards on wider screens */
+@media (min-width: 768px) {
+  .cv-entries-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+}
+
+#subheader h1 {
+  margin: 20px 0 10px 0;
+  color: #333;
+}
+
+#subheader_title {
+  margin-bottom: 20px;
+  color: #666;
+  font-style: italic;
+}
+
+#subheader_button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  border: 2px solid #333;
+  background-color: #fff;
+  color: #333;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+#subheader_button:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+#subheader_button:active {
+  background-color: #555;
+}
+
+/* Mobile responsive for subpage buttons */
+@media (max-width: 768px) {
+  #subheader_button {
+    display: block;
+    width: 200px;
+    margin: 10px auto;
+  }
+}
+
+.cv-entry {
   display: flex;
-  margin-bottom: 10px;
+  align-items: flex-start;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  max-width: 500px;
 }
 
-#propic_mobile {
-  margin: auto;
-  width: 100%;
-  padding: 10px;
-  box-shadow: 0px 0px 10px #CCCCCC;
+.cv-company-logo {
+  flex-shrink: 0;
+  margin-right: 20px;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8f8f8;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.company-logo {
+  max-width: 50px;
+  max-height: 50px;
+  object-fit: contain;
+}
+
+.cv-content {
+  flex: 1;
+}
+
+.cv-content h3 {
+  margin: 0 0 5px 0;
+  color: #333;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.cv-content h4 {
+  margin: 0 0 8px 0;
+  color: #666;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.cv-dates {
+  margin: 0 0 5px 0;
+  color: #888;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.cv-major {
+  margin: 0 0 5px 0;
+  color: #888;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.cv-location {
+  margin: 0;
+  color: #888;
+  font-size: 14px;
+  font-style: italic;
+}
+
+/* Mobile responsive for CV entries */
+@media (max-width: 768px) {  
+  .cv-entry {
+    display: flex !important;
+    flex-direction: column !important;
+    text-align: left;
+    padding: 15px;
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .cv-company-logo {
+    margin: 0 0 15px 0;
+    width: 50px;
+    height: 50px;
+    order: 1;
+  }
+  
+  .cv-content {
+    order: 2;
+    text-align: left;
+  }
+  
+  .company-logo {
+    max-width: 40px;
+    max-height: 40px;
+  }
+  
+  .cv-content h3 {
+    font-size: 18px;
+  }
+  
+  .cv-content h4 {
+    font-size: 16px;
+  }
+  
+  .cv-dates,
+  .cv-major,
+  .cv-location {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 480px) {
+  .cv-entry {
+    padding: 12px;
+  }
+  
+  .cv-content h3 {
+    font-size: 16px;
+  }
+  
+  .cv-content h4 {
+    font-size: 14px;
+  }
 }

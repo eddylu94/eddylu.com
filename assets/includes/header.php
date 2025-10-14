@@ -73,7 +73,7 @@
               </ul>
             </li>
             <li>
-              <a href="/notes/Home.php">CompSci Notes</a>
+              <a href="/notes/Home.php">Comp Sci</a>
               <ul>
                 <li><a href="/notes/DataStructures.php">Data Structures</a></li>
                 <li><a href="/notes/Algorithms.php">Algorithms</a></li>
@@ -84,7 +84,7 @@
               </ul>
             </li>
             <li>
-              <a href="https://www.notion.so/Random-Notes-b91efbf129b64a83b12c893211b4ef8c" target='_blank'>Misc Notes</a>
+              <a href="https://www.notion.so/Random-Notes-b91efbf129b64a83b12c893211b4ef8c" target='_blank'>Random</a>
             </li>
             <li><a href="/about.php">About</a></li>
           </ul>
