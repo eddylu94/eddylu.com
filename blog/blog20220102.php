@@ -8,13 +8,15 @@
     <link rel="stylesheet" type="text/css" href="/assets/css/blog-post.css">
   </head>
   <body>
-    <?php include $_SERVER['DOCUMENT_ROOT'] . '/assets/includes/header.php'; ?>
-    <div id="container">
-      <div class="blog-story">
-        <div style="font-weight: bold; font-size: 48px;">Common syntactical differences between React and React Native</div>
-        <div style="font-style: italic; margin-top: 22px;">Sunday, January 2, 2022</div>
-      </div>
-      <div class="blog-story" style="line-height: 1.50; margin-top: 50px">
+    <div id="page_wrapper">
+      <?php include $_SERVER['DOCUMENT_ROOT'] . '/assets/includes/header.php'; ?>
+      <div id="body_wrapper">
+        <div id="container">
+          <div class="blog-story">
+            <div style="font-weight: bold; font-size: 48px;">Common syntactical differences between React and React Native</div>
+            <div style="font-style: italic; margin-top: 22px;">Sunday, January 2, 2022</div>
+          </div>
+          <div class="blog-story" style="line-height: 1.50; margin-top: 50px">
 
         <img class="blogImage" src="/assets/images/blog/20220102/blog20220102_banner.png" />
 
@@ -226,8 +228,10 @@ paddingLeft: 2
         <p>React Native Text:
         <br /><a target="_blank" href="https://reactnative.dev/docs/text">https://reactnative.dev/docs/text</a></p>
 
-        <p>React Native View:
-        <br /><a target="_blank" href="https://reactnative.dev/docs/view">https://reactnative.dev/docs/view</a></p>
+            <p>React Native View:
+            <br /><a target="_blank" href="https://reactnative.dev/docs/view">https://reactnative.dev/docs/view</a></p>
+          </div>
+        </div>
       </div>
     </div>               
     <?php include $_SERVER['DOCUMENT_ROOT'] . '/assets/includes/footer.php'; ?>

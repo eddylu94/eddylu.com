@@ -8,67 +8,69 @@
     <link rel="stylesheet" type="text/css" href="/assets/css/blog-post.css">
   </head>
   <body>
-    <?php include $_SERVER['DOCUMENT_ROOT'] . '/assets/includes/header.php'; ?>
-    <div id="container">
+    <div id="page_wrapper">
+      <?php include $_SERVER['DOCUMENT_ROOT'] . '/assets/includes/header.php'; ?>
+      <div id="body_wrapper">
+        <div id="container">
       <div class="blog-story">
-        <div style="font-weight: bold; font-size: 48px;">Whether to relocate during the pandemic</div>
-        <div style="font-style: italic; margin-top: 22px;">Sunday, February 14, 2021</div>
-      </div>
+            <div style="font-weight: bold; font-size: 48px;">Whether to relocate during the pandemic</div>
+            <div style="font-style: italic; margin-top: 22px;">Sunday, February 14, 2021</div>
+          </div>
       <div class="blog-story" style="line-height: 1.50; margin-top: 50px">
 
-        <img class="blogImage" src="/assets/images/blog/20210214/blog20210214_map.png" />
+            <img class="blogImage" src="/assets/images/blog/20210214/blog20210214_map.png" />
 
-        <p>During the first few months of the pandemic, when everyone started realizing that the work from home system would last longer than simply a few weeks, I jotted some notes to help my friends and I determine whether it was worth temporarily relocating to a new city.</p>
+            <p>During the first few months of the pandemic, when everyone started realizing that the work from home system would last longer than simply a few weeks, I jotted some notes to help my friends and I determine whether it was worth temporarily relocating to a new city.</p>
 
-        <p>Lately, with positive news for vaccine distributions and declining cases, it seems that the return to office is not too distant. However, given the consensual understanding that things may never truly return to "normal", and with the recent announcements of permanent and/or hybrid work from home systems from numerous companies, I thought it would be helpful to post some of my notes.</p>
+            <p>Lately, with positive news for vaccine distributions and declining cases, it seems that the return to office is not too distant. However, given the consensual understanding that things may never truly return to "normal", and with the recent announcements of permanent and/or hybrid work from home systems from numerous companies, I thought it would be helpful to post some of my notes.</p>
 
         <p style="font-style: italic;">Please note that these notes are primarily targeted for full-time employees working at tech companies in the United States, particularly those with few or no dependents (ex. children, elderly, etc.).</p>
                 
-        <h1>Preliminary</h1>
+            <h1>Preliminary</h1>
 
-        <h2>How long is the pandemic expected to last?</h2>
+            <h2>How long is the pandemic expected to last?</h2>
 
-        <p>The longer the duration of the pandemic, the more reason to move if the move is temporary. Will one have to move back to the origin city when the pandemic subsides?</p>
+            <p>The longer the duration of the pandemic, the more reason to move if the move is temporary. Will one have to move back to the origin city when the pandemic subsides?</p>
 
-        <h2>Are you legally allowed to move?</h2>
+            <h2>Are you legally allowed to move?</h2>
 
-        <p>Moving can be restricted by immigration status and potential travel bans. Now that the Trump administration has transferred power to the Biden administration, there will likely be fewer executive orders blocking immigration; however, travel bans remain uncertain.</p>
+            <p>Moving can be restricted by immigration status and potential travel bans. Now that the Trump administration has transferred power to the Biden administration, there will likely be fewer executive orders blocking immigration; however, travel bans remain uncertain.</p>
 
-        <h1>Current Employer</h1>
+            <h1>Current Employer</h1>
 
-        <h2>What is the employer expected to do?</h2>
+            <h2>What is the employer expected to do?</h2>
 
-        <p>Will the employer allow permanent WFH? If so, will the employer adjust its employee income based on location?</p>
+            <p>Will the employer allow permanent WFH? If so, will the employer adjust its employee income based on location?</p>
 
-        <h2>Do most peers from work wish to WFH?</h2>
+            <h2>Do most peers from work wish to WFH?</h2>
 
-        <p>If most peers and the team Manager expects people to stay put, then moving can be frowned upon by these peers.</p>
+            <p>If most peers and the team Manager expects people to stay put, then moving can be frowned upon by these peers.</p>
 
-        <h1>The Move</h1>
+            <h1>The Move</h1>
 
-        <h2>How to move to the destination?</h2>
+            <h2>How to move to the destination?</h2>
 
-        <p>Is it safe to hire a moving company? Would some belongings need to be sold/donated/discarded? Would one have to drive all the way to the destination? Is it safe to hire movers to move belongings as they would need to enter both the origin and destination homes and physically contact possessions?</p>
+            <p>Is it safe to hire a moving company? Would some belongings need to be sold/donated/discarded? Would one have to drive all the way to the destination? Is it safe to hire movers to move belongings as they would need to enter both the origin and destination homes and physically contact possessions?</p>
 
-        <h1>Atmosphere</h1>
+            <h1>Atmosphere</h1>
 
-        <h2>What is the political climate in the destination?</h2>
+            <h2>What is the political climate in the destination?</h2>
 
-        <p>With recent movements, including Black Lives Matter, politics are very important. Does it matter whether the region is predominantly a Trump or Biden supported territory?</p>
+            <p>With recent movements, including Black Lives Matter, politics are very important. Does it matter whether the region is predominantly a Trump or Biden supported territory?</p>
 
-        <img class="blogImage" src="/assets/images/blog/20210214/blog20210214_red_blue_states.png" />
+            <img class="blogImage" src="/assets/images/blog/20210214/blog20210214_red_blue_states.png" />
 
-        <span class="caption">Red states and blue states - Wikipedia</span>
+            <span class="caption">Red states and blue states - Wikipedia</span>
 
-        <h2>How is the climate in the new location?</h2>
+            <h2>How is the climate in the new location?</h2>
 
-        <p>For example, moving to a place like Denver to explore the mountains may not be feasible without a car equipped with AWD, snow tires, and snow chains. Places like Chicago become very cold and may require winter clothing to be purchased.</p>
+            <p>For example, moving to a place like Denver to explore the mountains may not be feasible without a car equipped with AWD, snow tires, and snow chains. Places like Chicago become very cold and may require winter clothing to be purchased.</p>
 
-        <h2>How safe is the new location regarding COVID-19?</h2>
+            <h2>How safe is the new location regarding COVID-19?</h2>
 
-        <p>Safety is no longer limited to factors such as crime rates, but also dependent on how the location has adapted to the pandemic. For example, do people wear masks?</p>
+            <p>Safety is no longer limited to factors such as crime rates, but also dependent on how the location has adapted to the pandemic. For example, do people wear masks?</p>
 
-        <p><a target="_blank" href="https://en.wikipedia.org/wiki/Statistics_of_the_COVID-19_pandemic_in_the_United_States">Statistics of the COVID-19 pandemic in the United States</a> as of February 13, 2021:</p>
+            <p><a target="_blank" href="https://en.wikipedia.org/wiki/Statistics_of_the_COVID-19_pandemic_in_the_United_States">Statistics of the COVID-19 pandemic in the United States</a> as of February 13, 2021:</p>
 
 
 								<table id="stats">
@@ -196,7 +198,9 @@
                 <br /><a target="_blank" href="https://www.businessinsider.in/thelife/news/elon-musk-predicts-austin-texas-will-be-the-biggest-boom-town-that-america-has-seen-in-50-years/articleshow/80871526.cms">https://www.businessinsider.in/thelife/news/elon-musk-predicts-austin-texas-will-be-the-biggest-boom-town-that-america-has-seen-in-50-years/articleshow/80871526.cms</a></p>
 
             </div>
-        </div>               
-        <?php include $_SERVER['DOCUMENT_ROOT'] . '/assets/includes/footer.php';?>
-    </body>
+            </div>
+          </div>
+    </div>               
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/assets/includes/footer.php'; ?>
+  </body>
 </html>
