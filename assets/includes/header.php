@@ -21,6 +21,7 @@
     <li><a href="/projects.php">Projects</a></li>
     <li><a href="/notes/Home.php">CS Notes</a></li>
     <li><a href="https://www.notion.so/Random-Notes-b91efbf129b64a83b12c893211b4ef8c" target='_blank'>Notion</a></li>
+    <li><a href="/readings.php">Readings</a></li>
     <li><a href="/about.php">CV</a></li>
   </ul>
 
@@ -68,6 +69,7 @@
             <li>
               <a href="https://www.notion.so/Random-Notes-b91efbf129b64a83b12c893211b4ef8c" target='_blank'>Notion</a>
             </li>
+            <li><a href="/readings.php">Readings</a></li>
             <li><a href="/about.php">CV</a></li>
           </ul>
         </div>

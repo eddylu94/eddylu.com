@@ -1,0 +1,197 @@
+#subheader {
+  padding: 20px 50px 35px 50px;
+}
+
+#container {
+  max-width: 1000px !important;
+}
+
+.section-spacing {
+  margin-bottom: 30px;
+}
+
+/* Two-column layout for book entries on wider screens */
+@media (min-width: 768px) {
+  .books-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+}
+
+.sub-text {
+  font-size: 0.85em;
+}
+
+#subheader h1 {
+  margin: 20px 0 10px 0;
+  color: #333;
+}
+
+#subheader_title {
+  margin-bottom: 20px;
+  color: #666;
+  font-style: italic;
+}
+
+#subheader_button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  border: 2px solid #333;
+  background-color: #fff;
+  color: #333;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+#subheader_button:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+#subheader_button:active {
+  background-color: #555;
+}
+
+/* Mobile responsive for subpage buttons */
+@media (max-width: 768px) {
+  #subheader_button {
+    display: block;
+    width: 200px;
+    margin: 10px auto;
+  }
+}
+
+/* Section headers - matching existing site style */
+h2 {
+  color: #333;
+  font-size: 1.5em;
+  font-weight: 600;
+  margin: 30px 0 15px 0;
+}
+
+h3 {
+  color: #333;
+  font-size: 1.2em;
+  font-weight: 500;
+  margin: 20px 0 10px 0;
+}
+
+/* Book entry styling */
+.book-entry {
+  display: flex;
+  align-items: flex-start;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  max-width: 500px;
+}
+
+.book-cover {
+  flex-shrink: 0;
+  margin-right: 20px;
+  width: 100px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8f8f8;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  overflow: hidden;
+}
+
+.book-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.book-content {
+  flex: 1;
+}
+
+.book-content h4 {
+  margin: 0 0 5px 0;
+  color: #333;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.book-author {
+  margin: 0 0 8px 0;
+  color: #666;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.book-description {
+  margin: 0 0 10px 0;
+  color: #555;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.book-link {
+  color: #0066cc;
+  text-decoration: underline;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.book-link:hover {
+  text-decoration: underline;
+}
+
+/* Mobile responsive for book entries - matching about.css mobile styles */
+@media (max-width: 768px) {  
+  .book-entry {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+    padding: 15px;
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .book-cover {
+    margin: 0 15px 0 0;
+    width: 70px;
+    height: 105px;
+  }
+  
+  .book-content {
+    text-align: left;
+  }
+  
+  .book-content h4 {
+    font-size: 18px;
+  }
+  
+  .book-author {
+    font-size: 16px;
+  }
+  
+  .book-description {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 480px) {
+  .book-entry {
+    padding: 12px;
+  }
+  
+  .book-content h4 {
+    font-size: 16px;
+  }
+  
+  .book-author {
+    font-size: 14px;
+  }
+}
