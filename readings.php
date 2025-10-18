@@ -33,7 +33,7 @@
           </div>
 
           <div class="section-spacing">  
-            <h3>Technical Books</h3>
+            <h2>Technical Books</h2>
             <p>Technical books and resources for software engineering and computer science.</p>
             
             <div class="books-container">
@@ -72,9 +72,21 @@
                   <a href="https://www.amazon.com/dp/1736417916/" target="_blank" class="book-link">View on Amazon</a>
                 </div>
               </div>
+
+              <div class="book-entry">
+                <div class="book-cover">
+                  <img src="/assets/images/books/the-lean-startup.jpg" alt="The Lean Startup" class="book-image" />
+                </div>
+                <div class="book-content">
+                  <h4>The Lean Startup</h4>
+                  <p class="book-author">by Eric Ries</p>
+                  <p class="book-description">A methodology for developing businesses and products that aims to shorten product development cycles and rapidly discover if a proposed business model is viable. Focuses on validated learning, experimentation, and iterative product releases.</p>
+                  <a href="https://www.amazon.com/Lean-Startup-Entrepreneurs-Continuous-Innovation/dp/0307887898/" target="_blank" class="book-link">View on Amazon</a>
+                </div>
+              </div>
             </div>
             
-            <h3>Leisure Books</h3>
+            <h2>Leisure Books</h2>
             <p>Non-technical books I've enjoyed reading.</p>
             
             <div class="books-container">
