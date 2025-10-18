@@ -21,13 +21,56 @@
 
           <div id="projectListing" class="project_listing">
             <div class="project_description" id="projectListingText">
+              <h1>Sleeping with Friends</h1>
+              <h3>Apr. 2025 - Jun. 2025</h3>
+              
+              <img class="project_image_small" src="/assets/images/projects/sleeping-with-friends.png" />
+
+              <div id="projectListingDescription">
+                A few friends and I built a website that gamifies sleep tracking by allowing users to compare their sleep statistics with friends through leaderboards and data visualization.
+                Users can link their existing health devices and compete on metrics like total sleep hours and deep sleep.
+                <br />
+                <br />
+                <strong>Frontend:</strong><br />
+                • Next.js, React, TypeScript, Tailwind
+                <br />
+                <br />
+                <strong>Backend:</strong><br />
+                • FastAPI, Python, SQLAlchemy<br />
+                • PostgreSQL, Pydantic
+                <br />
+                <br />
+                <strong>Authentication:</strong><br />
+                • Clerk, JWT<br />
+                • Health device integrations (ex. Garmin, Oura, Fitbit, etc.)
+                <br />
+                <br />
+                <strong>Deployment:</strong><br />
+                • Vercel
+                <br />
+                <br />
+                <div class="project_tags_container">
+                  <div class="project_tag">Next.js</div>
+                  <div class="project_tag">React</div>
+                  <div class="project_tag">TypeScript</div>
+                  <div class="project_tag">FastAPI</div>
+                  <div class="project_tag">PostgreSQL</div>
+                  <div class="project_tag">Tailwind CSS</div>
+                </div>
+              </div>
+            </div>
+            <img class="project_image_large" id="projectListingImage" src="/assets/images/projects/sleeping-with-friends.png" style="width: 50%;" />
+          </div>
+
+          <div id="projectListing" class="project_listing">
+            <div class="project_description" id="projectListingText">
               <h1>PlanShare.io</h1>
               <h3>Mar. 2020 - May. 2020</h3>
               
               <img class="project_image_small" src="/assets/images/projects/planshare.png" />
 
               <div id="projectListingDescription">
-                Developed a website where users can find people to share subscriptions, group orders, and referrals; written in React, TypeScript, MongoDB, Express, Node.js
+                I developed a website where users can find people to share subscriptions, group orders, and referrals. The project was built using React, TypeScript, MongoDB, Express, and Node.js.
                 <br />
                 <br />
                 <a href="https://planshare.io" class="project_link" target="_blank">https://planshare.io</a>
