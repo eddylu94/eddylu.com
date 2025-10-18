@@ -29,6 +29,9 @@
     <a href="https://github.com/eddylu94" target="_blank">
       <img id="socialIcon" alt="GitHub" src="/assets/images/icons/gh-icon_round.png" />
     </a>
+    <a href="https://x.com/eddylu88" target="_blank">
+      <img id="socialIcon" alt="X" src="/assets/images/icons/tw-icon_round.png" />
+    </a>
     <a href="https://linkedin.com/in/lueddy" target="_blank">
       <img id="socialIcon" alt="LinkedIn" src="/assets/images/icons/in-icon_round.png" />
     </a>
