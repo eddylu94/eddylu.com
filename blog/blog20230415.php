@@ -101,8 +101,8 @@
             <br /><a target="_blank" href="https://www.investopedia.com/terms/w/washsalerule.asp">https://www.investopedia.com/terms/w/washsalerule.asp</a></p>
           </div>
         </div>
+        <?php include $_SERVER['DOCUMENT_ROOT'] . '/assets/includes/footer.php'; ?>
       </div>
     </div>               
-    <?php include $_SERVER['DOCUMENT_ROOT'] . '/assets/includes/footer.php'; ?>
   </body>
 </html>

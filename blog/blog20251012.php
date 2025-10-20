@@ -139,8 +139,8 @@
             <br /><a target="_blank" href="https://elc.community/home/events/elc-annual-2025">https://elc.community/home/events/elc-annual-2025</a></p>
           </div>
         </div>
+        <?php include $_SERVER['DOCUMENT_ROOT'] . '/assets/includes/footer.php'; ?>
       </div>
     </div>               
-    <?php include $_SERVER['DOCUMENT_ROOT'] . '/assets/includes/footer.php'; ?>
   </body>
 </html>

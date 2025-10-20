@@ -245,8 +245,8 @@ paddingLeft: 2
             <br /><a target="_blank" href="https://reactnative.dev/docs/view">https://reactnative.dev/docs/view</a></p>
           </div>
         </div>
+        <?php include $_SERVER['DOCUMENT_ROOT'] . '/assets/includes/footer.php'; ?>
       </div>
     </div>               
-    <?php include $_SERVER['DOCUMENT_ROOT'] . '/assets/includes/footer.php'; ?>
   </body>
 </html>

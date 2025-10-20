@@ -221,8 +221,8 @@
 						<br /><a target="_blank" href="https://www.businessinsider.in/thelife/news/elon-musk-predicts-austin-texas-will-be-the-biggest-boom-town-that-america-has-seen-in-50-years/articleshow/80871526.cms">https://www.businessinsider.in/thelife/news/elon-musk-predicts-austin-texas-will-be-the-biggest-boom-town-that-america-has-seen-in-50-years/articleshow/80871526.cms</a></p>
           </div>
         </div>
+        <?php include $_SERVER['DOCUMENT_ROOT'] . '/assets/includes/footer.php'; ?>
       </div>
     </div>               
-    <?php include $_SERVER['DOCUMENT_ROOT'] . '/assets/includes/footer.php'; ?>
   </body>
 </html>
