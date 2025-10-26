@@ -17,9 +17,21 @@
       <div id="container">
         <div class="blogs-container">
           <div class="post">
+            <a href="/blog/blog20251026.php">
+              <div class="imgContainer">
+                <img src="/assets/images/blog/20251026/blog20251026_conference.png" />
+              </div>
+              <div style="padding: 18px">
+                <div style="font-size: x-large; color: #333333;">Ship AI 2025 Conference Takeaways</div>
+                <div style="font-size: large; color: #686868;">Saturday, October 26, 2025</div>
+              </div>
+            </a>
+          </div>
+
+          <div class="post">
             <a href="/blog/blog20251020.php">
               <div class="imgContainer">
-                <img src="/assets/images/blog/20251020/blog20251020_aws_outage.png" />
+                <img src="/assets/images/blog/20251020/blog20251020_bike_rack.png" />
               </div>
               <div style="padding: 18px">
                 <div style="font-size: x-large; color: #333333;">A Day without AWS</div>
