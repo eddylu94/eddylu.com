@@ -17,6 +17,18 @@
       <div id="container">
         <div class="blogs-container">
           <div class="post">
+            <a href="/blog/blog20251020.php">
+              <div class="imgContainer">
+                <img src="/assets/images/blog/20251020/blog20251020_aws_outage.png" />
+              </div>
+              <div style="padding: 18px">
+                <div style="font-size: x-large; color: #333333;">A Day without AWS</div>
+                <div style="font-size: large; color: #686868;">Monday, October 20, 2025</div>
+              </div>
+            </a>
+          </div>
+
+          <div class="post">
             <a href="/blog/blog20251012.php">
               <div class="imgContainer">
                 <img src="/assets/images/blog/20251012/blog20251012_elc.png" />
