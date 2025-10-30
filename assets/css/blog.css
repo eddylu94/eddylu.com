@@ -6,6 +6,8 @@
   flex-direction: column;
   margin: 0 auto;
   height: 350px;
+  border-radius: 12px;
+  overflow: hidden;
   opacity: 1.0;
 }
 

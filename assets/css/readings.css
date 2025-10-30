@@ -23,17 +23,6 @@
   font-size: 0.85em;
 }
 
-#subheader h1 {
-  margin: 20px 0 10px 0;
-  color: #333;
-}
-
-#subheader_title {
-  margin-bottom: 20px;
-  color: #666;
-  font-style: italic;
-}
-
 #subheader_button {
   margin: 0 10px;
   padding: 10px 20px;

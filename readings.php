@@ -26,11 +26,9 @@
       <div id="body_wrapper">
         <div id="subheader">
           <h1>Readings</h1>
+          <div id="subheader_title">Books I found interesting and worth sharing</div>
         </div>
         <div id="container">
-          <div class="section-spacing">
-            <p>Here are some books that I've found interesting and worth sharing.</p>
-          </div>
 
           <div class="section-spacing">  
             <h2>Technical Books</h2>
