@@ -17,6 +17,18 @@
       <div id="container">
         <div class="blogs-container">
           <div class="post">
+            <a href="/blog/blog20251118.php">
+              <div class="imgContainer">
+                <img src="/assets/images/blog/20251118/blog20251118_module1.png" />
+              </div>
+              <div style="padding: 18px">
+                <div style="font-size: x-large; color: #333333;">Temporal Launch & Learn: Building Durable GenAI Applications</div>
+                <div style="font-size: large; color: #686868;">Monday, November 18, 2025</div>
+              </div>
+            </a>
+          </div>
+
+          <div class="post">
             <a href="/blog/blog20251026.php">
               <div class="imgContainer">
                 <img src="/assets/images/blog/20251026/blog20251026_conference.png" />
