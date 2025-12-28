@@ -48,7 +48,7 @@
                 <img src="/assets/images/logos/parafin-logo.png" alt="Parafin Logo" class="company-logo" />
               </div>
               <div class="cv-content">
-                <h3>Staff Software Engineer</h3>
+                <h3>Engineering Manager</h3>
                 <h4>Parafin</h4>
                 <p class="cv-dates">2025 - Present</p>
                 <p class="cv-location">San Francisco, California</p>

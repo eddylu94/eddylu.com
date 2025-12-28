@@ -21,13 +21,13 @@
 
           <div id="projectListing" class="project_listing">
             <div class="project_description" id="projectListingText">
-              <h1>Sleeping with Friends</h1>
-              <h3>Apr. 2025 - Jun. 2025</h3>
+              <h1>Sleep Tracking Social App</h1>
+              <h3>Apr. 2025 - Present</h3>
               
               <img class="project_image_small" src="/assets/images/projects/sleeping-with-friends.png" />
 
               <div id="projectListingDescription">
-                A few friends and I built a website that gamifies sleep tracking by allowing users to compare their sleep statistics with friends through leaderboards and data visualization.
+                A few friends and I built a website, Sleeping with Friends, that gamifies sleep tracking by allowing users to compare their sleep statistics with friends through leaderboards and data visualization.
                 Users can link their existing health devices and compete on metrics like total sleep hours and deep sleep.
                 <br />
                 <br />
@@ -119,8 +119,8 @@
               <img class="project_image_small" src="/assets/images/projects/codejam16.png" />
               
               <div id="projectListingDescription">
-                For the 2016 McGill CodeJam hackathon, the objective was to create a TV show recommendation application based on any given input.
-                For this project, Charles Liu and I created a website that provided TV recommendations after a user rated TV a list of given shows.
+                For the 2016 <a href="https://codejam.mcgilleus.ca/" class="project_link" target="_blank">McGill CodeJam hackathon</a>, the objective was to create a TV show recommendation application based on any given input.
+                For this project, <a href="https://www.linkedin.com/in/charles-liu-tech/" class="project_link" target="_blank">Charles Liu</a> and I created a website that provided TV recommendations after a user rated TV a list of given shows.
                 <br />
                 <br />
                 <div class="project_tags_container">
