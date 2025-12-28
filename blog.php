@@ -22,8 +22,8 @@
                 <img src="/assets/images/blog/20251118/blog20251118_module1.png" />
               </div>
               <div style="padding: 18px">
-                <div style="font-size: x-large; color: #333333;">Temporal Launch & Learn: Building Durable GenAI Applications</div>
-                <div style="font-size: large; color: #686868;">Monday, November 18, 2025</div>
+                <div class="post-title">Temporal Launch & Learn: Building Durable GenAI Applications</div>
+                <div class="post-date">Monday, November 18, 2025</div>
               </div>
             </a>
           </div>
@@ -34,8 +34,8 @@
                 <img src="/assets/images/blog/20251026/blog20251026_conference.png" />
               </div>
               <div style="padding: 18px">
-                <div style="font-size: x-large; color: #333333;">Ship AI 2025 Conference Takeaways</div>
-                <div style="font-size: large; color: #686868;">Saturday, October 26, 2025</div>
+                <div class="post-title">Ship AI 2025 Conference Takeaways</div>
+                <div class="post-date">Saturday, October 26, 2025</div>
               </div>
             </a>
           </div>
@@ -46,8 +46,8 @@
                 <img src="/assets/images/blog/20251020/blog20251020_bike_rack.png" />
               </div>
               <div style="padding: 18px">
-                <div style="font-size: x-large; color: #333333;">A Day without AWS</div>
-                <div style="font-size: large; color: #686868;">Monday, October 20, 2025</div>
+                <div class="post-title">A Day without AWS</div>
+                <div class="post-date">Monday, October 20, 2025</div>
               </div>
             </a>
           </div>
@@ -58,8 +58,8 @@
                 <img src="/assets/images/blog/20251012/blog20251012_elc.png" />
               </div>
               <div style="padding: 18px">
-                <div style="font-size: x-large; color: #333333;">Key Insights from the ELC Conference 2025</div>
-                <div style="font-size: large; color: #686868;">Sunday, October 12, 2025</div>
+                <div class="post-title">Key Insights from the ELC Conference 2025</div>
+                <div class="post-date">Sunday, October 12, 2025</div>
               </div>
             </a>
           </div>
@@ -70,8 +70,8 @@
                 <img src="/assets/images/blog/20230415/blog20230415_banner.png" />
               </div>
               <div style="padding: 18px">
-                <div style="font-size: x-large; color: #333333;">Effects of timezones for last minute crypto tax harvesting</div>
-                <div style="font-size: large; color: #686868;">Saturday, April 15, 2023</div>
+                <div class="post-title">Effects of timezones for last minute crypto tax harvesting</div>
+                <div class="post-date">Saturday, April 15, 2023</div>
               </div>
             </a>
           </div>
@@ -82,8 +82,8 @@
                 <img src="/assets/images/blog/20220102/blog20220102_banner.png" />
               </div>
               <div style="padding: 18px">
-                <div style="font-size: x-large; color: #333333;">Common syntactical differences between React and React Native</div>
-                <div style="font-size: large; color: #686868;">Sunday, January 2, 2022</div>
+                <div class="post-title">Common syntactical differences between React and React Native</div>
+                <div class="post-date">Sunday, January 2, 2022</div>
               </div>
             </a>
           </div>
@@ -94,8 +94,8 @@
                 <img src="/assets/images/blog/20210214/blog20210214_map.png" />
               </div>
               <div style="padding: 18px">
-                <div style="font-size: x-large; color: #333333;">Whether to relocate during the pandemic</div>
-                <div style="font-size: large; color: #686868;">Sunday, February 14, 2021</div>
+                <div class="post-title">Whether to relocate during the pandemic</div>
+                <div class="post-date">Sunday, February 14, 2021</div>
               </div>
             </a>
           </div>
@@ -106,8 +106,8 @@
                 <img src="/assets/images/blog/20191103/tc39.png" />
               </div>
               <div style="padding: 18px">
-                <div style="font-size: x-large; color: #333333;">Upcoming Optional Chaining and Null Coalescing in JS/TS</div>
-                <div style="font-size: large; color: #686868;">Thursday, November 3, 2019</div>
+                <div class="post-title">Upcoming Optional Chaining and Null Coalescing in JS/TS</div>
+                <div class="post-date">Thursday, November 3, 2019</div>
               </div>
             </a>
           </div>
@@ -118,8 +118,8 @@
                 <img src="/assets/images/blog/20190117/20190117_tabindex.png" />
               </div>
               <div style="padding: 18px">
-                <div style="font-size: x-large; color: #333333;">The Tab Order vs. z-Order Paradox</div>
-                <div style="font-size: large; color: #686868;">Thursday, January 17, 2019</div>
+                <div class="post-title">The Tab Order vs. z-Order Paradox</div>
+                <div class="post-date">Thursday, January 17, 2019</div>
               </div>
             </a>
           </div>
@@ -130,8 +130,8 @@
                 <img src="/assets/images/blog/20181228/blog20181228_border.png" style="margin: 0 10px;" />
               </div>
               <div style="padding: 18px">
-                <div style="font-size: x-large; color: #333333;">Circular profile pictures in Android vs. React Native</div>
-                <div style="font-size: large; color: #686868;">Friday, December 28, 2018</div>
+                <div class="post-title">Circular profile pictures in Android vs. React Native</div>
+                <div class="post-date">Friday, December 28, 2018</div>
               </div>
             </a>
           </div>
