@@ -17,6 +17,18 @@
       <div id="container">
         <div class="blogs-container">
           <div class="post">
+            <a href="/blog/blog20260112.php">
+              <div class="imgContainer">
+                <img src="/assets/images/blog/20260112/blog20260112_cover.png" />
+              </div>
+              <div style="padding: 18px">
+                <div class="post-title">A Recent Trend in Healthcare-Focused AI Announcements</div>
+                <div class="post-date">Monday, January 12, 2026</div>
+              </div>
+            </a>
+          </div>
+
+          <div class="post">
             <a href="/blog/blog20251118.php">
               <div class="imgContainer">
                 <img src="/assets/images/blog/20251118/blog20251118_module1.png" />
