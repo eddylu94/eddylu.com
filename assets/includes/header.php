@@ -51,13 +51,7 @@
         <div id="menu_left">
           <ul>
             <li><a href="/blog.php">Blog</a></li>
-            <li>
-              <a href="/projects.php">Projects</a>
-              <ul>
-                <li><a href="/projects.php">Personal Projects</a></li>
-                <li><a href="/schoolprojects.php">School Projects</a></li>
-              </ul>
-            </li>
+            <li><a href="/projects.php">Projects</a></li>
             <li>
               <a href="/notes/Home.php">CS Notes</a>
               <ul>
