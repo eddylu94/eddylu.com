@@ -3,6 +3,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/assets/includes/head-includes.php'; ?>
     <meta property="og:title" content="Readings - eddylu.com" />
     <meta property="og:description" content="Books and articles that I find interesting" />
     <meta property="og:image" content="https://eddylu.com/assets/images/propic.jpg" />

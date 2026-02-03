@@ -3,6 +3,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/assets/includes/head-includes.php'; ?>
     <title>Eddy Lu</title>
     <script src="//code.jquery.com/jquery-1.12.4.js"></script>
     <link rel="stylesheet" type="text/css" href="/assets/css/contact.css">
