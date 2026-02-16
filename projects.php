@@ -61,7 +61,7 @@
                 </div>
               </div>
             </div>
-            <img class="project_image_large" id="projectListingImage" src="/assets/images/projects/sleeping-with-friends.png" style="width: 50%;" />
+            <img class="project_image_large" id="projectListingImage" src="/assets/images/projects/sleeping-with-friends-dashboard.png" style="width: 50%;" />
           </div>
 
           <div id="projectListing" class="project_listing">
