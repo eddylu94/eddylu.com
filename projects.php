@@ -20,12 +20,15 @@
 
           <div id="projectListing" class="project_listing">
             <div class="project_description" id="projectListingText">
-              <h1>Sleep Tracking Social App</h1>
+              <h1>Sleeping with Friends</h1>
               <h3>Apr. 2025 - Present</h3>
               
               <img class="project_image_small" src="/assets/images/projects/sleeping-with-friends.png" />
 
               <div id="projectListingDescription">
+                <a href="https://sleepingwithfriends.com" class="project_link" target="_blank">https://sleepingwithfriends.com</a>
+                <br />
+                <br />
                 A few friends and I built a website, Sleeping with Friends, that gamifies sleep tracking by allowing users to compare their sleep statistics with friends through leaderboards and data visualization.
                 Users can link their existing health devices and compete on metrics like total sleep hours and deep sleep.
                 <br />
@@ -69,10 +72,10 @@
               <img class="project_image_small" src="/assets/images/projects/planshare.png" />
 
               <div id="projectListingDescription">
-                I developed a website where users can find people to share subscriptions, group orders, and referrals. The project was built using React, TypeScript, MongoDB, Express, and Node.js.
-                <br />
-                <br />
                 <a href="https://planshare.io" class="project_link" target="_blank">https://planshare.io</a>
+                <br />
+                <br />
+                I developed a website where users can find people to share subscriptions, group orders, and referrals. The project was built using React, TypeScript, MongoDB, Express, and Node.js.
                 <br />
                 <br />
                 <strong>Front end:</strong><br />
