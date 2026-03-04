@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 
 <html lang="en">
   <head>
@@ -17,6 +17,18 @@
       </div>
       <div id="container">
         <div class="blogs-container">
+          <div class="post">
+            <a href="/blog/blog20260303.php">
+              <div class="imgContainer">
+                <img src="/assets/images/blog/20260303/blog20260303_diagram.png" />
+              </div>
+              <div style="padding: 18px">
+                <div class="post-title">Dual Writing Web and Mobile with AI</div>
+                <div class="post-date">Tuesday, March 3, 2026</div>
+              </div>
+            </a>
+          </div>
+
           <div class="post">
             <a href="/blog/blog20260112.php">
               <div class="imgContainer">
