@@ -58,14 +58,13 @@ export default function ProjectsPage() {
             </div>
 
             <div className="flex w-full shrink-0 flex-col gap-4 md:w-1/2">
-              <div className="relative aspect-video w-full">
-                <Image
-                  src={project.image}
-                  alt={project.title}
-                  fill
-                  className="rounded-lg object-contain"
-                />
-              </div>
+              <Image
+                src={project.image}
+                alt={project.title}
+                width={879}
+                height={522}
+                className="w-full rounded-lg object-contain"
+              />
               <Image
                 src={project.largeImage}
                 alt={`${project.title} dashboard`}
