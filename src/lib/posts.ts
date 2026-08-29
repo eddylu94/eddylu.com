@@ -6,6 +6,13 @@ import html from "remark-html";
 
 const POSTS_DIR = path.join(process.cwd(), "content/blog");
 
+function toDateString(value: unknown): string {
+  if (value instanceof Date) {
+    return value.toISOString().slice(0, 10);
+  }
+  return value as string;
+}
+
 export type PostMeta = {
   slug: string;
   title: string;
@@ -29,7 +36,7 @@ export function getAllPosts(): PostMeta[] {
       return {
         slug,
         title: data.title as string,
-        date: data.date as string,
+        date: toDateString(data.date),
         cover: data.cover as string,
         coverCaption: data.coverCaption as string | undefined,
       };
@@ -45,7 +52,7 @@ export async function getPostBySlug(slug: string) {
   return {
     slug,
     title: data.title as string,
-    date: data.date as string,
+    date: toDateString(data.date),
     cover: data.cover as string,
     coverCaption: data.coverCaption as string | undefined,
     contentHtml: processed.toString(),
