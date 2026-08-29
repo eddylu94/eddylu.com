@@ -23,15 +23,6 @@ export default function ProjectsPage() {
               <h2 className="text-2xl font-bold text-[#333]">{project.title}</h2>
               <h3 className="text-[#888]">{project.dates}</h3>
 
-              <div className="relative mt-4 aspect-video w-full max-w-sm">
-                <Image
-                  src={project.image}
-                  alt={project.title}
-                  fill
-                  className="object-contain"
-                />
-              </div>
-
               <a
                 href={project.url}
                 target="_blank"
@@ -66,7 +57,15 @@ export default function ProjectsPage() {
               </div>
             </div>
 
-            <div className="relative w-full shrink-0 md:w-1/2">
+            <div className="flex w-full shrink-0 flex-col gap-4 md:w-1/2">
+              <div className="relative aspect-video w-full">
+                <Image
+                  src={project.image}
+                  alt={project.title}
+                  fill
+                  className="rounded-lg object-contain"
+                />
+              </div>
               <Image
                 src={project.largeImage}
                 alt={`${project.title} dashboard`}
