@@ -1,5 +1,13 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import { workExperience, education, type CvEntry } from "@/lib/about-data";
+import { buildMetadata } from "@/lib/metadata";
+
+export const metadata: Metadata = buildMetadata({
+  title: "About",
+  description: "Software Engineer based in the San Francisco Bay Area.",
+  path: "/about",
+});
 
 function CvSection({ title, entries }: { title: string; entries: CvEntry[] }) {
   return (

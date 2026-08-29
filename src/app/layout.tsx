@@ -15,10 +15,29 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+const SITE_DESCRIPTION = "Eddy Lu's personal site and blog";
+
 export const metadata: Metadata = {
-  title: "Eddy Lu",
-  description: "Eddy Lu's personal site and blog",
+  metadataBase: new URL("https://eddylu.com"),
+  title: {
+    default: "Eddy Lu",
+    template: "%s | Eddy Lu",
+  },
+  description: SITE_DESCRIPTION,
   icons: { icon: "/images/icons/favicon.ico" },
+  openGraph: {
+    title: "Eddy Lu",
+    description: SITE_DESCRIPTION,
+    siteName: "Eddy Lu",
+    type: "website",
+    images: ["/images/propic.jpg"],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Eddy Lu",
+    description: SITE_DESCRIPTION,
+    images: ["/images/propic.jpg"],
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

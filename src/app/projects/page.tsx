@@ -1,5 +1,14 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import { projects } from "@/lib/projects-data";
+import { buildMetadata } from "@/lib/metadata";
+
+export const metadata: Metadata = buildMetadata({
+  title: "Projects",
+  description: "Some recent side projects",
+  path: "/projects",
+  image: "/images/projects/sleeping-with-friends-dashboard.png",
+});
 
 export default function ProjectsPage() {
   return (

@@ -14,6 +14,22 @@ function toDateString(value: unknown): string {
   return value as string;
 }
 
+// Derives a plain-text meta description from markdown content, so every
+// post gets a real og:description/twitter:description without needing a
+// hand-written excerpt in each file's frontmatter.
+function makeExcerpt(markdown: string, maxLen = 160): string {
+  const text = markdown
+    .replace(/```[\s\S]*?```/g, " ")
+    .replace(/!\[[^\]]*\]\([^)]*\)/g, " ")
+    .replace(/\[([^\]]*)\]\([^)]*\)/g, "$1")
+    .replace(/[#>*_`~]/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+
+  if (text.length <= maxLen) return text;
+  return text.slice(0, maxLen).replace(/\s+\S*$/, "") + "…";
+}
+
 export type PostMeta = {
   slug: string;
   title: string;
@@ -56,6 +72,7 @@ export async function getPostBySlug(slug: string) {
     date: toDateString(data.date),
     cover: data.cover as string,
     coverCaption: data.coverCaption as string | undefined,
+    description: makeExcerpt(content),
     contentHtml: processed.toString(),
   };
 }

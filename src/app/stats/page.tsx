@@ -1,6 +1,12 @@
+import type { Metadata } from "next";
 import { query } from "@/lib/db";
 
 export const dynamic = "force-dynamic";
+
+export const metadata: Metadata = {
+  title: "Statistics",
+  robots: { index: false, follow: false },
+};
 
 type ViewRow = { path: string; created_at: string };
 type CountRow = { count: number };

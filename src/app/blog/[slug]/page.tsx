@@ -1,8 +1,10 @@
+import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Image from "next/image";
 import fs from "fs";
 import path from "path";
 import { getPostBySlug, formatDate } from "@/lib/posts";
+import { buildMetadata } from "@/lib/metadata";
 
 const POSTS_DIR = path.join(process.cwd(), "content/blog");
 
@@ -11,6 +13,29 @@ export function generateStaticParams() {
     .readdirSync(POSTS_DIR)
     .filter((file) => file.endsWith(".md"))
     .map((file) => ({ slug: file.replace(/\.md$/, "") }));
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}): Promise<Metadata> {
+  const { slug } = await params;
+
+  if (!fs.existsSync(path.join(POSTS_DIR, `${slug}.md`))) {
+    return {};
+  }
+
+  const post = await getPostBySlug(slug);
+
+  return buildMetadata({
+    title: post.title,
+    description: post.description,
+    path: `/blog/${slug}`,
+    image: post.cover,
+    type: "article",
+    publishedTime: post.date,
+  });
 }
 
 export default async function BlogPostPage({

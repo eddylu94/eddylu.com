@@ -1,5 +1,13 @@
+import type { Metadata } from "next";
 import BookGrid from "@/components/BookGrid";
 import { technicalBooks, leisureBooks } from "@/lib/readings-data";
+import { buildMetadata } from "@/lib/metadata";
+
+export const metadata: Metadata = buildMetadata({
+  title: "Readings",
+  description: "Books I found interesting and worth sharing",
+  path: "/readings",
+});
 
 export default function ReadingsPage() {
   return (
