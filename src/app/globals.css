@@ -16,21 +16,19 @@
   --ring: #1c1b17;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    color-scheme: dark;
+.dark {
+  color-scheme: dark;
 
-    --background: #15140f;
-    --surface: #1c1b14;
-    --surface-hover: #26241a;
-    --foreground: #ece7d8;
-    --muted: #a29c88;
-    --border: #322f22;
-    --accent: #ffcc00;
-    --accent-strong: #ffcc00;
-    --accent-contrast: #1c1b17;
-    --ring: #ece7d8;
-  }
+  --background: #15140f;
+  --surface: #1c1b14;
+  --surface-hover: #26241a;
+  --foreground: #ece7d8;
+  --muted: #a29c88;
+  --border: #322f22;
+  --accent: #ffcc00;
+  --accent-strong: #ffcc00;
+  --accent-contrast: #1c1b17;
+  --ring: #ece7d8;
 }
 
 @theme inline {
