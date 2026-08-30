@@ -37,36 +37,36 @@ export default async function StatsPage() {
 
   if (error) {
     return (
-      <div className="mx-auto max-w-3xl px-4 py-10 text-[#333]">
-        <h1 className="text-2xl font-bold">Statistics</h1>
-        <p className="mt-4">Stats are temporarily unavailable.</p>
+      <div className="mx-auto max-w-3xl px-4 py-10 text-foreground">
+        <h1 className="text-2xl font-semibold tracking-tight">Statistics</h1>
+        <p className="mt-4 text-muted">Stats are temporarily unavailable.</p>
       </div>
     );
   }
 
   return (
-    <div className="mx-auto max-w-3xl px-4 py-10 text-[#333]">
-      <h1 className="text-2xl font-bold">Statistics</h1>
+    <div className="mx-auto max-w-3xl px-4 py-10 text-foreground">
+      <h1 className="text-2xl font-semibold tracking-tight">Statistics</h1>
 
-      <p className="mt-6">Views of the last 20 pages on this website:</p>
-      <table className="mt-3 w-full border-collapse text-left">
-        <thead>
-          <tr className="bg-[#666] text-white">
-            <th className="p-2">Date</th>
-            <th className="p-2">Page Visited</th>
-          </tr>
-        </thead>
-        <tbody>
-          {recent.map((row, i) => (
-            <tr key={i} className="even:bg-[#f2f2f2] hover:bg-[#ddd]">
-              <td className="border border-[#ddd] p-2">
-                {new Date(row.created_at).toLocaleString()}
-              </td>
-              <td className="border border-[#ddd] p-2">{row.path}</td>
+      <p className="mt-6 text-muted">Views of the last 20 pages on this website:</p>
+      <div className="mt-3 overflow-hidden rounded-lg border border-border">
+        <table className="w-full border-collapse text-left text-sm">
+          <thead>
+            <tr className="border-b border-border bg-surface">
+              <th className="p-3 font-medium text-muted">Date</th>
+              <th className="p-3 font-medium text-muted">Page Visited</th>
             </tr>
-          ))}
-        </tbody>
-      </table>
+          </thead>
+          <tbody>
+            {recent.map((row, i) => (
+              <tr key={i} className="border-b border-border last:border-none hover:bg-surface-hover">
+                <td className="p-3">{new Date(row.created_at).toLocaleString()}</td>
+                <td className="p-3">{row.path}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
 
       <p className="mt-8">
         Total distinct visitors: <strong>{distinctVisitors}</strong>
