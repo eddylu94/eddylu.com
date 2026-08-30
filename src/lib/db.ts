@@ -1,5 +1,14 @@
 import mysql from "mysql2/promise";
+import net from "net";
 import type { EventEmitter } from "events";
+
+// Node's Happy Eyeballs (autoSelectFamily) connection racing has a bug where
+// a failed connection attempt can throw `TypeError: object null is not
+// iterable` while building an AggregateError, outside of any promise chain
+// mysql2 sets up — so it surfaces as an uncaught exception no try/catch can
+// intercept. Disabling it makes connection failures (e.g. no MySQL running)
+// surface as normal, catchable promise rejections instead.
+net.setDefaultAutoSelectFamily(false);
 
 let pool: mysql.Pool | undefined;
 
