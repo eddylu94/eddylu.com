@@ -40,16 +40,13 @@ export default function BlogList() {
           </Link>
         )}
 
-        {rest.map((post, i) => (
+        {rest.map((post) => (
           <Link
             key={post.slug}
             href={`/blog/${post.slug}`}
             className="group flex h-80 flex-col overflow-hidden rounded-lg border border-border bg-surface transition-colors hover:border-accent"
           >
             <div className="relative h-[220px] shrink-0 overflow-hidden">
-              <span className="absolute left-3 top-3 z-10 text-xs font-medium text-white/80 mix-blend-difference">
-                {String(i + 2).padStart(2, "0")}
-              </span>
               <Image
                 src={post.cover}
                 alt={post.title}
