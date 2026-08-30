@@ -17,13 +17,10 @@ export default function ProjectsPage() {
       <p className="mt-1 text-muted">Some recent side projects</p>
 
       <div className="mt-10 flex flex-col gap-16">
-        {projects.map((project, i) => (
+        {projects.map((project) => (
           <div key={project.title} className="flex flex-col gap-8 border-t border-border pt-10 first:border-none first:pt-0 md:flex-row">
             <div className="flex-1">
-              <span className="text-xs font-medium text-muted">
-                {String(i + 1).padStart(2, "0")}
-              </span>
-              <h2 className="mt-1 text-2xl font-semibold tracking-tight text-foreground">
+              <h2 className="text-2xl font-semibold tracking-tight text-foreground">
                 {project.title}
               </h2>
               <h3 className="text-xs uppercase tracking-widest text-muted">
