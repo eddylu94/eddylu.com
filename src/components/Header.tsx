@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { usePathname } from "next/navigation";
 
 const navLinks = [
   { href: "/blog", label: "Blog" },
@@ -20,23 +21,17 @@ const socialLinks = [
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const pathname = usePathname();
+
+  const isActive = (href: string) =>
+    href === "/blog" ? pathname === "/" || pathname.startsWith("/blog") : pathname.startsWith(href);
 
   return (
-    <header className="sticky top-0 z-50 bg-[#262626] text-[#D9D9D9] shadow-[0_0_20px_#1a1a1a]">
-      <div className="flex h-[50px] items-center justify-between px-4">
-        <button
-          aria-label="Toggle menu"
-          onClick={() => setMenuOpen((open) => !open)}
-          className="flex flex-col gap-1 p-2 sm:hidden"
-        >
-          <span className="block h-0.5 w-5 bg-[#D9D9D9]" />
-          <span className="block h-0.5 w-5 bg-[#D9D9D9]" />
-          <span className="block h-0.5 w-5 bg-[#D9D9D9]" />
-        </button>
-
-        <Link href="/" className="font-bold">
-          <span className="text-white">Eddy </span>
-          <span className="text-[#FFCC00]">Lu</span>
+    <header className="sticky top-0 z-50 border-b border-border bg-background">
+      <div className="mx-auto flex h-16 max-w-5xl items-center justify-between px-4">
+        <Link href="/" className="text-base font-semibold tracking-tight">
+          <span className="text-foreground">Eddy </span>
+          <span className="text-accent">Lu</span>
         </Link>
 
         <nav className="hidden items-center gap-1 sm:flex">
@@ -46,44 +41,89 @@ export default function Header() {
               href={link.href}
               target={link.external ? "_blank" : undefined}
               rel={link.external ? "noreferrer" : undefined}
-              className="px-2.5 py-1 hover:bg-black/40 hover:text-white"
+              className={`border-b-2 px-3 py-1.5 text-xs uppercase tracking-widest transition-colors ${
+                isActive(link.href) && !link.external
+                  ? "border-accent text-foreground"
+                  : "border-transparent text-muted hover:border-border hover:text-foreground"
+              }`}
             >
               {link.label}
             </Link>
           ))}
         </nav>
 
-        <div className="flex items-center gap-2.5">
-          {socialLinks.map((social) => (
-            <a key={social.href} href={social.href} target="_blank" rel="noreferrer">
-              <Image
-                src={social.icon}
-                alt={social.label}
-                width={28}
-                height={28}
-                className="rounded-full opacity-80 hover:opacity-100"
-              />
-            </a>
-          ))}
+        <div className="flex items-center gap-4">
+          <div className="hidden items-center gap-3 sm:flex">
+            {socialLinks.map((social) => (
+              <a key={social.href} href={social.href} target="_blank" rel="noreferrer">
+                <Image
+                  src={social.icon}
+                  alt={social.label}
+                  width={22}
+                  height={22}
+                  className="rounded-full opacity-70 transition-opacity hover:opacity-100"
+                />
+              </a>
+            ))}
+          </div>
+
+          <button
+            aria-label="Toggle menu"
+            aria-expanded={menuOpen}
+            onClick={() => setMenuOpen((open) => !open)}
+            className="flex h-8 w-8 flex-col items-center justify-center gap-[5px] sm:hidden"
+          >
+            <span
+              className={`block h-px w-5 bg-foreground transition-transform duration-200 ${
+                menuOpen ? "translate-y-[3px] rotate-45" : ""
+              }`}
+            />
+            <span
+              className={`block h-px w-5 bg-foreground transition-transform duration-200 ${
+                menuOpen ? "-translate-y-[3px] -rotate-45" : ""
+              }`}
+            />
+          </button>
         </div>
       </div>
 
-      {menuOpen && (
-        <nav className="flex flex-col gap-1 bg-[#1a1a1a] px-4 py-3 text-lg sm:hidden">
-          {navLinks.map((link) => (
-            <Link
-              key={link.href}
-              href={link.href}
-              target={link.external ? "_blank" : undefined}
-              rel={link.external ? "noreferrer" : undefined}
-              onClick={() => setMenuOpen(false)}
-              className="py-2"
-            >
-              {link.label}
-            </Link>
-          ))}
-        </nav>
-      )}
+      <nav
+        className={`grid transition-all duration-200 ease-out sm:hidden ${
+          menuOpen ? "grid-rows-[1fr] opacity-100" : "grid-rows-[0fr] opacity-0"
+        }`}
+      >
+        <div className="overflow-hidden border-t border-border">
+          <div className="flex flex-col px-4 py-2">
+            {navLinks.map((link) => (
+              <Link
+                key={link.href}
+                href={link.href}
+                target={link.external ? "_blank" : undefined}
+                rel={link.external ? "noreferrer" : undefined}
+                onClick={() => setMenuOpen(false)}
+                className={`border-b border-border py-3 text-sm uppercase tracking-widest last:border-none ${
+                  isActive(link.href) && !link.external ? "text-accent" : "text-foreground"
+                }`}
+              >
+                {link.label}
+              </Link>
+            ))}
+            <div className="flex items-center gap-4 py-4">
+              {socialLinks.map((social) => (
+                <a key={social.href} href={social.href} target="_blank" rel="noreferrer">
+                  <Image
+                    src={social.icon}
+                    alt={social.label}
+                    width={24}
+                    height={24}
+                    className="rounded-full opacity-80"
+                  />
+                </a>
+              ))}
+            </div>
+          </div>
+        </div>
+      </nav>
     </header>
   );
 }
