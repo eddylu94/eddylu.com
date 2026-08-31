@@ -9,7 +9,7 @@ import ThemeToggle from "./ThemeToggle";
 const navLinks = [
   { href: "/blog", label: "Blog" },
   { href: "/projects", label: "Projects" },
-  { href: "https://www.notion.so/Random-Notes-b91efbf129b64a83b12c893211b4ef8c", label: "Notion", external: true },
+  { href: "/notion", label: "Notion" },
   { href: "/readings", label: "Readings" },
   { href: "/about", label: "CV" },
 ];
