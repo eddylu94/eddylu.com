@@ -47,18 +47,18 @@ function CvSection({ title, entries }: { title: string; entries: CvEntry[] }) {
 export default function AboutPage() {
   return (
     <div className="mx-auto max-w-3xl px-4 py-10">
-      <div className="flex items-center gap-5">
-        <Image
-          src="/images/propic.jpg"
-          alt="Eddy Lu"
-          width={72}
-          height={72}
-          className="h-[72px] w-[72px] shrink-0 rounded-full border border-border object-cover"
-        />
-        <h1 className="text-3xl font-semibold tracking-tight text-foreground">
-          Hello! I&apos;m Eddy
-        </h1>
-      </div>
+      <Image
+        src="/images/propic.jpg"
+        alt="A robot I built, wired up on a breadboard"
+        width={1200}
+        height={600}
+        priority
+        className="h-auto w-full rounded-lg border border-border object-cover"
+      />
+
+      <h1 className="mt-6 text-3xl font-semibold tracking-tight text-foreground">
+        Hello! I&apos;m Eddy
+      </h1>
 
       <div className="mt-8">
         <p className="text-foreground">
