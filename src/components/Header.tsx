@@ -40,10 +40,8 @@ export default function Header() {
             <Link
               key={link.href}
               href={link.href}
-              target={link.external ? "_blank" : undefined}
-              rel={link.external ? "noreferrer" : undefined}
               className={`border-b-2 px-3 py-1.5 text-xs uppercase tracking-widest transition-colors ${
-                isActive(link.href) && !link.external
+                isActive(link.href)
                   ? "border-accent text-foreground"
                   : "border-transparent text-muted hover:border-border hover:text-foreground"
               }`}
@@ -101,11 +99,9 @@ export default function Header() {
               <Link
                 key={link.href}
                 href={link.href}
-                target={link.external ? "_blank" : undefined}
-                rel={link.external ? "noreferrer" : undefined}
                 onClick={() => setMenuOpen(false)}
                 className={`border-b border-border py-3 text-sm uppercase tracking-widest last:border-none ${
-                  isActive(link.href) && !link.external ? "text-accent" : "text-foreground"
+                  isActive(link.href) ? "text-accent" : "text-foreground"
                 }`}
               >
                 {link.label}
