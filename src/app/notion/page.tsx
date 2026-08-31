@@ -5,7 +5,7 @@ const NOTION_URL = "https://www.notion.so/Random-Notes-b91efbf129b64a83b12c89321
 
 export const metadata: Metadata = buildMetadata({
   title: "Notion",
-  description: "A running Notion doc of random notes I've collected.",
+  description: "A running Notion space of random notes I've collected.",
   path: "/notion",
 });
 
@@ -14,13 +14,8 @@ export default function NotionPage() {
     <div className="mx-auto max-w-3xl px-4 py-10">
       <h1 className="text-3xl font-semibold tracking-tight text-foreground">Random Notes</h1>
       <p className="mt-1 text-muted">
-        A loosely organized Notion doc where I jot down notes, snippets, and
+        A loosely organized Notion space where I jot down notes, snippets, and
         things worth remembering.
-      </p>
-
-      <p className="mt-6 text-foreground">
-        It&apos;s hosted on Notion rather than this site, so the link below
-        will take you off eddylu.com.
       </p>
 
       <a
