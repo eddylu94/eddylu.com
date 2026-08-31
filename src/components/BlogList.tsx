@@ -16,7 +16,7 @@ export default function BlogList() {
         {featured && (
           <Link
             href={`/blog/${featured.slug}`}
-            className="group flex h-80 flex-col overflow-hidden rounded-lg border border-border bg-surface transition-colors hover:border-accent"
+            className="group flex min-h-80 flex-col overflow-hidden rounded-lg border border-border bg-surface transition-colors hover:border-accent"
           >
             <div className="relative h-[220px] shrink-0 overflow-hidden">
               <span className="absolute left-3 top-3 z-10 text-xs font-medium uppercase tracking-widest text-white/80 mix-blend-difference">
@@ -44,7 +44,7 @@ export default function BlogList() {
           <Link
             key={post.slug}
             href={`/blog/${post.slug}`}
-            className="group flex h-80 flex-col overflow-hidden rounded-lg border border-border bg-surface transition-colors hover:border-accent"
+            className="group flex min-h-80 flex-col overflow-hidden rounded-lg border border-border bg-surface transition-colors hover:border-accent"
           >
             <div className="relative h-[220px] shrink-0 overflow-hidden">
               <Image
