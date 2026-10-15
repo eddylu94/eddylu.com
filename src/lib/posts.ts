@@ -73,8 +73,16 @@ export async function getPostBySlug(slug: string) {
     cover: data.cover as string,
     coverCaption: data.coverCaption as string | undefined,
     description: makeExcerpt(content),
-    contentHtml: processed.toString(),
+    contentHtml: openLinksInNewTab(processed.toString()),
   };
+}
+
+// Opens every link in a post in a new tab. Done on the output HTML because
+// remark-html's sanitizer strips target/rel attributes set earlier in the
+// pipeline. noopener/noreferrer keep the opened page from getting a handle
+// back to this one via window.opener.
+function openLinksInNewTab(html: string): string {
+  return html.replace(/<a href=/g, '<a target="_blank" rel="noopener noreferrer" href=');
 }
 
 export function formatDate(iso: string): string {
